@@ -1,2 +1,3 @@
 \title{Home}
 \transclude{me}
+\p{To navigate my forest, press \code{Ctrl+K}.}
