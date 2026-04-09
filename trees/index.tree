@@ -1,3 +1,4 @@
 \title{Home}
 \transclude{me}
-\p{To navigate my forest, press \code{Ctrl+K}.}
+\p{This site is a collection of my scientific notes created using [Forester](https://www.forester-notes.org/).}
+\p{To navigate my forest press \code{Ctrl+K} and search, or use links between notes.}

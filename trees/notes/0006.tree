@@ -1,0 +1,16 @@
+\date{2026-04-09T03:46:52Z}
+\title{Basis Transformations on Vector Spaces}
+\taxon{Definition}
+
+\p{We start by considering an [elementary vector space](0003), with basis vectors #{e_\mu}. We can equivalently describe this vector space with some other basis vectors #{f_\nu}, so that a vector #{w\in\mathbb{V}} can be written as,}
+##{w=A^\mu e_\mu=B^\nu f_\nu}
+
+\p{We want to know how to convert between the old and new basis. We define the linear transformation:}
+##{f_\nu=\Lambda_\nu{}^\mu e_\mu}
+
+\p{This is the same as the notion of change of basis in standard linear algebra. Matrices can be defined as the linear transformation inside vector spaces. #{\Lambda_\nu{}^\mu} here is a matrix.
+}
+##{\begin{bmatrix}f_0 \\ f_1\\ f_2\\ f_3\end{bmatrix}=\begin{bmatrix} 
+\Lambda_{00} & \Lambda_{01} & \Lambda_{02}&\Lambda_{03}\\\Lambda_{10}&\Lambda_{11}&\Lambda_{12}&\Lambda_{13}\\\Lambda_{20}&\Lambda_{21}&\Lambda_{22}&\Lambda_{23}\\\Lambda_{30}&\Lambda_{31}&\Lambda_{32}&\Lambda_{33}
+\end{bmatrix}\begin{bmatrix}e_0 \\ e_1\\ e_2\\ e_3\end{bmatrix}}
+\transclude{0007}

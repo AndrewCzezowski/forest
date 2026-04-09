@@ -1,0 +1,18 @@
+\date{2026-04-09T04:56:19Z}
+\title{Rank of a Tensor Product Space}
+\taxon{Definition}
+
+\p{What we call tensors are objects where vectors are first and dual vectors are second. This does not mean that objects that do not follow this ordering are illogical, but we do not assign them a rank as a tensor.}
+
+\p{The idea of a rank:
+\ul{
+  \li{A vector: #{A^\mu e_\mu\rightarrow} rank (1,0)}
+  \li{A covector: #{A_\mu e^\mu\rightarrow}rank (0,1)}
+  \li{#{T^{\mu\nu\delta\lambda}e_\mu\otimes e_\nu\otimes e_\delta\otimes e_\lambda\rightarrow} rank (4,0)}
+  \li{#{T_{\mu\nu\delta\lambda}\;e^\mu\otimes e^\nu\otimes e^\delta\otimes e^\lambda\rightarrow}rank (0,4)}
+  \li{#{T^{\mu\nu}{}_{\delta\lambda}\;e_\mu\otimes e_\nu\otimes e^\delta\otimes e^\lambda\rightarrow}rank (2,2)}
+  \li{...}
+}
+}
+\p{We use the notation,}
+##{V\otimes V^*\otimes V^*\equiv\mathcal{T}^1{}_2=\set{All\; possible\; tensors\; of\; rank\; (1,2)}}

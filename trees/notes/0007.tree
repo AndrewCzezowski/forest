@@ -1,0 +1,15 @@
+\date{2026-04-09T03:47:32Z}
+\title{Covariant and Contravariant Vectors}
+\taxon{Definition}
+\p{Consider how a [linear transformation](0006) between basis vectors affects an arbitrary vector,}
+##{w=B^\nu f_\nu=B^\nu\Lambda_\nu{}^\mu e_\mu\implies A^\mu=B^\nu\Lambda_\nu{}^\mu}
+\p{We can also consider the inverse transformation,}
+##{e_\mu=(\Lambda^{-1})_\mu{}^\nu f_\nu}
+\p{leading to}
+##{B^\mu=(\Lambda^{-1})_\nu{}^\mu A^\nu}
+\p{Since the basis vectors #{f_\nu} transform \em{covariantly}, we call them \strong{covariant vectors}. On the other hand, since the coefficients #{B^\nu} transorm with the inverse matrix, we say they transform \em{contravariantly}.}
+\p{We can extent this same idea to the [dual space](0005). We want to transform from the basis #{e^\mu} to #{f^\nu}. From the above we know that #{e^\mu} will transform contravariantly, so we can write,}
+##{f^\nu=(\Lambda^{-1})_\mu{}^\nu e^\mu}
+\p{and for an arbitrary dual vector,}
+##{w=C_\nu e^\nu=D_\nu f^\nu\implies D_\nu=\Lambda_\nu{}^\mu C_\mu}
+\p{From this we note that #{f^\nu} transforms \em{contravariantly}, so they are \strong{contravariant vectors}. The coefficients #{D_\nu} transform covariantly.}

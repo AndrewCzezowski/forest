@@ -1,0 +1,10 @@
+\date{2026-04-08T23:59:33Z}
+\title{Cartesian Product}
+\taxon{Definition}
+
+\p{The cartesian product is a binary operation defined between two sets, that produces a set of all ordered pairs from the arguments.}
+##{\set{a,b,c,...}\times\set{\alpha,\beta,\gamma,...}=\Set{(a,\alpha),(a,\beta),(a,\gamma),...,(b,\alpha),(b,\beta),(b,\gamma),...}}
+\p{or}
+##{A\times B=\set{All\; ordered\; pairs\; of A\;and\;B}}
+\p{Note: Since the cartesian product is a set, we are not limited to only creating binary operations. We can go to arbitrarily higher orders.}
+##{A\times B\times C\times D}

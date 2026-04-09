@@ -1,0 +1,25 @@
+\date{2026-04-09T04:27:26Z}
+\title{Tensor Products}
+\taxon{Definition}
+
+\p{Suppose we want to consider a [map](0004), which takes the [cartesian product](0001) of a [vector space](0003) with itself to the real numbers.}
+##{\_\_:V\times V\rightarrow\mathbb{R}}
+
+\p{We do not want to create anything new for our map, so the obvious choice is to draw the map from the dual space.}
+
+##{\set{v,w,...}\in V\; and\; \set{\alpha,\beta,...}\in V^*}
+
+\p{We define the tensor product, #{\beta\otimes\alpha}, which linearly maps an ordered pair of numbers to #{\mathbb{R}}}
+
+##{\left[\beta\otimes\alpha\right] (v,w)=\braket{\beta,v}\braket{\alpha,w}}
+\p{and using its linearity,}
+##{[a\beta\otimes\alpha+b\gamma\otimes\delta] (v,w)=a[\beta\otimes\alpha] (v,w)+b[\gamma\otimes\delta] (v,w)}
+
+\p{If we consider the set of all possible tensor products of covectors: we have a linear space, with the notion of addition, and scalar multiplication; which satisfies all of the [properties of a vector space](0003). So, all tensor product spaces are vector spaces; and since the elements of a vector space are vectors, all tensors are vectors. Such a space is also called a Tensor Product Space.}
+
+\p{An arbitrary tensor can be written as #{\beta\otimes\gamma\equiv T_{\mu\nu}e^\mu\otimes e^\nu}}
+
+\p{This idea can be easily generalized to consider higher order and mixed tensors. For instance,}
+##{V^*\otimes V^*\otimes V^*:V\times V\times V \rightarrow \mathbb{R}}
+
+\transclude{0009}

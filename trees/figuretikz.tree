@@ -1,0 +1,4 @@
+\def\tikzfig[~body]{\figure{
+\tex{\usepackage{tikz}}{\body{}}
+}
+}

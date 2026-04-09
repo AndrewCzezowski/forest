@@ -1,0 +1,24 @@
+\date{2026-04-09T01:49:06Z}
+\title{How to Make a Map}
+\taxon{Example}
+
+\p{Suppose we are working in a [4-dimensional real vector space](0003), we can choose our basis vectors and label them as,}
+##{e_\mu\in \mathbb{V},\ \mu=0,1,2,3}
+
+\p{Any vectors belonging to #{\mathbb{V}} can now be written as,}
+##{\vec{A}=A^\mu e_\mu}
+
+\p{Suppose #{\mathbb{W}} is a vector space with potentially a different dimensionality. We can choose to define a linear map which takes #{\mathbb{V}} to #{\mathbb{W}},}
+##{\Lambda:\mathbb{V}\rightarrow\mathbb{W}}
+
+\p{Here we use the notation,}
+##{\Braket{\Lambda,v}\rightarrow w}
+
+\p{Suppose #{\mathbb{W}} has basis vectors #{f_\alpha}. To understand how the map applies to #{\mathbb{V}} we need to know how each of the basis vectors #{e_\mu} transforms in the map,}
+##{\braket{\Lambda, e_\mu}=C_\mu{}^\alpha f_\alpha}
+
+\p{A linear map has the property,}
+##{\braket{\Lambda, av_1+bv_2}=a\braket{\Lambda,v_1}+b\braket{\Lambda,v_2}}
+
+\p{The fact that the maps are linear means that given that we know how the basis vectors transform, we know how any vector in #{\mathbb{V}} space maps to #{\mathbb{W}},}
+##{\braket{\Lambda, A^\mu e_\mu}=A^\mu\braket{\Lambda,e_\mu}=A^\mu C_\mu{}^\alpha f_\alpha}

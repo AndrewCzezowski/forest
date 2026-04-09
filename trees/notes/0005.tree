@@ -1,0 +1,44 @@
+\date{2026-04-09T02:21:08Z}
+\title{Dual Spaces}
+\taxon{Definition}
+\import{figuretikz}
+
+\p{Consider that we have defined a real [vector space](0003) of dimension n (here we work in 4 dimensions) and we want a [map](0004), but we do not wish to create a second vector space.}
+
+\p{Since #{\mathbb{R}} is included in our definition of a real vector space, we can consider mapping from #{\mathbb{V}} to #{\mathbb{R}}, without creating anything new.}
+
+\tikzfig{
+  \begin{tikzpicture}
+			\draw rectangle(2,2);
+			\node at (0.5,0.5) {$e_\mu$};
+			\node at (0.5,1.5) {$V$};
+			\draw (1,0) .. controls (1.25,-0.5) and (1.5, -0.25) .. (1.5,0.5);
+			\node[draw] at (1.5,0.5) {$R$};
+			\node at (1.5,1.5) {$4$};
+	\end{tikzpicture} 
+}
+
+\p{We consider the set of all possible maps that take #{\mathbb{V}\rightarrow\mathbb{R}}. We call this set of the dual space and denote it by #{\mathbb{V}^*}.}
+
+\p{The dual space satisfies all of the properties of a vector space, so it is itself also a vector space. Since we did not add anything new to our original vector space, this means that by defining a vector space we automatically get an associated dual space.}
+
+\tikzfig{
+  \begin{tikzpicture}
+		\draw rectangle(2,2);
+		\node at (0.5,0.5) {$e_\mu$};
+		\node at (0.5,1.5) {$V$};
+		\node[draw] at (1.5,0.5) {$R$};
+		\node at (1.5,1.5) {$4$};
+		\draw (4,0) rectangle(6,2);
+		\node at (4.5,0.5) {$e^\mu$};
+		\node at (4.5,1.5) {$V^*$};
+		\node[draw] at (5.5,0.5) {$R$};
+		\node at (5.5,1.5) {$4$};
+		\draw[<->,red] (2,1) -- (4,1);
+	\end{tikzpicture}
+}
+
+\p{It is convenient (and arbitrary) to make the choice that the respective basis vectors map to one another as,}
+##{\braket{e^\mu,e_\nu}=\delta^\mu_\nu}
+\p{So that,}
+##{\braket{B_\mu e^\mu, A^\nu e_\nu}=B_\mu A^\mu}

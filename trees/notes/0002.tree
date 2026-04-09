@@ -1,0 +1,8 @@
+\date{2026-04-09T01:01:27Z}
+\title{Binary Operation}
+\taxon{Definition}
+
+\p{A binary operation is a mapping of the [cartesian product](0001) to some set.}
+##{A\circledast B=C}
+\p{or}
+##{\circledast:A\times B\rightarrow C}
