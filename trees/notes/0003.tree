@@ -2,21 +2,28 @@
 \title{Elementary Vector Space}
 \taxon{Definition}
 
-\p{A vector is an element of a set called a vector space. We denote this set with #{\mathbb{V}}.}
+\p{A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with #{\mathbb{V}}.}
 
 \p{Not every set is a vector space so we need properties which define a set as a vector space.}
 \ol{
 \li{
-  \p{\strong{Vector addition}}
+  \p{\strong{Closure Under Addition}}
   \p{The addition of two elements of a vector space will also belong to the vector space.}
   ##{\forall v,w \in \mathbb{V} : v+w=s\in \mathbb{V}}
+  \p{Vector addition is commutative and associative.}
 }
 
 \li{
   \p{\strong{Scalar Multiplication}}
   \p{The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.}
-  \p{Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similarly, for complex vector spaces}
+  
   ##{\forall\ v\in \mathbb{V} \land a\in\mathbb{C} : av\in \mathbb{V}}
+  \p{Scalar multiplication is distributive and associative in both the scalars and the vectors.}
+}
+
+\li{\p{\strong{The Scalar Field}}
+  \p{The scalars that multiply the vectors are called the field over which the vector space is defined.}
+  \p{Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces}
 }
 \li{
   \p{\strong{Linearity}}
@@ -28,8 +35,6 @@
   \p{Every vector space must contain the null vector. Additionally, every vector has its opposite.}
   ##{\forall\;v\in \mathbb{V}, \exists\;w\in \mathbb{V}\;|\;w=-v\; \land v-v=0}
 }
-\li{
-  \p{\strong{Dimensionality}}
-  \p{The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.}
 }
-}
+\p{\strong{Dimensionality}}
+\p{A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of \strong{Dimensionality}. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.}
