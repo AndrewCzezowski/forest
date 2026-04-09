@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/0008/</fr:uri>
+    <fr:display-uri>0008</fr:display-uri>
+    <fr:route>/forest/0008/</fr:route>
+    <fr:title text="Tensor Products">Tensor Products</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Suppose we want to consider a <fr:link href="/forest/0004/" title="How to Make a Map" uri="https://andrewczezowski.github.io/forest/0004/" display-uri="0004" type="local">map</fr:link>, which takes the <fr:link href="/forest/0001/" title="Cartesian Product" uri="https://andrewczezowski.github.io/forest/0001/" display-uri="0001" type="local">cartesian product</fr:link> of a <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">vector space</fr:link> with itself to the real numbers.</html:p>
+    <fr:tex display="block"><![CDATA[\_\_:V\times  V\rightarrow \mathbb {R}]]></fr:tex>
+    <html:p>We do not want to create anything new for our map, so the obvious choice is to draw the map from the dual space.</html:p>
+    <fr:tex display="block"><![CDATA[\set {v,w,...}\in  V\; and\; \set {\alpha ,\beta ,...}\in  V^*]]></fr:tex>
+    <html:p>We define the tensor product, <fr:tex display="inline"><![CDATA[\beta \otimes \alpha ]]></fr:tex>, which linearly maps an ordered pair of numbers to <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex></html:p>
+    <fr:tex display="block"><![CDATA[\left [\beta \otimes \alpha \right ] (v,w)=\braket {\beta ,v}\braket {\alpha ,w}]]></fr:tex>
+    <html:p>and using its linearity,</html:p>
+    <fr:tex display="block"><![CDATA[[a\beta \otimes \alpha +b\gamma \otimes \delta ] (v,w)=a[\beta \otimes \alpha ] (v,w)+b[\gamma \otimes \delta ] (v,w)]]></fr:tex>
+    <html:p>If we consider the set of all possible tensor products of covectors: we have a linear space, with the notion of addition, and scalar multiplication; which satisfies all of the <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">properties of a vector space</fr:link>. So, all tensor product spaces are vector spaces; and since the elements of a vector space are vectors, all tensors are vectors. Such a space is also called a Tensor Product Space.</html:p>
+    <html:p>An arbitrary tensor can be written as <fr:tex display="inline"><![CDATA[\beta \otimes \gamma \equiv  T_{\mu \nu }e^\mu \otimes  e^\nu ]]></fr:tex></html:p>
+    <html:p>This idea can be easily generalized to consider higher order and mixed tensors. For instance,</html:p>
+    <fr:tex display="block"><![CDATA[V^*\otimes  V^*\otimes  V^*:V\times  V\times  V \rightarrow  \mathbb {R}]]></fr:tex>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>9</fr:day>
+        </fr:date>
+        <fr:uri>https://andrewczezowski.github.io/forest/0009/</fr:uri>
+        <fr:display-uri>0009</fr:display-uri>
+        <fr:route>/forest/0009/</fr:route>
+        <fr:title text="Rank of a Tensor Product Space">Rank of a Tensor Product Space</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>What we call tensors are objects where vectors are first and dual vectors are second. This does not mean that objects that do not follow this ordering are illogical, but we do not assign them a rank as a tensor.</html:p>
+        <html:p>The idea of a rank:
+<html:ul><html:li>A vector: <fr:tex display="inline"><![CDATA[A^\mu  e_\mu \rightarrow ]]></fr:tex> rank (1,0)</html:li>
+  <html:li>A covector: <fr:tex display="inline"><![CDATA[A_\mu  e^\mu \rightarrow ]]></fr:tex>rank (0,1)</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[T^{\mu \nu \delta \lambda }e_\mu \otimes  e_\nu \otimes  e_\delta \otimes  e_\lambda \rightarrow ]]></fr:tex> rank (4,0)</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[T_{\mu \nu \delta \lambda }\;e^\mu \otimes  e^\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow ]]></fr:tex>rank (0,4)</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[T^{\mu \nu }{}_{\delta \lambda }\;e_\mu \otimes  e_\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow ]]></fr:tex>rank (2,2)</html:li>
+  <html:li>...</html:li></html:ul></html:p>
+        <html:p>We use the notation,</html:p>
+        <fr:tex display="block"><![CDATA[V\otimes  V^*\otimes  V^*\equiv \mathcal {T}^1{}_2=\set {All\; possible\; tensors\; of\; rank\; (1,2)}]]></fr:tex>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0004/</fr:uri>
+            <fr:display-uri>0004</fr:display-uri>
+            <fr:route>/forest/0004/</fr:route>
+            <fr:title text="How to Make a Map">How to Make a Map</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Suppose we are working in a <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">4-dimensional real vector space</fr:link>, we can choose our basis vectors and label them as,</html:p>
+            <fr:tex display="block"><![CDATA[e_\mu \in  \mathbb {V},\ \mu =0,1,2,3]]></fr:tex>
+            <html:p>Any vectors belonging to <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> can now be written as,</html:p>
+            <fr:tex display="block"><![CDATA[\vec {A}=A^\mu  e_\mu ]]></fr:tex>
+            <html:p>Suppose <fr:tex display="inline"><![CDATA[\mathbb {W}]]></fr:tex> is a vector space with potentially a different dimensionality. We can choose to define a linear map which takes <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathbb {W}]]></fr:tex>,</html:p>
+            <fr:tex display="block"><![CDATA[\Lambda :\mathbb {V}\rightarrow \mathbb {W}]]></fr:tex>
+            <html:p>Here we use the notation,</html:p>
+            <fr:tex display="block"><![CDATA[\Braket {\Lambda ,v}\rightarrow  w]]></fr:tex>
+            <html:p>Suppose <fr:tex display="inline"><![CDATA[\mathbb {W}]]></fr:tex> has basis vectors <fr:tex display="inline"><![CDATA[f_\alpha ]]></fr:tex>. To understand how the map applies to <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> we need to know how each of the basis vectors <fr:tex display="inline"><![CDATA[e_\mu ]]></fr:tex> transforms in the map,</html:p>
+            <fr:tex display="block"><![CDATA[\braket {\Lambda , e_\mu }=C_\mu {}^\alpha  f_\alpha ]]></fr:tex>
+            <html:p>A linear map has the property,</html:p>
+            <fr:tex display="block"><![CDATA[\braket {\Lambda , av_1+bv_2}=a\braket {\Lambda ,v_1}+b\braket {\Lambda ,v_2}]]></fr:tex>
+            <html:p>The fact that the maps are linear means that given that we know how the basis vectors transform, we know how any vector in <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> space maps to <fr:tex display="inline"><![CDATA[\mathbb {W}]]></fr:tex>,</html:p>
+            <fr:tex display="block"><![CDATA[\braket {\Lambda , A^\mu  e_\mu }=A^\mu \braket {\Lambda ,e_\mu }=A^\mu  C_\mu {}^\alpha  f_\alpha ]]></fr:tex>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0003/</fr:uri>
+            <fr:display-uri>0003</fr:display-uri>
+            <fr:route>/forest/0003/</fr:route>
+            <fr:title text="Elementary Vector Space">Elementary Vector Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A vector is an element of a set called a vector space. We denote this set with <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>.</html:p>
+            <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
+            <html:ol><html:li><html:p><html:strong>Vector addition</html:strong></html:p>
+  <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
+  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V} : v+w=s\in  \mathbb {V}]]></fr:tex></html:li>
+
+<html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
+  <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
+  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similarly, for complex vector spaces</html:p>
+  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {C} : av\in  \mathbb {V}]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Linearity</html:strong></html:p>
+  <html:p>In the context of a complex vector space.</html:p>
+  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {C}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+<html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
+  <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
+  <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Dimensionality</html:strong></html:p>
+  <html:p>The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</html:p></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0001/</fr:uri>
+            <fr:display-uri>0001</fr:display-uri>
+            <fr:route>/forest/0001/</fr:route>
+            <fr:title text="Cartesian Product">Cartesian Product</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The cartesian product is a binary operation defined between two sets, that produces a set of all ordered pairs from the arguments.</html:p>
+            <fr:tex display="block"><![CDATA[\set {a,b,c,...}\times \set {\alpha ,\beta ,\gamma ,...}=\Set {(a,\alpha ),(a,\beta ),(a,\gamma ),...,(b,\alpha ),(b,\beta ),(b,\gamma ),...}]]></fr:tex>
+            <html:p>or</html:p>
+            <fr:tex display="block"><![CDATA[A\times  B=\set {All\; ordered\; pairs\; of A\;and\;B}]]></fr:tex>
+            <html:p>Note: Since the cartesian product is a set, we are not limited to only creating binary operations. We can go to arbitrarily higher orders.</html:p>
+            <fr:tex display="block"><![CDATA[A\times  B\times  C\times  D]]></fr:tex>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

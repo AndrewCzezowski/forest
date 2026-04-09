@@ -48,7 +48,8 @@
                 <html:p>Aspiring physics student. I recieved my BSc Honours Physics-Chemistry from the <fr:link href="https://www.umanitoba.ca/" type="external">University of Manitoba</fr:link> in 2024. I've worked 2 km underground with the <fr:link href="https://www.picoexperiment.com/" type="external">PICO Collaboration</fr:link> at <fr:link href="https://www.snolab.ca/" type="external">SNOLAB</fr:link>. My research interests are in particle theory, currently focusing in dark matter candidates and in fundamental interactions.</html:p>
               </fr:mainmatter>
             </fr:tree>
-            <html:p>To navigate my forest, press <html:code>Ctrl+K</html:code>.</html:p>
+            <html:p>This site is a collection of my scientific notes created using <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
+            <html:p>To navigate my forest press <html:code>Ctrl+K</html:code> and search, or use links between notes.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

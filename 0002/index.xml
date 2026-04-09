@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/0002/</fr:uri>
+    <fr:display-uri>0002</fr:display-uri>
+    <fr:route>/forest/0002/</fr:route>
+    <fr:title text="Binary Operation">Binary Operation</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A binary operation is a mapping of the <fr:link href="/forest/0001/" title="Cartesian Product" uri="https://andrewczezowski.github.io/forest/0001/" display-uri="0001" type="local">cartesian product</fr:link> to some set.</html:p>
+    <fr:tex display="block"><![CDATA[A\circledast  B=C]]></fr:tex>
+    <html:p>or</html:p>
+    <fr:tex display="block"><![CDATA[\circledast :A\times  B\rightarrow  C]]></fr:tex>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0001/</fr:uri>
+            <fr:display-uri>0001</fr:display-uri>
+            <fr:route>/forest/0001/</fr:route>
+            <fr:title text="Cartesian Product">Cartesian Product</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The cartesian product is a binary operation defined between two sets, that produces a set of all ordered pairs from the arguments.</html:p>
+            <fr:tex display="block"><![CDATA[\set {a,b,c,...}\times \set {\alpha ,\beta ,\gamma ,...}=\Set {(a,\alpha ),(a,\beta ),(a,\gamma ),...,(b,\alpha ),(b,\beta ),(b,\gamma ),...}]]></fr:tex>
+            <html:p>or</html:p>
+            <fr:tex display="block"><![CDATA[A\times  B=\set {All\; ordered\; pairs\; of A\;and\;B}]]></fr:tex>
+            <html:p>Note: Since the cartesian product is a set, we are not limited to only creating binary operations. We can go to arbitrarily higher orders.</html:p>
+            <fr:tex display="block"><![CDATA[A\times  B\times  C\times  D]]></fr:tex>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

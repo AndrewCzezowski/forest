@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/0007/</fr:uri>
+    <fr:display-uri>0007</fr:display-uri>
+    <fr:route>/forest/0007/</fr:route>
+    <fr:title text="Covariant and Contravariant Vectors">Covariant and Contravariant Vectors</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Consider how a <fr:link href="/forest/0006/" title="Basis Transformations on Vector Spaces" uri="https://andrewczezowski.github.io/forest/0006/" display-uri="0006" type="local">linear transformation</fr:link> between basis vectors affects an arbitrary vector,</html:p>
+    <fr:tex display="block"><![CDATA[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu ]]></fr:tex>
+    <html:p>We can also consider the inverse transformation,</html:p>
+    <fr:tex display="block"><![CDATA[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu ]]></fr:tex>
+    <html:p>leading to</html:p>
+    <fr:tex display="block"><![CDATA[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu ]]></fr:tex>
+    <html:p>Since the basis vectors <fr:tex display="inline"><![CDATA[f_\nu ]]></fr:tex> transform <html:em>covariantly</html:em>, we call them <html:strong>covariant vectors</html:strong>. On the other hand, since the coefficients <fr:tex display="inline"><![CDATA[B^\nu ]]></fr:tex> transorm with the inverse matrix, we say they transform <html:em>contravariantly</html:em>.</html:p>
+    <html:p>We can extent this same idea to the <fr:link href="/forest/0005/" title="Dual Spaces" uri="https://andrewczezowski.github.io/forest/0005/" display-uri="0005" type="local">dual space</fr:link>. We want to transform from the basis <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> to <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex>. From the above we know that <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> will transform contravariantly, so we can write,</html:p>
+    <fr:tex display="block"><![CDATA[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu ]]></fr:tex>
+    <html:p>and for an arbitrary dual vector,</html:p>
+    <fr:tex display="block"><![CDATA[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu ]]></fr:tex>
+    <html:p>From this we note that <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex> transforms <html:em>contravariantly</html:em>, so they are <html:strong>contravariant vectors</html:strong>. The coefficients <fr:tex display="inline"><![CDATA[D_\nu ]]></fr:tex> transform covariantly.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0006/</fr:uri>
+            <fr:display-uri>0006</fr:display-uri>
+            <fr:route>/forest/0006/</fr:route>
+            <fr:title text="Basis Transformations on Vector Spaces">Basis Transformations on Vector Spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We start by considering an <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">elementary vector space</fr:link>, with basis vectors <fr:tex display="inline"><![CDATA[e_\mu ]]></fr:tex>. We can equivalently describe this vector space with some other basis vectors <fr:tex display="inline"><![CDATA[f_\nu ]]></fr:tex>, so that a vector <fr:tex display="inline"><![CDATA[w\in \mathbb {V}]]></fr:tex> can be written as,</html:p>
+            <fr:tex display="block"><![CDATA[w=A^\mu  e_\mu =B^\nu  f_\nu ]]></fr:tex>
+            <html:p>We want to know how to convert between the old and new basis. We define the linear transformation:</html:p>
+            <fr:tex display="block"><![CDATA[f_\nu =\Lambda _\nu {}^\mu  e_\mu ]]></fr:tex>
+            <html:p>This is the same as the notion of change of basis in standard linear algebra. Matrices can be defined as the linear transformation inside vector spaces. <fr:tex display="inline"><![CDATA[\Lambda _\nu {}^\mu ]]></fr:tex> here is a matrix.
+</html:p>
+            <fr:tex display="block"><![CDATA[\begin {bmatrix}f_0 \\ f_1\\ f_2\\ f_3\end {bmatrix}=\begin {bmatrix} 
+\Lambda _{00} & \Lambda _{01} & \Lambda _{02}&\Lambda _{03}\\\Lambda _{10}&\Lambda _{11}&\Lambda _{12}&\Lambda _{13}\\\Lambda _{20}&\Lambda _{21}&\Lambda _{22}&\Lambda _{23}\\\Lambda _{30}&\Lambda _{31}&\Lambda _{32}&\Lambda _{33}
+\end {bmatrix}\begin {bmatrix}e_0 \\ e_1\\ e_2\\ e_3\end {bmatrix}]]></fr:tex>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0007/</fr:uri>
+                <fr:display-uri>0007</fr:display-uri>
+                <fr:route>/forest/0007/</fr:route>
+                <fr:title text="Covariant and Contravariant Vectors">Covariant and Contravariant Vectors</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Consider how a <fr:link href="/forest/0006/" title="Basis Transformations on Vector Spaces" uri="https://andrewczezowski.github.io/forest/0006/" display-uri="0006" type="local">linear transformation</fr:link> between basis vectors affects an arbitrary vector,</html:p>
+                <fr:tex display="block"><![CDATA[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu ]]></fr:tex>
+                <html:p>We can also consider the inverse transformation,</html:p>
+                <fr:tex display="block"><![CDATA[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu ]]></fr:tex>
+                <html:p>leading to</html:p>
+                <fr:tex display="block"><![CDATA[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu ]]></fr:tex>
+                <html:p>Since the basis vectors <fr:tex display="inline"><![CDATA[f_\nu ]]></fr:tex> transform <html:em>covariantly</html:em>, we call them <html:strong>covariant vectors</html:strong>. On the other hand, since the coefficients <fr:tex display="inline"><![CDATA[B^\nu ]]></fr:tex> transorm with the inverse matrix, we say they transform <html:em>contravariantly</html:em>.</html:p>
+                <html:p>We can extent this same idea to the <fr:link href="/forest/0005/" title="Dual Spaces" uri="https://andrewczezowski.github.io/forest/0005/" display-uri="0005" type="local">dual space</fr:link>. We want to transform from the basis <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> to <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex>. From the above we know that <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> will transform contravariantly, so we can write,</html:p>
+                <fr:tex display="block"><![CDATA[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu ]]></fr:tex>
+                <html:p>and for an arbitrary dual vector,</html:p>
+                <fr:tex display="block"><![CDATA[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu ]]></fr:tex>
+                <html:p>From this we note that <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex> transforms <html:em>contravariantly</html:em>, so they are <html:strong>contravariant vectors</html:strong>. The coefficients <fr:tex display="inline"><![CDATA[D_\nu ]]></fr:tex> transform covariantly.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0006/</fr:uri>
+            <fr:display-uri>0006</fr:display-uri>
+            <fr:route>/forest/0006/</fr:route>
+            <fr:title text="Basis Transformations on Vector Spaces">Basis Transformations on Vector Spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We start by considering an <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">elementary vector space</fr:link>, with basis vectors <fr:tex display="inline"><![CDATA[e_\mu ]]></fr:tex>. We can equivalently describe this vector space with some other basis vectors <fr:tex display="inline"><![CDATA[f_\nu ]]></fr:tex>, so that a vector <fr:tex display="inline"><![CDATA[w\in \mathbb {V}]]></fr:tex> can be written as,</html:p>
+            <fr:tex display="block"><![CDATA[w=A^\mu  e_\mu =B^\nu  f_\nu ]]></fr:tex>
+            <html:p>We want to know how to convert between the old and new basis. We define the linear transformation:</html:p>
+            <fr:tex display="block"><![CDATA[f_\nu =\Lambda _\nu {}^\mu  e_\mu ]]></fr:tex>
+            <html:p>This is the same as the notion of change of basis in standard linear algebra. Matrices can be defined as the linear transformation inside vector spaces. <fr:tex display="inline"><![CDATA[\Lambda _\nu {}^\mu ]]></fr:tex> here is a matrix.
+</html:p>
+            <fr:tex display="block"><![CDATA[\begin {bmatrix}f_0 \\ f_1\\ f_2\\ f_3\end {bmatrix}=\begin {bmatrix} 
+\Lambda _{00} & \Lambda _{01} & \Lambda _{02}&\Lambda _{03}\\\Lambda _{10}&\Lambda _{11}&\Lambda _{12}&\Lambda _{13}\\\Lambda _{20}&\Lambda _{21}&\Lambda _{22}&\Lambda _{23}\\\Lambda _{30}&\Lambda _{31}&\Lambda _{32}&\Lambda _{33}
+\end {bmatrix}\begin {bmatrix}e_0 \\ e_1\\ e_2\\ e_3\end {bmatrix}]]></fr:tex>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0007/</fr:uri>
+                <fr:display-uri>0007</fr:display-uri>
+                <fr:route>/forest/0007/</fr:route>
+                <fr:title text="Covariant and Contravariant Vectors">Covariant and Contravariant Vectors</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Consider how a <fr:link href="/forest/0006/" title="Basis Transformations on Vector Spaces" uri="https://andrewczezowski.github.io/forest/0006/" display-uri="0006" type="local">linear transformation</fr:link> between basis vectors affects an arbitrary vector,</html:p>
+                <fr:tex display="block"><![CDATA[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu ]]></fr:tex>
+                <html:p>We can also consider the inverse transformation,</html:p>
+                <fr:tex display="block"><![CDATA[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu ]]></fr:tex>
+                <html:p>leading to</html:p>
+                <fr:tex display="block"><![CDATA[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu ]]></fr:tex>
+                <html:p>Since the basis vectors <fr:tex display="inline"><![CDATA[f_\nu ]]></fr:tex> transform <html:em>covariantly</html:em>, we call them <html:strong>covariant vectors</html:strong>. On the other hand, since the coefficients <fr:tex display="inline"><![CDATA[B^\nu ]]></fr:tex> transorm with the inverse matrix, we say they transform <html:em>contravariantly</html:em>.</html:p>
+                <html:p>We can extent this same idea to the <fr:link href="/forest/0005/" title="Dual Spaces" uri="https://andrewczezowski.github.io/forest/0005/" display-uri="0005" type="local">dual space</fr:link>. We want to transform from the basis <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> to <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex>. From the above we know that <fr:tex display="inline"><![CDATA[e^\mu ]]></fr:tex> will transform contravariantly, so we can write,</html:p>
+                <fr:tex display="block"><![CDATA[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu ]]></fr:tex>
+                <html:p>and for an arbitrary dual vector,</html:p>
+                <fr:tex display="block"><![CDATA[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu ]]></fr:tex>
+                <html:p>From this we note that <fr:tex display="inline"><![CDATA[f^\nu ]]></fr:tex> transforms <html:em>contravariantly</html:em>, so they are <html:strong>contravariant vectors</html:strong>. The coefficients <fr:tex display="inline"><![CDATA[D_\nu ]]></fr:tex> transform covariantly.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0005/</fr:uri>
+            <fr:display-uri>0005</fr:display-uri>
+            <fr:route>/forest/0005/</fr:route>
+            <fr:title text="Dual Spaces">Dual Spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Consider that we have defined a real <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">vector space</fr:link> of dimension n (here we work in 4 dimensions) and we want a <fr:link href="/forest/0004/" title="How to Make a Map" uri="https://andrewczezowski.github.io/forest/0004/" display-uri="0004" type="local">map</fr:link>, but we do not wish to create a second vector space.</html:p><html:p>Since <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is included in our definition of a real vector space, we can consider mapping from <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, without creating anything new.</html:p><html:figure><fr:resource hash="0093ba3e4646beaa2c484d6c74958e93"><fr:resource-content><html:img src="/forest/0093ba3e4646beaa2c484d6c74958e93.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzpicture}
+			\draw  rectangle(2,2);
+			\node  at (0.5,0.5) {$e_\mu $};
+			\node  at (0.5,1.5) {$V$};
+			\draw  (1,0) .. controls (1.25,-0.5) and (1.5, -0.25) .. (1.5,0.5);
+			\node [draw] at (1.5,0.5) {$R$};
+			\node  at (1.5,1.5) {$4$};
+	\end {tikzpicture} 
+]]></fr:resource-source></fr:resource></html:figure>
+<html:p>We consider the set of all possible maps that take <fr:tex display="inline"><![CDATA[\mathbb {V}\rightarrow \mathbb {R}]]></fr:tex>. We call this set of the dual space and denote it by <fr:tex display="inline"><![CDATA[\mathbb {V}^*]]></fr:tex>.</html:p><html:p>The dual space satisfies all of the properties of a vector space, so it is itself also a vector space. Since we did not add anything new to our original vector space, this means that by defining a vector space we automatically get an associated dual space.</html:p><html:figure><fr:resource hash="762ab4c8c06fcefda6ceccb4ba9de9ad"><fr:resource-content><html:img src="/forest/762ab4c8c06fcefda6ceccb4ba9de9ad.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[\usepackage {tikz}]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+  \begin {tikzpicture}
+		\draw  rectangle(2,2);
+		\node  at (0.5,0.5) {$e_\mu $};
+		\node  at (0.5,1.5) {$V$};
+		\node [draw] at (1.5,0.5) {$R$};
+		\node  at (1.5,1.5) {$4$};
+		\draw  (4,0) rectangle(6,2);
+		\node  at (4.5,0.5) {$e^\mu $};
+		\node  at (4.5,1.5) {$V^*$};
+		\node [draw] at (5.5,0.5) {$R$};
+		\node  at (5.5,1.5) {$4$};
+		\draw [<->,red] (2,1) -- (4,1);
+	\end {tikzpicture}
+]]></fr:resource-source></fr:resource></html:figure>
+<html:p>It is convenient (and arbitrary) to make the choice that the respective basis vectors map to one another as,</html:p><fr:tex display="block"><![CDATA[\braket {e^\mu ,e_\nu }=\delta ^\mu _\nu ]]></fr:tex><html:p>So that,</html:p><fr:tex display="block"><![CDATA[\braket {B_\mu  e^\mu , A^\nu  e_\nu }=B_\mu  A^\mu ]]></fr:tex></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
