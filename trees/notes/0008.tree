@@ -2,7 +2,7 @@
 \title{Tensor Products}
 \taxon{Definition}
 
-\p{Suppose we want to consider a [map](0004), which takes the [cartesian product](0001) of a [vector space](0003) with itself to the real numbers.}
+\p{Suppose we want to consider a [map](0004), which takes the [cartesian product](0001) of a [vector space](0003) with itself to the real numbers. In other words a [binary operation](0002) on the vector space to the real numbers.}
 ##{\_\_:V\times V\rightarrow\mathbb{R}}
 
 \p{We do not want to create anything new for our map, so the obvious choice is to draw the map from the dual space.}
