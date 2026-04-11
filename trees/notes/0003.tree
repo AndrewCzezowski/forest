@@ -9,26 +9,26 @@
 \li{
   \p{\strong{Closure Under Addition}}
   \p{The addition of two elements of a vector space will also belong to the vector space.}
-  ##{\forall v,w \in \mathbb{V} \exists v+w=s\in \mathbb{V}}
+  ##{\forall v,w \in \mathbb{V}, \exists\; v+w=s\in \mathbb{V}}
   \p{Vector addition is commutative and associative.}
 }
-
 \li{
   \p{\strong{Scalar Multiplication}}
   \p{The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.}
   
-  ##{\forall\ v\in \mathbb{V} \land a\in\mathbb{C} \exists av\in \mathbb{V}}
+  ##{\forall\ v\in \mathbb{V} \land a\in\mathbb{F}, \exists\; av\in \mathbb{V}}
   \p{Scalar multiplication is distributive and associative in both the scalars and the vectors.}
 }
-
 \li{\p{\strong{The Scalar Field}}
-  \p{The scalars that multiply the vectors are called the field over which the vector space is defined.}
+  \p{The scalars that multiply the vectors are called the scalar field #{\mathbb{F}} over which the vector space is defined.}
   \p{Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.}
 }
 \li{
   \p{\strong{Linearity}}
-  \p{In the context of a complex vector space.}
-  ##{\forall\ v, w\in \mathbb{V} \land a\in\mathbb{C}\rightarrow a(v+w)=av+aw}
+  ##{\forall\ v, w\in \mathbb{V} \land a\in\mathbb{F}\rightarrow a(v+w)=av+aw}
+}
+\li{\p{\strong{Identity Under Vector Addition and Scalar Multiplication}}
+    \p{#{0+v=v} and #{1v=v}}
 }
 \li{
   \p{\strong{The Null Vector}}
