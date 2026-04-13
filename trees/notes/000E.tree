@@ -1,0 +1,5 @@
+\date{2026-04-12T20:49:13Z}
+\title{Smallest Containing Subspace}
+\taxon{Lemma}
+\p{Consider [subspaces](000C) #{V_1,\dots,V_n} belonging to a vector space V. The smallest subspace of V that contains #{V_1,\dots,V_n} is the [sum of subspaces](000D) #{V_1+\dots+V_n}.}
+\p{For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing #{V_1,\dots,V_n} also contains #{V_1+\dots+V_n}. So any other space containing these will be larger or the same.}

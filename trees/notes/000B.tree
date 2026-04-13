@@ -1,0 +1,12 @@
+\date{2026-04-12T19:33:49Z}
+\title{Euler Lagrange Equations}
+\taxon{Definition}
+
+\p{The Euler-Lagrange equations,
+##{\frac{\partial\mathcal{L}}{\partial q_i}=\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{q}_i}}
+are a condition that is satisfied for a path that gives a stationary value for an equation of the form,
+##{S=\int_{t_1}^{t_2}\mathcal{L}(q_1,\dot{q}_1,\dots,q_n,\dot{q}_n,t)dt}
+Where #{q_i} is the #{i}th coordinate parametrized by an independent variable #{t}, and #{\dot{q}_i} is the first derivative of #{q} with respect to #{t}.
+}
+\p{\strong{Proof}}
+\p{For a full proof see Chapter 6 of Classical Mechanics by Taylor. In summary, one starts by considering variations from the correct path (the correct path gives a stationary point for S). After computing the variation #{\partial S}, integrating by parts, applying boundary conditions, and requiring #{\partial S=0}, we find the condition of the Euler-Lagrange equations.}

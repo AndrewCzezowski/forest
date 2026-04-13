@@ -1,0 +1,8 @@
+\date{2026-04-12T21:05:23Z}
+\title{Direct Sum}
+\taxon{Definition}
+\p{The direct sum is a special case of the [sum of subspaces](000D). If each element from the sum #{V_1+\dots+V_n} can only be written as a sum of #{v_1+\dots+v_n}, where each #{v_k\in V_k}. We call it a direct sum and denote it by, ##{V_1\oplus\dots\oplus V_n}}
+\p{\strong{Condition for a Direct Sum}}
+\p{The sum of subspaces, #{V_1+\dots+V_n}, is a direct sum #{\iff} the only way to write 0 as a sum #{v_1+\dots+v_n} is by taking each element equal to zero.}
+\p{\strong{Another way to check}}
+\p{The sum of subspaces, #{V_1+V_2}, is a direct sum #{\iff} #{V_1\cap V_2=\{0\}}.}

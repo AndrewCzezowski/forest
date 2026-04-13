@@ -1,0 +1,5 @@
+\date{2026-04-12T20:38:32Z}
+\title{Sum of Subspaces}
+\taxon{Definition}
+\p{The sum of [subspaces](000C) #{V_1,\dots,V_n} belonging to a vector space #{\mathbb{V}} is the set of all possible sums of elements from #{V_1,\dots,V_n}.
+##{V_1+\dots+V_n=\{v_1+\dots+v_n:v_1\in V_1,\dots v_n\in V_n\}}}

@@ -1,0 +1,11 @@
+\date{2026-04-12T20:13:08Z}
+\title{Subspaces}
+\taxon{Definition}
+
+\p{A subset #{U} of a [vector space](0003) #{\mathbb{V}}, is a \em{subspace} if #{U} is also a vector space with the same additive identity, addition, and scalar multiplication as on #{V}.}
+\p{In practice to check if a subset #{U} of #{\mathbb{V}} is a subspace one must check that #{U} satisfies:}
+\ol{
+  \li{\p{\strong{Additive Identity} ##{0\in U}}}
+  \li{\p{\strong{Closure Under Addition} ##{u,w \in U\rightarrow u+w\in U}}}
+  \li{\p{\strong{Closure Under Scalar Multiplication} ##{a\in\mathbb{F} \land u\in U\rightarrow au\in U}}}
+}
