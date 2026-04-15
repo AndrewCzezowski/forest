@@ -1,0 +1,7 @@
+\date{2026-04-15T00:55:24Z}
+\title{Function}
+\taxon{Definition}
+
+\p{Given two sets #{A} and #{B}, a function from #{A} to #{B} is a mapping that takes each element #{x\in A} to a single element of #{B}. ##{f:A\rightarrow B}}
+\p{#{f(x)} represents the element of #{B} associated with #{x} by #{f}.##{B=\{y\in B: y=f(x) \text{ for some } x\in A\}}}
+\p{The domain of #{f} is the set #{A}. The range of #{f} is some subset of #{B}, not necessarily equal to #{B}.}

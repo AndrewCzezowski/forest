@@ -1,0 +1,20 @@
+\date{2026-04-15T00:27:26Z}
+\title{Field}
+\taxon{Definition}
+
+\p{A field is any set where the following properties hold.}
+\ol{
+  \li{
+    \p{Addition and multiplication of the elements is well defined.}
+  }
+  \li{
+    \p{Addition and multiplication is commutative, associative, and distributive.##{a(b+c)=ab+ac}}
+  }
+   \li{
+    \p{The set must include an additive and a multiplicative identity.##{a+0=a\qquad\qquad 1a=a}}
+  }
+  \li{
+    \p{Every element must have an additive and a multiplicative inverse.##{a-a=0\qquad\qquad a\frac{1}{a}=1}}
+  }
+}
+\p{As an example, the rational numbers qualify as a field; the integers do not.}

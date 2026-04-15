@@ -19,7 +19,7 @@
   ##{\forall\ v\in \mathbb{V} \land a\in\mathbb{F}, \exists\; av\in \mathbb{V}}
   \p{Scalar multiplication is distributive and associative in both the scalars and the vectors.}
 }
-\li{\p{\strong{The Scalar Field}}
+\li{\p{\strong{The Scalar [Field](000G)}}
   \p{The scalars that multiply the vectors are called the scalar field #{\mathbb{F}} over which the vector space is defined.}
   \p{Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.}
 }
