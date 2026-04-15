@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/000Q/</fr:uri>
+    <fr:display-uri>000Q</fr:display-uri>
+    <fr:route>/forest/000Q/</fr:route>
+    <fr:title text="Cardinality">Cardinality</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Cardinality can be thought of as the size of a set. For a finite set we can compare cardinalities by simply assigning a number to the amount of elements in the set. We can make a generalized idea to compare the sizes of any sets including infinite ones.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>15</fr:day>
+        </fr:date>
+        <fr:uri>https://andrewczezowski.github.io/forest/000R/</fr:uri>
+        <fr:display-uri>000R</fr:display-uri>
+        <fr:route>/forest/000R/</fr:route>
+        <fr:title text="One-to-One and Onto">One-to-One and Onto</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <fr:link href="/forest/000H/" title="Function" uri="https://andrewczezowski.github.io/forest/000H/" display-uri="000H" type="local">function</fr:link> <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> is one-to-one if any <fr:tex display="inline"><![CDATA[a_1\neq  a_2]]></fr:tex> in <fr:tex display="inline"><![CDATA[A]]></fr:tex> implies that <fr:tex display="inline"><![CDATA[f(a_1)\neq  f(a_2)]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is onto if, given any <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex>, it is possible to find an element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> for which <fr:tex display="inline"><![CDATA[f(a)=b]]></fr:tex>.</html:p>
+        <html:p>Put simply every element in <fr:tex display="inline"><![CDATA[B]]></fr:tex> needs a corresponding element in <fr:tex display="inline"><![CDATA[A]]></fr:tex> which maps uniquely via the function to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+        <html:p>The terminology <html:em>injective</html:em> (one-to-one), <html:em>surjective</html:em> (onto), and <html:em>bijective</html:em> (one-to-one and onto) are often used. There is also the confusing terminology one-to-one correspondence, which has the same meaning as bijection, rather than one-to-one function.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>If there exists a function <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> that is 1-1 and onto, we say that set <fr:tex display="inline"><![CDATA[A]]></fr:tex> has the same cardinality as set <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000V/</fr:uri>
+            <fr:display-uri>000V</fr:display-uri>
+            <fr:route>/forest/000V/</fr:route>
+            <fr:title text="The Real Numbers">The Real Numbers</fr:title>
+            <fr:taxon>Chapter</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000G/</fr:uri>
+                <fr:display-uri>000G</fr:display-uri>
+                <fr:route>/forest/000G/</fr:route>
+                <fr:title text="Field">Field</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A field is any set where the following properties hold.</html:p>
+                <html:ol><html:li><html:p>Addition and multiplication of the elements is well defined.</html:p></html:li>
+  <html:li><html:p>Addition and multiplication is commutative, associative, and distributive.<fr:tex display="block"><![CDATA[a(b+c)=ab+ac]]></fr:tex></html:p></html:li>
+   <html:li><html:p>The set must include an additive and a multiplicative identity.<fr:tex display="block"><![CDATA[a+0=a\qquad \qquad  1a=a]]></fr:tex></html:p></html:li>
+  <html:li><html:p>Every element must have an additive and a multiplicative inverse.<fr:tex display="block"><![CDATA[a-a=0\qquad \qquad  a\frac {1}{a}=1]]></fr:tex></html:p></html:li></html:ol>
+                <html:p>As an example, the rational numbers qualify as a field; the integers do not.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000H/</fr:uri>
+                <fr:display-uri>000H</fr:display-uri>
+                <fr:route>/forest/000H/</fr:route>
+                <fr:title text="Function">Function</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Given two sets <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex>, a function from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> is a mapping that takes each element <fr:tex display="inline"><![CDATA[x\in  A]]></fr:tex> to a single element of <fr:tex display="inline"><![CDATA[B]]></fr:tex>. <fr:tex display="block"><![CDATA[f:A\rightarrow  B]]></fr:tex></html:p>
+                <html:p><fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> represents the element of <fr:tex display="inline"><![CDATA[B]]></fr:tex> associated with <fr:tex display="inline"><![CDATA[x]]></fr:tex> by <fr:tex display="inline"><![CDATA[f]]></fr:tex>.<fr:tex display="block"><![CDATA[B=\{y\in  B: y=f(x) \text { for some } x\in  A\}]]></fr:tex></html:p>
+                <html:p>The domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the set <fr:tex display="inline"><![CDATA[A]]></fr:tex>. The range of <fr:tex display="inline"><![CDATA[f]]></fr:tex> is some subset of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, not necessarily equal to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000J/</fr:uri>
+                <fr:display-uri>000J</fr:display-uri>
+                <fr:route>/forest/000J/</fr:route>
+                <fr:title text="Simple Definition for The Real Numbers">Simple Definition for The Real Numbers</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>To provide an initial definition for <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>, we assume that <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex> is an ordered <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">field</fr:link> which contains <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> as a subfield. We also require that it contain no gaps between rational numbers. We accomplish this second requirement via the axiom of completeness.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000I/</fr:uri>
+                    <fr:display-uri>000I</fr:display-uri>
+                    <fr:route>/forest/000I/</fr:route>
+                    <fr:title text="Axiom of Completeness">Axiom of Completeness</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Every nonempty set of real numbers that is bounded above has a <fr:link href="/forest/000K/" title="Supremum and Infimum" uri="https://andrewczezowski.github.io/forest/000K/" display-uri="000K" type="local">least upper bound</fr:link>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000K/</fr:uri>
+                <fr:display-uri>000K</fr:display-uri>
+                <fr:route>/forest/000K/</fr:route>
+                <fr:title text="Supremum and Infimum">Supremum and Infimum</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A supremum is the least upper bound of a set. Likewise, the infimum is the greatest lower bound of a set.</html:p>
+                <html:p>A real number <fr:tex display="inline"><![CDATA[s]]></fr:tex> is the least upper bound of a set <fr:tex display="inline"><![CDATA[A\subseteq  \mathbb {R}]]></fr:tex> if it meets the requirements:
+<html:ol><html:li><fr:tex display="inline"><![CDATA[s]]></fr:tex> is an upper bound for <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:li>
+  <html:li>If <fr:tex display="inline"><![CDATA[b]]></fr:tex> is any upper bound for <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then <fr:tex display="inline"><![CDATA[s\leq  b]]></fr:tex>.</html:li></html:ol></html:p>
+                <html:p>There is a matching definition for the least lower bound.</html:p>
+                <html:p>The first time I read about these I was confused due to my misunderstanding of an upper/lower bound.</html:p>
+                <html:p>A set <fr:tex display="inline"><![CDATA[A\subseteq  \mathbb {R}]]></fr:tex> is bounded above if there exists a number <fr:tex display="inline"><![CDATA[b\in  \mathbb {R}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[a\leq  b]]></fr:tex> for all <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex>. The number b is called an upper bound for <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+                <html:p>The key point is that an upper bound does not need to be in a set; it is simply any number that is greater than or equal to any elements of the set. This notion becomes clear when considering open intervals where a maximum in the set does not exist, but the supremum does (it's the open upper bound). For a closed interval the maximum and supremum are the same.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000L/</fr:uri>
+                <fr:display-uri>000L</fr:display-uri>
+                <fr:route>/forest/000L/</fr:route>
+                <fr:title text="Some Consequences of Completeness">Some Consequences of Completeness</fr:title>
+                <fr:taxon>Theorems</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000M/</fr:uri>
+                    <fr:display-uri>000M</fr:display-uri>
+                    <fr:route>/forest/000M/</fr:route>
+                    <fr:title text="Nested Interval Property">Nested Interval Property</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>For each <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, assume we are given a closed interval <fr:tex display="inline"><![CDATA[I_n=[a_n,b_n]=\{x\in \mathbb {R}:a_n\leq  x\leq  b_n\}]]></fr:tex>. Assume that each interval <fr:tex display="inline"><![CDATA[I_n]]></fr:tex> contains <fr:tex display="inline"><![CDATA[I_{n+1}]]></fr:tex>. Then, the resulting nested sequence of closed intervals 
+<fr:tex display="block"><![CDATA[I_1\supseteq  I_2 \supseteq  I_3 \supseteq  \dots ]]></fr:tex>
+has a non empty intersection; <fr:tex display="block"><![CDATA[\bigcap _{n=1}^{\infty } I_n\neq  \emptyset ]]></fr:tex></html:p>
+                    <html:p>
+                      <html:strong>Proof</html:strong>
+                    </html:p>
+                    <html:p>The idea in this proof is to consider a set, <fr:tex display="inline"><![CDATA[A=\{a_n:n\in \mathbb {N}\}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> are the lower bound of some closed intervals <fr:tex display="inline"><![CDATA[[a_n, b_n]]]></fr:tex>. Since, <fr:tex display="inline"><![CDATA[b_n]]></fr:tex> are upperbounds we know that the set it bounded from above and we can use the <fr:link href="/forest/000I/" title="Axiom of Completeness" uri="https://andrewczezowski.github.io/forest/000I/" display-uri="000I" type="local">axiom of completeness</fr:link> to write 
+<fr:tex display="block"><![CDATA[x=\text {sup}A]]></fr:tex>
+Since <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a least upper bound we can write <fr:tex display="inline"><![CDATA[a_n\leq  x \leq  b_n]]></fr:tex>, meaning that <fr:tex display="inline"><![CDATA[x\in  I_n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This leads to the conclusion that the intersection of nested intervals is not empty.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000N/</fr:uri>
+                    <fr:display-uri>000N</fr:display-uri>
+                    <fr:route>/forest/000N/</fr:route>
+                    <fr:title text="Archimedean Property">Archimedean Property</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>
+                      <html:ol><html:li>Given any number <fr:tex display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[n>x]]></fr:tex>.</html:li>
+  <html:li>Given any real number <fr:tex display="inline"><![CDATA[y>0]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[1/n<y]]></fr:tex>.</html:li></html:ol>
+                    </html:p>
+                    <html:p>
+                      <html:strong>Proof</html:strong>
+                    </html:p>
+                    <html:p>The theorem boils down to the statement that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is not bounded above. The proof is done by contradiction. Assume that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is bounded above; then the <fr:link href="/forest/000I/" title="Axiom of Completeness" uri="https://andrewczezowski.github.io/forest/000I/" display-uri="000I" type="local">AoC</fr:link> says there will be a least upper bound. 
+<fr:tex display="block"><![CDATA[\alpha =\text {sup}\mathbb {N}]]></fr:tex>
+Now consider <fr:tex display="inline"><![CDATA[\alpha -1]]></fr:tex> which is not an upper bound, meaning that we can write, 
+<fr:tex display="block"><![CDATA[\alpha -1<n\qquad \rightarrow  \qquad  \alpha <n+1]]></fr:tex>
+However, since <fr:tex display="inline"><![CDATA[n+1\in \mathbb {N}]]></fr:tex>, we have a contradiction for <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> being an upper bound. Therefore, we come to the conclusion that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is unbound from above.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000O/</fr:uri>
+                    <fr:display-uri>000O</fr:display-uri>
+                    <fr:route>/forest/000O/</fr:route>
+                    <fr:title text="Density of Rational Numbers in The Reals">Density of Rational Numbers in The Reals</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>For any two real numbers <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> with <fr:tex display="inline"><![CDATA[a<b]]></fr:tex>, there exists a rational number satisfying <fr:tex display="block"><![CDATA[a<\frac {m}{n}<b]]></fr:tex> 
+In other words, we say that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is dense in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</html:p>
+                    <html:p>
+                      <html:strong>Proof</html:strong>
+                    </html:p>
+                    <html:p>We are trying to find an <fr:tex display="inline"><![CDATA[m\in \mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> so that, 
+<fr:tex display="block"><![CDATA[a<\frac {m}{n}<b \qquad  \text {or} \qquad  na<m<nb]]></fr:tex>
+Using the <fr:link href="/forest/000N/" title="Archimedean Property" uri="https://andrewczezowski.github.io/forest/000N/" display-uri="000N" type="local">Archimedean Property</fr:link>, we can pick an <fr:tex display="inline"><![CDATA[n]]></fr:tex> large enough that
+<fr:tex display="block"><![CDATA[a<b-\frac {1}{n}]]></fr:tex>
+We now pick an integer <fr:tex display="inline"><![CDATA[m]]></fr:tex> so that
+<fr:tex display="block"><![CDATA[m-1\leq  na< m]]></fr:tex>
+Together with the previous inequality we can write use this to write,
+<fr:tex display="block"><![CDATA[na<m<nb]]></fr:tex>
+Proving the theorem.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000P/</fr:uri>
+                    <fr:display-uri>000P</fr:display-uri>
+                    <fr:route>/forest/000P/</fr:route>
+                    <fr:title text="Density of Irrational Numbers in the Reals">Density of Irrational Numbers in the Reals</fr:title>
+                    <fr:taxon>Corollary</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Given any two real numbers <fr:tex display="inline"><![CDATA[a<b]]></fr:tex>, there exists an irrational number <fr:tex display="inline"><![CDATA[t]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[a<t<b]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000Q/</fr:uri>
+                <fr:display-uri>000Q</fr:display-uri>
+                <fr:route>/forest/000Q/</fr:route>
+                <fr:title text="Cardinality">Cardinality</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Cardinality can be thought of as the size of a set. For a finite set we can compare cardinalities by simply assigning a number to the amount of elements in the set. We can make a generalized idea to compare the sizes of any sets including infinite ones.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>15</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/000R/</fr:uri>
+                    <fr:display-uri>000R</fr:display-uri>
+                    <fr:route>/forest/000R/</fr:route>
+                    <fr:title text="One-to-One and Onto">One-to-One and Onto</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <fr:link href="/forest/000H/" title="Function" uri="https://andrewczezowski.github.io/forest/000H/" display-uri="000H" type="local">function</fr:link> <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> is one-to-one if any <fr:tex display="inline"><![CDATA[a_1\neq  a_2]]></fr:tex> in <fr:tex display="inline"><![CDATA[A]]></fr:tex> implies that <fr:tex display="inline"><![CDATA[f(a_1)\neq  f(a_2)]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is onto if, given any <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex>, it is possible to find an element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> for which <fr:tex display="inline"><![CDATA[f(a)=b]]></fr:tex>.</html:p>
+                    <html:p>Put simply every element in <fr:tex display="inline"><![CDATA[B]]></fr:tex> needs a corresponding element in <fr:tex display="inline"><![CDATA[A]]></fr:tex> which maps uniquely via the function to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+                    <html:p>The terminology <html:em>injective</html:em> (one-to-one), <html:em>surjective</html:em> (onto), and <html:em>bijective</html:em> (one-to-one and onto) are often used. There is also the confusing terminology one-to-one correspondence, which has the same meaning as bijection, rather than one-to-one function.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>If there exists a function <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> that is 1-1 and onto, we say that set <fr:tex display="inline"><![CDATA[A]]></fr:tex> has the same cardinality as set <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000S/</fr:uri>
+                <fr:display-uri>000S</fr:display-uri>
+                <fr:route>/forest/000S/</fr:route>
+                <fr:title text="Countable Sets">Countable Sets</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>An infinite set <fr:tex display="inline"><![CDATA[A]]></fr:tex> is called countable if it has the same <fr:link href="/forest/000Q/" title="Cardinality" uri="https://andrewczezowski.github.io/forest/000Q/" display-uri="000Q" type="local">cardinality</fr:link> as the natural numbers. An infinite set that is not countable is called an uncountable set.
+</html:p>
+                <html:p>An example of a countable infinite set is the rational numbers. Examples of uncountable sets are the real numbers or the irrational numbers.</html:p>
+                <html:p>
+                  <html:strong>Countability and Subsets</html:strong>
+                </html:p>
+                <html:p>If <fr:tex display="inline"><![CDATA[A\subseteq  B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> is countable, then <fr:tex display="inline"><![CDATA[A]]></fr:tex> is either countable or finite.</html:p>
+                <html:p>
+                  <html:strong>Countability and Unions</html:strong>
+                </html:p>
+                <html:p>
+                  <html:ol><html:li>
+    If <fr:tex display="inline"><![CDATA[A_1, \dots , A_m]]></fr:tex> are each countable sets, then the union <fr:tex display="inline"><![CDATA[A_1\cup  \dots  \cup  A_m]]></fr:tex> is countable.
+  </html:li>
+  <html:li>
+    If <fr:tex display="inline"><![CDATA[A_n]]></fr:tex> is a countable set for each <fr:tex display="inline"><![CDATA[n\in  \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\bigcup _{n=1}^{\infty } A_n]]></fr:tex> is countable.
+  </html:li></html:ol>
+                </html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000T/</fr:uri>
+                <fr:display-uri>000T</fr:display-uri>
+                <fr:route>/forest/000T/</fr:route>
+                <fr:title text="Power Sets">Power Sets</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The power set <fr:tex display="inline"><![CDATA[P(A)]]></fr:tex> of a set <fr:tex display="inline"><![CDATA[A]]></fr:tex>, is a set whose elements are all of the different possible subsets of A.</html:p>
+                <html:p>For a finite set <fr:tex display="inline"><![CDATA[A]]></fr:tex> with n elements, <fr:tex display="inline"><![CDATA[P(A)]]></fr:tex> has <fr:tex display="inline"><![CDATA[2^n]]></fr:tex> elements. This is because we can make every subset of <fr:tex display="inline"><![CDATA[A]]></fr:tex> by considering a binary choice for each element on whether or note to include it in the set.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000U/</fr:uri>
+                <fr:display-uri>000U</fr:display-uri>
+                <fr:route>/forest/000U/</fr:route>
+                <fr:title text="Cantor's Theorem">Cantor's Theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Given any set <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there does not exist a function <fr:link href="/forest/000R/" title="One-to-One and Onto" uri="https://andrewczezowski.github.io/forest/000R/" display-uri="000R" type="local">1-1 and onto</fr:link> that maps <fr:tex display="inline"><![CDATA[f:A\rightarrow  P(A)]]></fr:tex>. Where <fr:tex display="inline"><![CDATA[P(A)]]></fr:tex> is the <fr:link href="/forest/000T/" title="Power Sets" uri="https://andrewczezowski.github.io/forest/000T/" display-uri="000T" type="local">power set</fr:link> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000S/</fr:uri>
+            <fr:display-uri>000S</fr:display-uri>
+            <fr:route>/forest/000S/</fr:route>
+            <fr:title text="Countable Sets">Countable Sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>An infinite set <fr:tex display="inline"><![CDATA[A]]></fr:tex> is called countable if it has the same <fr:link href="/forest/000Q/" title="Cardinality" uri="https://andrewczezowski.github.io/forest/000Q/" display-uri="000Q" type="local">cardinality</fr:link> as the natural numbers. An infinite set that is not countable is called an uncountable set.
+</html:p>
+            <html:p>An example of a countable infinite set is the rational numbers. Examples of uncountable sets are the real numbers or the irrational numbers.</html:p>
+            <html:p>
+              <html:strong>Countability and Subsets</html:strong>
+            </html:p>
+            <html:p>If <fr:tex display="inline"><![CDATA[A\subseteq  B]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex> is countable, then <fr:tex display="inline"><![CDATA[A]]></fr:tex> is either countable or finite.</html:p>
+            <html:p>
+              <html:strong>Countability and Unions</html:strong>
+            </html:p>
+            <html:p>
+              <html:ol><html:li>
+    If <fr:tex display="inline"><![CDATA[A_1, \dots , A_m]]></fr:tex> are each countable sets, then the union <fr:tex display="inline"><![CDATA[A_1\cup  \dots  \cup  A_m]]></fr:tex> is countable.
+  </html:li>
+  <html:li>
+    If <fr:tex display="inline"><![CDATA[A_n]]></fr:tex> is a countable set for each <fr:tex display="inline"><![CDATA[n\in  \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\bigcup _{n=1}^{\infty } A_n]]></fr:tex> is countable.
+  </html:li></html:ol>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

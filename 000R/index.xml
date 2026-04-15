@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/000R/</fr:uri>
+    <fr:display-uri>000R</fr:display-uri>
+    <fr:route>/forest/000R/</fr:route>
+    <fr:title text="One-to-One and Onto">One-to-One and Onto</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A <fr:link href="/forest/000H/" title="Function" uri="https://andrewczezowski.github.io/forest/000H/" display-uri="000H" type="local">function</fr:link> <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> is one-to-one if any <fr:tex display="inline"><![CDATA[a_1\neq  a_2]]></fr:tex> in <fr:tex display="inline"><![CDATA[A]]></fr:tex> implies that <fr:tex display="inline"><![CDATA[f(a_1)\neq  f(a_2)]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is onto if, given any <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex>, it is possible to find an element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> for which <fr:tex display="inline"><![CDATA[f(a)=b]]></fr:tex>.</html:p>
+    <html:p>Put simply every element in <fr:tex display="inline"><![CDATA[B]]></fr:tex> needs a corresponding element in <fr:tex display="inline"><![CDATA[A]]></fr:tex> which maps uniquely via the function to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+    <html:p>The terminology <html:em>injective</html:em> (one-to-one), <html:em>surjective</html:em> (onto), and <html:em>bijective</html:em> (one-to-one and onto) are often used. There is also the confusing terminology one-to-one correspondence, which has the same meaning as bijection, rather than one-to-one function.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000Q/</fr:uri>
+            <fr:display-uri>000Q</fr:display-uri>
+            <fr:route>/forest/000Q/</fr:route>
+            <fr:title text="Cardinality">Cardinality</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Cardinality can be thought of as the size of a set. For a finite set we can compare cardinalities by simply assigning a number to the amount of elements in the set. We can make a generalized idea to compare the sizes of any sets including infinite ones.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000R/</fr:uri>
+                <fr:display-uri>000R</fr:display-uri>
+                <fr:route>/forest/000R/</fr:route>
+                <fr:title text="One-to-One and Onto">One-to-One and Onto</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <fr:link href="/forest/000H/" title="Function" uri="https://andrewczezowski.github.io/forest/000H/" display-uri="000H" type="local">function</fr:link> <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> is one-to-one if any <fr:tex display="inline"><![CDATA[a_1\neq  a_2]]></fr:tex> in <fr:tex display="inline"><![CDATA[A]]></fr:tex> implies that <fr:tex display="inline"><![CDATA[f(a_1)\neq  f(a_2)]]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is onto if, given any <fr:tex display="inline"><![CDATA[b\in  B]]></fr:tex>, it is possible to find an element <fr:tex display="inline"><![CDATA[a\in  A]]></fr:tex> for which <fr:tex display="inline"><![CDATA[f(a)=b]]></fr:tex>.</html:p>
+                <html:p>Put simply every element in <fr:tex display="inline"><![CDATA[B]]></fr:tex> needs a corresponding element in <fr:tex display="inline"><![CDATA[A]]></fr:tex> which maps uniquely via the function to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+                <html:p>The terminology <html:em>injective</html:em> (one-to-one), <html:em>surjective</html:em> (onto), and <html:em>bijective</html:em> (one-to-one and onto) are often used. There is also the confusing terminology one-to-one correspondence, which has the same meaning as bijection, rather than one-to-one function.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>If there exists a function <fr:tex display="inline"><![CDATA[f:A\rightarrow  B]]></fr:tex> that is 1-1 and onto, we say that set <fr:tex display="inline"><![CDATA[A]]></fr:tex> has the same cardinality as set <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000U/</fr:uri>
+            <fr:display-uri>000U</fr:display-uri>
+            <fr:route>/forest/000U/</fr:route>
+            <fr:title text="Cantor's Theorem">Cantor's Theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Given any set <fr:tex display="inline"><![CDATA[A]]></fr:tex>, there does not exist a function <fr:link href="/forest/000R/" title="One-to-One and Onto" uri="https://andrewczezowski.github.io/forest/000R/" display-uri="000R" type="local">1-1 and onto</fr:link> that maps <fr:tex display="inline"><![CDATA[f:A\rightarrow  P(A)]]></fr:tex>. Where <fr:tex display="inline"><![CDATA[P(A)]]></fr:tex> is the <fr:link href="/forest/000T/" title="Power Sets" uri="https://andrewczezowski.github.io/forest/000T/" display-uri="000T" type="local">power set</fr:link> of <fr:tex display="inline"><![CDATA[A]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000H/</fr:uri>
+            <fr:display-uri>000H</fr:display-uri>
+            <fr:route>/forest/000H/</fr:route>
+            <fr:title text="Function">Function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Given two sets <fr:tex display="inline"><![CDATA[A]]></fr:tex> and <fr:tex display="inline"><![CDATA[B]]></fr:tex>, a function from <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> is a mapping that takes each element <fr:tex display="inline"><![CDATA[x\in  A]]></fr:tex> to a single element of <fr:tex display="inline"><![CDATA[B]]></fr:tex>. <fr:tex display="block"><![CDATA[f:A\rightarrow  B]]></fr:tex></html:p>
+            <html:p><fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> represents the element of <fr:tex display="inline"><![CDATA[B]]></fr:tex> associated with <fr:tex display="inline"><![CDATA[x]]></fr:tex> by <fr:tex display="inline"><![CDATA[f]]></fr:tex>.<fr:tex display="block"><![CDATA[B=\{y\in  B: y=f(x) \text { for some } x\in  A\}]]></fr:tex></html:p>
+            <html:p>The domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the set <fr:tex display="inline"><![CDATA[A]]></fr:tex>. The range of <fr:tex display="inline"><![CDATA[f]]></fr:tex> is some subset of <fr:tex display="inline"><![CDATA[B]]></fr:tex>, not necessarily equal to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

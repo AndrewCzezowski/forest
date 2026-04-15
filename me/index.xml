@@ -49,7 +49,8 @@
               </fr:mainmatter>
             </fr:tree>
             <html:p>This site is a collection of my scientific notes created using <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
-            <html:p>To navigate my forest press <html:code>Ctrl+K</html:code> and search, or use links between notes.</html:p>
+            <html:p>The general principle is that I split my notes into atomized concepts (up to the point that I deem is effective). I use links between notes to allow an emergent structure rather than imposing a hierchy on the ideas. I later transclude my notes into notebook overviews of the topic in order to conveniently see what I've covered.</html:p>
+            <html:p>To navigate my forest press <html:code>Ctrl+K</html:code> and search, or use links between notes. Some notebooks I've made are available <fr:link href="/forest/overview/" title="Overview of Notebooks" uri="https://andrewczezowski.github.io/forest/overview/" display-uri="overview" type="local">here</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

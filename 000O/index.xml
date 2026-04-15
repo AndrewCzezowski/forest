@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/000O/</fr:uri>
+    <fr:display-uri>000O</fr:display-uri>
+    <fr:route>/forest/000O/</fr:route>
+    <fr:title text="Density of Rational Numbers in The Reals">Density of Rational Numbers in The Reals</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>For any two real numbers <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> with <fr:tex display="inline"><![CDATA[a<b]]></fr:tex>, there exists a rational number satisfying <fr:tex display="block"><![CDATA[a<\frac {m}{n}<b]]></fr:tex> 
+In other words, we say that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is dense in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</html:p>
+    <html:p>
+      <html:strong>Proof</html:strong>
+    </html:p>
+    <html:p>We are trying to find an <fr:tex display="inline"><![CDATA[m\in \mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> so that, 
+<fr:tex display="block"><![CDATA[a<\frac {m}{n}<b \qquad  \text {or} \qquad  na<m<nb]]></fr:tex>
+Using the <fr:link href="/forest/000N/" title="Archimedean Property" uri="https://andrewczezowski.github.io/forest/000N/" display-uri="000N" type="local">Archimedean Property</fr:link>, we can pick an <fr:tex display="inline"><![CDATA[n]]></fr:tex> large enough that
+<fr:tex display="block"><![CDATA[a<b-\frac {1}{n}]]></fr:tex>
+We now pick an integer <fr:tex display="inline"><![CDATA[m]]></fr:tex> so that
+<fr:tex display="block"><![CDATA[m-1\leq  na< m]]></fr:tex>
+Together with the previous inequality we can write use this to write,
+<fr:tex display="block"><![CDATA[na<m<nb]]></fr:tex>
+Proving the theorem.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000L/</fr:uri>
+            <fr:display-uri>000L</fr:display-uri>
+            <fr:route>/forest/000L/</fr:route>
+            <fr:title text="Some Consequences of Completeness">Some Consequences of Completeness</fr:title>
+            <fr:taxon>Theorems</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000M/</fr:uri>
+                <fr:display-uri>000M</fr:display-uri>
+                <fr:route>/forest/000M/</fr:route>
+                <fr:title text="Nested Interval Property">Nested Interval Property</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>For each <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, assume we are given a closed interval <fr:tex display="inline"><![CDATA[I_n=[a_n,b_n]=\{x\in \mathbb {R}:a_n\leq  x\leq  b_n\}]]></fr:tex>. Assume that each interval <fr:tex display="inline"><![CDATA[I_n]]></fr:tex> contains <fr:tex display="inline"><![CDATA[I_{n+1}]]></fr:tex>. Then, the resulting nested sequence of closed intervals 
+<fr:tex display="block"><![CDATA[I_1\supseteq  I_2 \supseteq  I_3 \supseteq  \dots ]]></fr:tex>
+has a non empty intersection; <fr:tex display="block"><![CDATA[\bigcap _{n=1}^{\infty } I_n\neq  \emptyset ]]></fr:tex></html:p>
+                <html:p>
+                  <html:strong>Proof</html:strong>
+                </html:p>
+                <html:p>The idea in this proof is to consider a set, <fr:tex display="inline"><![CDATA[A=\{a_n:n\in \mathbb {N}\}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[a_n]]></fr:tex> are the lower bound of some closed intervals <fr:tex display="inline"><![CDATA[[a_n, b_n]]]></fr:tex>. Since, <fr:tex display="inline"><![CDATA[b_n]]></fr:tex> are upperbounds we know that the set it bounded from above and we can use the <fr:link href="/forest/000I/" title="Axiom of Completeness" uri="https://andrewczezowski.github.io/forest/000I/" display-uri="000I" type="local">axiom of completeness</fr:link> to write 
+<fr:tex display="block"><![CDATA[x=\text {sup}A]]></fr:tex>
+Since <fr:tex display="inline"><![CDATA[x]]></fr:tex> is a least upper bound we can write <fr:tex display="inline"><![CDATA[a_n\leq  x \leq  b_n]]></fr:tex>, meaning that <fr:tex display="inline"><![CDATA[x\in  I_n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This leads to the conclusion that the intersection of nested intervals is not empty.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000N/</fr:uri>
+                <fr:display-uri>000N</fr:display-uri>
+                <fr:route>/forest/000N/</fr:route>
+                <fr:title text="Archimedean Property">Archimedean Property</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+                  <html:ol><html:li>Given any number <fr:tex display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[n>x]]></fr:tex>.</html:li>
+  <html:li>Given any real number <fr:tex display="inline"><![CDATA[y>0]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[1/n<y]]></fr:tex>.</html:li></html:ol>
+                </html:p>
+                <html:p>
+                  <html:strong>Proof</html:strong>
+                </html:p>
+                <html:p>The theorem boils down to the statement that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is not bounded above. The proof is done by contradiction. Assume that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is bounded above; then the <fr:link href="/forest/000I/" title="Axiom of Completeness" uri="https://andrewczezowski.github.io/forest/000I/" display-uri="000I" type="local">AoC</fr:link> says there will be a least upper bound. 
+<fr:tex display="block"><![CDATA[\alpha =\text {sup}\mathbb {N}]]></fr:tex>
+Now consider <fr:tex display="inline"><![CDATA[\alpha -1]]></fr:tex> which is not an upper bound, meaning that we can write, 
+<fr:tex display="block"><![CDATA[\alpha -1<n\qquad \rightarrow  \qquad  \alpha <n+1]]></fr:tex>
+However, since <fr:tex display="inline"><![CDATA[n+1\in \mathbb {N}]]></fr:tex>, we have a contradiction for <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> being an upper bound. Therefore, we come to the conclusion that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is unbound from above.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000O/</fr:uri>
+                <fr:display-uri>000O</fr:display-uri>
+                <fr:route>/forest/000O/</fr:route>
+                <fr:title text="Density of Rational Numbers in The Reals">Density of Rational Numbers in The Reals</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>For any two real numbers <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> with <fr:tex display="inline"><![CDATA[a<b]]></fr:tex>, there exists a rational number satisfying <fr:tex display="block"><![CDATA[a<\frac {m}{n}<b]]></fr:tex> 
+In other words, we say that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is dense in <fr:tex display="inline"><![CDATA[\mathbb {R}]]></fr:tex>.</html:p>
+                <html:p>
+                  <html:strong>Proof</html:strong>
+                </html:p>
+                <html:p>We are trying to find an <fr:tex display="inline"><![CDATA[m\in \mathbb {Z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> so that, 
+<fr:tex display="block"><![CDATA[a<\frac {m}{n}<b \qquad  \text {or} \qquad  na<m<nb]]></fr:tex>
+Using the <fr:link href="/forest/000N/" title="Archimedean Property" uri="https://andrewczezowski.github.io/forest/000N/" display-uri="000N" type="local">Archimedean Property</fr:link>, we can pick an <fr:tex display="inline"><![CDATA[n]]></fr:tex> large enough that
+<fr:tex display="block"><![CDATA[a<b-\frac {1}{n}]]></fr:tex>
+We now pick an integer <fr:tex display="inline"><![CDATA[m]]></fr:tex> so that
+<fr:tex display="block"><![CDATA[m-1\leq  na< m]]></fr:tex>
+Together with the previous inequality we can write use this to write,
+<fr:tex display="block"><![CDATA[na<m<nb]]></fr:tex>
+Proving the theorem.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000P/</fr:uri>
+                <fr:display-uri>000P</fr:display-uri>
+                <fr:route>/forest/000P/</fr:route>
+                <fr:title text="Density of Irrational Numbers in the Reals">Density of Irrational Numbers in the Reals</fr:title>
+                <fr:taxon>Corollary</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Given any two real numbers <fr:tex display="inline"><![CDATA[a<b]]></fr:tex>, there exists an irrational number <fr:tex display="inline"><![CDATA[t]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[a<t<b]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000N/</fr:uri>
+            <fr:display-uri>000N</fr:display-uri>
+            <fr:route>/forest/000N/</fr:route>
+            <fr:title text="Archimedean Property">Archimedean Property</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+              <html:ol><html:li>Given any number <fr:tex display="inline"><![CDATA[x\in \mathbb {R}]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[n>x]]></fr:tex>.</html:li>
+  <html:li>Given any real number <fr:tex display="inline"><![CDATA[y>0]]></fr:tex>, there exists an <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[1/n<y]]></fr:tex>.</html:li></html:ol>
+            </html:p>
+            <html:p>
+              <html:strong>Proof</html:strong>
+            </html:p>
+            <html:p>The theorem boils down to the statement that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is not bounded above. The proof is done by contradiction. Assume that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is bounded above; then the <fr:link href="/forest/000I/" title="Axiom of Completeness" uri="https://andrewczezowski.github.io/forest/000I/" display-uri="000I" type="local">AoC</fr:link> says there will be a least upper bound. 
+<fr:tex display="block"><![CDATA[\alpha =\text {sup}\mathbb {N}]]></fr:tex>
+Now consider <fr:tex display="inline"><![CDATA[\alpha -1]]></fr:tex> which is not an upper bound, meaning that we can write, 
+<fr:tex display="block"><![CDATA[\alpha -1<n\qquad \rightarrow  \qquad  \alpha <n+1]]></fr:tex>
+However, since <fr:tex display="inline"><![CDATA[n+1\in \mathbb {N}]]></fr:tex>, we have a contradiction for <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> being an upper bound. Therefore, we come to the conclusion that <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is unbound from above.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

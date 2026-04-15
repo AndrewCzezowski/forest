@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/000C/</fr:uri>
+    <fr:display-uri>000C</fr:display-uri>
+    <fr:route>/forest/000C/</fr:route>
+    <fr:title text="Subspaces">Subspaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of a <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">vector space</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>, is a <html:em>subspace</html:em> if <fr:tex display="inline"><![CDATA[U]]></fr:tex> is also a vector space with the same additive identity, addition, and scalar multiplication as on <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+    <html:p>In practice to check if a subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is a subspace one must check that <fr:tex display="inline"><![CDATA[U]]></fr:tex> satisfies:</html:p>
+    <html:ol><html:li><html:p><html:strong>Additive Identity</html:strong> <fr:tex display="block"><![CDATA[0\in  U]]></fr:tex></html:p></html:li>
+  <html:li><html:p><html:strong>Closure Under Addition</html:strong> <fr:tex display="block"><![CDATA[u,w \in  U\rightarrow  u+w\in  U]]></fr:tex></html:p></html:li>
+  <html:li><html:p><html:strong>Closure Under Scalar Multiplication</html:strong> <fr:tex display="block"><![CDATA[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U]]></fr:tex></html:p></html:li></html:ol>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000Y/</fr:uri>
+            <fr:display-uri>000Y</fr:display-uri>
+            <fr:route>/forest/000Y/</fr:route>
+            <fr:title text="Vector Spaces">Vector Spaces</fr:title>
+            <fr:taxon>Chapter</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000G/</fr:uri>
+                <fr:display-uri>000G</fr:display-uri>
+                <fr:route>/forest/000G/</fr:route>
+                <fr:title text="Field">Field</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A field is any set where the following properties hold.</html:p>
+                <html:ol><html:li><html:p>Addition and multiplication of the elements is well defined.</html:p></html:li>
+  <html:li><html:p>Addition and multiplication is commutative, associative, and distributive.<fr:tex display="block"><![CDATA[a(b+c)=ab+ac]]></fr:tex></html:p></html:li>
+   <html:li><html:p>The set must include an additive and a multiplicative identity.<fr:tex display="block"><![CDATA[a+0=a\qquad \qquad  1a=a]]></fr:tex></html:p></html:li>
+  <html:li><html:p>Every element must have an additive and a multiplicative inverse.<fr:tex display="block"><![CDATA[a-a=0\qquad \qquad  a\frac {1}{a}=1]]></fr:tex></html:p></html:li></html:ol>
+                <html:p>As an example, the rational numbers qualify as a field; the integers do not.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0003/</fr:uri>
+                <fr:display-uri>0003</fr:display-uri>
+                <fr:route>/forest/0003/</fr:route>
+                <fr:title text="Elementary Vector Space">Elementary Vector Space</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>.</html:p>
+                <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
+                <html:ol><html:li><html:p><html:strong>Closure Under Addition</html:strong></html:p>
+  <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
+  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}]]></fr:tex>
+  <html:p>Vector addition is commutative and associative.</html:p></html:li>
+<html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
+  <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
+  
+  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}]]></fr:tex>
+  <html:p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</html:p></html:li>
+<html:li><html:p><html:strong>The Scalar <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">Field</fr:link></html:strong></html:p>
+  <html:p>The scalars that multiply the vectors are called the scalar field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> over which the vector space is defined.</html:p>
+  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</html:p></html:li>
+<html:li><html:p><html:strong>Linearity</html:strong></html:p>
+  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Identity Under Vector Addition and Scalar Multiplication</html:strong></html:p>
+    <html:p><fr:tex display="inline"><![CDATA[0+v=v]]></fr:tex> and <fr:tex display="inline"><![CDATA[1v=v]]></fr:tex></html:p></html:li>
+<html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
+  <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
+  <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li></html:ol>
+                <html:p>
+                  <html:strong>Dimensionality</html:strong>
+                </html:p>
+                <html:p>A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of <html:strong>Dimensionality</html:strong>. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000C/</fr:uri>
+                <fr:display-uri>000C</fr:display-uri>
+                <fr:route>/forest/000C/</fr:route>
+                <fr:title text="Subspaces">Subspaces</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of a <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">vector space</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>, is a <html:em>subspace</html:em> if <fr:tex display="inline"><![CDATA[U]]></fr:tex> is also a vector space with the same additive identity, addition, and scalar multiplication as on <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+                <html:p>In practice to check if a subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is a subspace one must check that <fr:tex display="inline"><![CDATA[U]]></fr:tex> satisfies:</html:p>
+                <html:ol><html:li><html:p><html:strong>Additive Identity</html:strong> <fr:tex display="block"><![CDATA[0\in  U]]></fr:tex></html:p></html:li>
+  <html:li><html:p><html:strong>Closure Under Addition</html:strong> <fr:tex display="block"><![CDATA[u,w \in  U\rightarrow  u+w\in  U]]></fr:tex></html:p></html:li>
+  <html:li><html:p><html:strong>Closure Under Scalar Multiplication</html:strong> <fr:tex display="block"><![CDATA[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U]]></fr:tex></html:p></html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000D/</fr:uri>
+                <fr:display-uri>000D</fr:display-uri>
+                <fr:route>/forest/000D/</fr:route>
+                <fr:title text="Sum of Subspaces">Sum of Subspaces</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The sum of <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is the set of all possible sums of elements from <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex>.
+<fr:tex display="block"><![CDATA[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000E/</fr:uri>
+                <fr:display-uri>000E</fr:display-uri>
+                <fr:route>/forest/000E/</fr:route>
+                <fr:title text="Smallest Containing Subspace">Smallest Containing Subspace</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Consider <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space V. The smallest subspace of V that contains <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> is the <fr:link href="/forest/000D/" title="Sum of Subspaces" uri="https://andrewczezowski.github.io/forest/000D/" display-uri="000D" type="local">sum of subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>.</html:p>
+                <html:p>For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> also contains <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>. So any other space containing these will be larger or the same.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/000F/</fr:uri>
+                <fr:display-uri>000F</fr:display-uri>
+                <fr:route>/forest/000F/</fr:route>
+                <fr:title text="Direct Sum">Direct Sum</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The direct sum is a special case of the <fr:link href="/forest/000D/" title="Sum of Subspaces" uri="https://andrewczezowski.github.io/forest/000D/" display-uri="000D" type="local">sum of subspaces</fr:link>. If each element from the sum <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex> can only be written as a sum of <fr:tex display="inline"><![CDATA[v_1+\dots +v_n]]></fr:tex>, where each <fr:tex display="inline"><![CDATA[v_k\in  V_k]]></fr:tex>. We call it a direct sum and denote it by, <fr:tex display="block"><![CDATA[V_1\oplus \dots \oplus  V_n]]></fr:tex></html:p>
+                <html:p>
+                  <html:strong>Condition for a Direct Sum</html:strong>
+                </html:p>
+                <html:p>The sum of subspaces, <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>, is a direct sum <fr:tex display="inline"><![CDATA[\iff ]]></fr:tex> the only way to write 0 as a sum <fr:tex display="inline"><![CDATA[v_1+\dots +v_n]]></fr:tex> is by taking each element equal to zero.</html:p>
+                <html:p>
+                  <html:strong>Another way to check</html:strong>
+                </html:p>
+                <html:p>The sum of subspaces, <fr:tex display="inline"><![CDATA[V_1+V_2]]></fr:tex>, is a direct sum <fr:tex display="inline"><![CDATA[\iff ]]></fr:tex> <fr:tex display="inline"><![CDATA[V_1\cap  V_2=\{0\}]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000E/</fr:uri>
+            <fr:display-uri>000E</fr:display-uri>
+            <fr:route>/forest/000E/</fr:route>
+            <fr:title text="Smallest Containing Subspace">Smallest Containing Subspace</fr:title>
+            <fr:taxon>Lemma</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Consider <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space V. The smallest subspace of V that contains <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> is the <fr:link href="/forest/000D/" title="Sum of Subspaces" uri="https://andrewczezowski.github.io/forest/000D/" display-uri="000D" type="local">sum of subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>.</html:p>
+            <html:p>For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> also contains <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>. So any other space containing these will be larger or the same.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000D/</fr:uri>
+            <fr:display-uri>000D</fr:display-uri>
+            <fr:route>/forest/000D/</fr:route>
+            <fr:title text="Sum of Subspaces">Sum of Subspaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The sum of <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is the set of all possible sums of elements from <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex>.
+<fr:tex display="block"><![CDATA[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0003/</fr:uri>
+            <fr:display-uri>0003</fr:display-uri>
+            <fr:route>/forest/0003/</fr:route>
+            <fr:title text="Elementary Vector Space">Elementary Vector Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>.</html:p>
+            <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
+            <html:ol><html:li><html:p><html:strong>Closure Under Addition</html:strong></html:p>
+  <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
+  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}]]></fr:tex>
+  <html:p>Vector addition is commutative and associative.</html:p></html:li>
+<html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
+  <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
+  
+  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}]]></fr:tex>
+  <html:p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</html:p></html:li>
+<html:li><html:p><html:strong>The Scalar <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">Field</fr:link></html:strong></html:p>
+  <html:p>The scalars that multiply the vectors are called the scalar field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> over which the vector space is defined.</html:p>
+  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</html:p></html:li>
+<html:li><html:p><html:strong>Linearity</html:strong></html:p>
+  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Identity Under Vector Addition and Scalar Multiplication</html:strong></html:p>
+    <html:p><fr:tex display="inline"><![CDATA[0+v=v]]></fr:tex> and <fr:tex display="inline"><![CDATA[1v=v]]></fr:tex></html:p></html:li>
+<html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
+  <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
+  <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li></html:ol>
+            <html:p>
+              <html:strong>Dimensionality</html:strong>
+            </html:p>
+            <html:p>A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of <html:strong>Dimensionality</html:strong>. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

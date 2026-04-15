@@ -104,21 +104,20 @@
                 <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
                 <html:ol><html:li><html:p><html:strong>Closure Under Addition</html:strong></html:p>
   <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
-  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V} : v+w=s\in  \mathbb {V}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}]]></fr:tex>
   <html:p>Vector addition is commutative and associative.</html:p></html:li>
-
 <html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
   <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
   
-  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {C} : av\in  \mathbb {V}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}]]></fr:tex>
   <html:p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</html:p></html:li>
-
-<html:li><html:p><html:strong>The Scalar Field</html:strong></html:p>
-  <html:p>The scalars that multiply the vectors are called the field over which the vector space is defined.</html:p>
-  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces</html:p></html:li>
+<html:li><html:p><html:strong>The Scalar <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">Field</fr:link></html:strong></html:p>
+  <html:p>The scalars that multiply the vectors are called the scalar field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> over which the vector space is defined.</html:p>
+  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</html:p></html:li>
 <html:li><html:p><html:strong>Linearity</html:strong></html:p>
-  <html:p>In the context of a complex vector space.</html:p>
-  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {C}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Identity Under Vector Addition and Scalar Multiplication</html:strong></html:p>
+    <html:p><fr:tex display="inline"><![CDATA[0+v=v]]></fr:tex> and <fr:tex display="inline"><![CDATA[1v=v]]></fr:tex></html:p></html:li>
 <html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
   <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
   <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li></html:ol>
@@ -401,21 +400,20 @@
             <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
             <html:ol><html:li><html:p><html:strong>Closure Under Addition</html:strong></html:p>
   <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
-  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V} : v+w=s\in  \mathbb {V}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}]]></fr:tex>
   <html:p>Vector addition is commutative and associative.</html:p></html:li>
-
 <html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
   <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
   
-  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {C} : av\in  \mathbb {V}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}]]></fr:tex>
   <html:p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</html:p></html:li>
-
-<html:li><html:p><html:strong>The Scalar Field</html:strong></html:p>
-  <html:p>The scalars that multiply the vectors are called the field over which the vector space is defined.</html:p>
-  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces</html:p></html:li>
+<html:li><html:p><html:strong>The Scalar <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">Field</fr:link></html:strong></html:p>
+  <html:p>The scalars that multiply the vectors are called the scalar field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> over which the vector space is defined.</html:p>
+  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</html:p></html:li>
 <html:li><html:p><html:strong>Linearity</html:strong></html:p>
-  <html:p>In the context of a complex vector space.</html:p>
-  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {C}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
+<html:li><html:p><html:strong>Identity Under Vector Addition and Scalar Multiplication</html:strong></html:p>
+    <html:p><fr:tex display="inline"><![CDATA[0+v=v]]></fr:tex> and <fr:tex display="inline"><![CDATA[1v=v]]></fr:tex></html:p></html:li>
 <html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
   <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
   <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li></html:ol>

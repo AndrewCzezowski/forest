@@ -1,30 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="true" base-url="/forest/">
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>https://andrewczezowski.github.io/forest/index/</fr:uri>
-    <fr:display-uri>index</fr:display-uri>
-    <fr:route>/forest/index/</fr:route>
-    <fr:title text="Home">Home</fr:title>
+    <fr:uri>https://andrewczezowski.github.io/forest/000Z/</fr:uri>
+    <fr:display-uri>000Z</fr:display-uri>
+    <fr:route>/forest/000Z/</fr:route>
+    <fr:title text="Classical Mechanics">Classical Mechanics</fr:title>
+    <fr:taxon>Overview</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:uri>https://andrewczezowski.github.io/forest/me/</fr:uri>
-        <fr:display-uri>me</fr:display-uri>
-        <fr:route>/forest/me/</fr:route>
-        <fr:title text="Andrew Czezowski">Andrew Czezowski</fr:title>
-        <fr:taxon>Person</fr:taxon>
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>12</fr:day>
+        </fr:date>
+        <fr:uri>https://andrewczezowski.github.io/forest/0010/</fr:uri>
+        <fr:display-uri>0010</fr:display-uri>
+        <fr:route>/forest/0010/</fr:route>
+        <fr:title text="Calculus of Variations">Calculus of Variations</fr:title>
+        <fr:taxon>Chapter</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>Aspiring physics student. I recieved my BSc Honours Physics-Chemistry from the <fr:link href="https://www.umanitoba.ca/" type="external">University of Manitoba</fr:link> in 2024. I've worked 2 km underground with the <fr:link href="https://www.picoexperiment.com/" type="external">PICO Collaboration</fr:link> at <fr:link href="https://www.snolab.ca/" type="external">SNOLAB</fr:link>. My research interests are in particle theory, currently focusing in dark matter candidates and in fundamental interactions.</html:p>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/000B/</fr:uri>
+            <fr:display-uri>000B</fr:display-uri>
+            <fr:route>/forest/000B/</fr:route>
+            <fr:title text="Euler Lagrange Equations">Euler Lagrange Equations</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The Euler-Lagrange equations,
+<fr:tex display="block"><![CDATA[\frac {\partial \mathcal {L}}{\partial  q_i}=\frac {d}{dt}\frac {\partial \mathcal {L}}{\partial \dot {q}_i}]]></fr:tex>
+are a condition that is satisfied for a path that gives a stationary value for an equation of the form,
+<fr:tex display="block"><![CDATA[S=\int _{t_1}^{t_2}\mathcal {L}(q_1,\dot {q}_1,\dots ,q_n,\dot {q}_n,t)dt]]></fr:tex>
+Where <fr:tex display="inline"><![CDATA[q_i]]></fr:tex> is the <fr:tex display="inline"><![CDATA[i]]></fr:tex>th coordinate parametrized by an independent variable <fr:tex display="inline"><![CDATA[t]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\dot {q}_i]]></fr:tex> is the first derivative of <fr:tex display="inline"><![CDATA[q]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[t]]></fr:tex>.
+</html:p>
+            <html:p>
+              <html:strong>Proof</html:strong>
+            </html:p>
+            <html:p>For a full proof see Chapter 6 of Classical Mechanics by Taylor. In summary, one starts by considering variations from the correct path (the correct path gives a stationary point for S). After computing the variation <fr:tex display="inline"><![CDATA[\partial  S]]></fr:tex>, integrating by parts, applying boundary conditions, and requiring <fr:tex display="inline"><![CDATA[\partial  S=0]]></fr:tex>, we find the condition of the Euler-Lagrange equations.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
       </fr:mainmatter>
     </fr:tree>
-    <html:p>This site is a collection of my scientific notes created using <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
-    <html:p>The general principle is that I split my notes into atomized concepts (up to the point that I deem is effective). I use links between notes to allow an emergent structure rather than imposing a hierchy on the ideas. I later transclude my notes into notebook overviews of the topic in order to conveniently see what I've covered.</html:p>
-    <html:p>To navigate my forest press <html:code>Ctrl+K</html:code> and search, or use links between notes. Some notebooks I've made are available <fr:link href="/forest/overview/" title="Overview of Notebooks" uri="https://andrewczezowski.github.io/forest/overview/" display-uri="overview" type="local">here</fr:link>.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -45,13 +74,6 @@
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -81,6 +103,13 @@
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
