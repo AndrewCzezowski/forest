@@ -1,0 +1,7 @@
+\date{2026-04-15T20:15:11Z}
+\title{One-to-One and Onto}
+\taxon{Definition}
+
+\p{A [function](000H) #{f:A\rightarrow B} is one-to-one if any #{a_1\neq a_2} in #{A} implies that #{f(a_1)\neq f(a_2)} in #{B}. The function #{f} is onto if, given any #{b\in B}, it is possible to find an element #{a\in A} for which #{f(a)=b}.}
+\p{Put simply every element in #{B} needs a corresponding element in #{A} which maps uniquely via the function to #{B}.}
+\p{The terminology \em{injective} (one-to-one), \em{surjective} (onto), and \em{bijective} (one-to-one and onto) are often used. There is also the confusing terminology one-to-one correspondence, which has the same meaning as bijection, rather than one-to-one function.}

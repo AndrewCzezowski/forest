@@ -1,0 +1,6 @@
+\date{2026-04-15T22:10:11Z}
+\title{Power Sets}
+\taxon{Definition}
+
+\p{The power set #{P(A)} of a set #{A}, is a set whose elements are all of the different possible subsets of A.}
+\p{For a finite set #{A} with n elements, #{P(A)} has #{2^n} elements. This is because we can make every subset of #{A} by considering a binary choice for each element on whether or note to include it in the set.}

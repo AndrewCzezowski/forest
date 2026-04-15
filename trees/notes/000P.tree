@@ -1,0 +1,5 @@
+\date{2026-04-15T17:24:37Z}
+\title{Density of Irrational Numbers in the Reals}
+\taxon{Corollary}
+
+\p{Given any two real numbers #{a<b}, there exists an irrational number #{t} satisfying #{a<t<b}.}

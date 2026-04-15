@@ -1,0 +1,5 @@
+\date{2026-04-15T22:17:11Z}
+\title{Cantor's Theorem}
+\taxon{Theorem}
+
+\p{Given any set #{A}, there does not exist a function [1-1 and onto](000R) that maps #{f:A\rightarrow P(A)}. Where #{P(A)} is the [power set](000T) of #{A}.}

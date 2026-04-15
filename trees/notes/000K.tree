@@ -1,0 +1,15 @@
+\date{2026-04-15T15:38:02Z}
+\title{Supremum and Infimum}
+\taxon{Definition}
+
+\p{A supremum is the least upper bound of a set. Likewise, the infimum is the greatest lower bound of a set.}
+\p{A real number #{s} is the least upper bound of a set #{A\subseteq \mathbb{R}} if it meets the requirements:
+\ol{
+  \li{#{s} is an upper bound for #{A}.}
+  \li{If #{b} is any upper bound for #{A}, then #{s\leq b}.}
+}
+}
+\p{There is a matching definition for the least lower bound.} 
+\p{The first time I read about these I was confused due to my misunderstanding of an upper/lower bound.} 
+\p{A set #{A\subseteq \mathbb{R}} is bounded above if there exists a number #{b\in \mathbb{R}} such that #{a\leq b} for all #{a\in A}. The number b is called an upper bound for #{A}.}
+\p{The key point is that an upper bound does not need to be in a set; it is simply any number that is greater than or equal to any elements of the set. This notion becomes clear when considering open intervals where a maximum in the set does not exist, but the supremum does (it's the open upper bound). For a closed interval the maximum and supremum are the same.}

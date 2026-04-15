@@ -1,0 +1,18 @@
+\date{2026-04-15T16:50:10Z}
+\title{Density of Rational Numbers in The Reals}
+\taxon{Theorem}
+
+\p{For any two real numbers #{a} and #{b} with #{a<b}, there exists a rational number satisfying ##{a<\frac{m}{n}<b} 
+In other words, we say that #{\mathbb{Q}} is dense in #{\mathbb{R}}.}
+
+\p{\strong{Proof}}
+\p{We are trying to find an #{m\in\mathbb{Z}} and #{n\in\mathbb{N}} so that, 
+##{a<\frac{m}{n}<b \qquad \text{or} \qquad na<m<nb}
+Using the [Archimedean Property](000N), we can pick an #{n} large enough that
+##{a<b-\frac{1}{n}}
+We now pick an integer #{m} so that
+##{m-1\leq na< m}
+Together with the previous inequality we can write use this to write,
+##{na<m<nb}
+Proving the theorem.
+}

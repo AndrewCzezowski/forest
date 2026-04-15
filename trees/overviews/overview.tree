@@ -1,0 +1,25 @@
+\title{Overview of Notebooks}
+
+\p{The following are my current and planned notebooks along with the primrary source used for studdying the topic. Many of these are subjects I recently reviewed that were covered during my undergraduate degree, some are for learning new physics material. Others are for learning the more rigorous formulations of the math I use during my physics studies.}
+\p{
+  \strong{Completed}
+    \ul{
+      \li{All are currently in progress as this is a recently undertaken project.}
+    }
+  \strong{In Progress}
+    \ul{
+      \li{[What is a Tensor? - XylyXylyX](000A)}
+      \li{[Linear Algebra Done Right - Axler](000X)}
+      \li{[Understanding Analysis - Abbott](000W)}
+      \li{[Classical Mechanics - Mix of select chapters from Taylor and Goldstein](000Z)}
+    }
+  \strong{Future}
+    \ul{
+      \li{Quantum Mechanics - Shankar}
+      \li{Electromagnetism - Mix of Griffiths and Jackson}
+      \li{General Relativity and Differential Geometry - Carroll}
+      \li{Group Theory - Jones}
+      \li{Complex Analysis - Needham, supplements from Shakarchi}
+      \li{Quantum Field Theory - Primrary Weinberg, supplements from Peskin}
+    }
+}

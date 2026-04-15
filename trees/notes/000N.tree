@@ -1,0 +1,16 @@
+\date{2026-04-15T16:29:00Z}
+\title{Archimedean Property}
+\taxon{Theorem}
+
+\p{\ol{
+  \li{Given any number #{x\in\mathbb{R}}, there exists an #{n\in\mathbb{N}} satisfying #{n>x}.}
+  \li{Given any real number #{y>0}, there exists an #{n\in\mathbb{N}} satisfying #{1/n<y}.}
+}
+}
+\p{\strong{Proof}}
+\p{The theorem boils down to the statement that #{\mathbb{N}} is not bounded above. The proof is done by contradiction. Assume that #{\mathbb{N}} is bounded above; then the [AoC](000I) says there will be a least upper bound. 
+##{\alpha=\text{sup}\mathbb{N}}
+Now consider #{\alpha-1} which is not an upper bound, meaning that we can write, 
+##{\alpha-1<n\qquad\rightarrow \qquad \alpha<n+1}
+However, since #{n+1\in\mathbb{N}}, we have a contradiction for #{\alpha} being an upper bound. Therefore, we come to the conclusion that #{\mathbb{N}} is unbound from above.
+}

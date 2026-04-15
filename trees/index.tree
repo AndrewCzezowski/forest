@@ -1,4 +1,5 @@
 \title{Home}
 \transclude{me}
 \p{This site is a collection of my scientific notes created using [Forester](https://www.forester-notes.org/).}
-\p{To navigate my forest press \code{Ctrl+K} and search, or use links between notes.}
+\p{The general principle is that I split my notes into atomized concepts (up to the point that I deem is effective). I use links between notes to allow an emergent structure rather than imposing a hierchy on the ideas. I later transclude my notes into notebook overviews of the topic in order to conveniently see what I've covered.}
+\p{To navigate my forest press \code{Ctrl+K} and search, or use links between notes. Some notebooks I've made are available [here](overview).}

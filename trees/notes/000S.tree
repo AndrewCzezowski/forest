@@ -1,0 +1,22 @@
+\date{2026-04-15T20:25:05Z}
+\title{Countable Sets}
+\taxon{Definition}
+
+\p{An infinite set #{A} is called countable if it has the same [cardinality](000Q) as the natural numbers. An infinite set that is not countable is called an uncountable set.
+}
+\p{An example of a countable infinite set is the rational numbers. Examples of uncountable sets are the real numbers or the irrational numbers.}
+
+\p{\strong{Countability and Subsets}}
+\p{If #{A\subseteq B} and #{B} is countable, then #{A} is either countable or finite.}
+
+\p{\strong{Countability and Unions}}
+\p{
+  \ol{
+  \li{
+    If #{A_1, \dots, A_m} are each countable sets, then the union #{A_1\cup \dots \cup A_m} is countable.
+  }
+  \li{
+    If #{A_n} is a countable set for each #{n\in \mathbb{N}}, then #{\bigcup_{n=1}^{\infty} A_n} is countable.
+  }
+  }
+}

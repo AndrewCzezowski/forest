@@ -1,0 +1,5 @@
+\date{2026-04-15T15:30:07Z}
+\title{Simple Definition for The Real Numbers}
+\taxon{Definition}
+\p{To provide an initial definition for #{\mathbb{R}}, we assume that #{\mathbb{R}} is an ordered [field](000G) which contains #{\mathbb{Q}} as a subfield. We also require that it contain no gaps between rational numbers. We accomplish this second requirement via the axiom of completeness.}
+\transclude{000I}
