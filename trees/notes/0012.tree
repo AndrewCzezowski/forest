@@ -1,0 +1,16 @@
+\date{2026-04-16T23:51:08Z}
+\title{Lagrange Equations}
+\taxon{Concept}
+
+\p{We know that the conditions for an integral of the form of [Hamilton's Principle](0011) to be stationary are [the Euler-Lagrange equations](000B),
+##{\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}=0\qquad i=1, \dots, n}
+Where #{q_i} is the #{i}th generalized coordinate and all generalized coordinates vary independently.
+}
+\p{Because of how they behave we call, 
+##{\frac{\partial L}{\partial q_i}=(i\text{th component of generalized force})}
+and
+##{\frac{\partial L}{\partial\dot{q}_i}=(i\text{th component of generalized momentum})}
+}
+
+\p{This formulation works without modification for systems that are holonomic (constraints only of the form #{f_\alpha(q_1,\dots,q_n;t)=0}). This includes systems that are unconstrained. The condition that the system be holonomic is what allows us to write the #{n} generalized coordinates of the system as independent.}
+\p{If the system is constrained holonomically, then we can write the dependent coordinates in terms of others using the constraint functions. This leave us with only independent generalized coordinates.}

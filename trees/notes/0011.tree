@@ -1,0 +1,10 @@
+\date{2026-04-16T23:01:19Z}
+\title{Hamilton's Principle}
+\taxon{Definition}
+
+\p{The motion of a system from time #{t_1} to #{t_2} is such that the path integral (called the action),
+##{S=\int_{t_1}^{t_2}Ldt}
+is stationary for the actual path of the motion. Where the lagrangian #{L=T-U} is the difference between kinetic and potential energy.
+}
+\p{This principle applies for systems that are monogenic (all non-constraint forces are derivable from a scalar potential that can only depend on coordinates, velocities, and time).}
+

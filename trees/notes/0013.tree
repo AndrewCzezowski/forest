@@ -1,0 +1,33 @@
+\date{2026-04-17T00:08:43Z}
+\title{Method of Lagrange Multipliers}
+\taxon{Concept}
+
+\p{For a holonomically constrained system, rather than choose independent generalized coordinates like in the standard [Lagrange Equations](0012); we can choose to work with a larger number of coordinates and off-load the constraints to \em{Lagrange Multipliers}.} 
+\p{For a system with #{n} variables and #{m} constraint equations #{f_\alpha(q_1,\dots,q_n;t)}, the resulting equations are,
+##{\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}+\sum_{\alpha=1}^{m}\lambda_\alpha\frac{\partial f_\alpha}{\partial q_i}=0\qquad i=1,\dots,m}
+Where #{\lambda_\alpha} are the lagrange multipliers.
+}
+\p{Additionally, we can identify,
+##{\sum_{\alpha=1}^{m}\lambda_\alpha\frac{\partial f_\alpha}{\partial q_i}=Q_i}
+Where #{Q_i} is the magnitude of the #{i}th generalized force required to produce the constraint.
+}
+
+\p{\strong{Proof}}
+\p{Start by considering the variation of the action the [standard way](000B); which can be written as,
+##{\delta S=\int_{t_1}^{t_2}dt\sum_{i=1}^{n}\left(\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}\right)\delta q_i=0}
+The difference in this case is that we cannot vary #{q_i}'s independently, which is what allowed us to come to the Euler-Lagrange equations in the first place.
+}
+\p{Consider the holonomic constraint functions,
+##{f_\alpha(q_1,\dots,q_n;t)=0 \qquad \alpha=1,\dots,m}
+Since each equation is equal to zero we can multiply it by an arbitrary function #{\lambda_{\alpha}(t)}
+##{\lambda_\alpha(t)f_\alpha(q_1,\dots,q_n;t)=0}
+and consider the variation,
+##{\delta f_\alpha=\sum_{\alpha=1}^{m}\lambda_{\alpha}\frac{\partial f_\alpha}{\partial q_i}\delta q_i=0}
+Important to note is that this variation is of the coordinates and not time just like in the action integral.
+}
+\p{Since this equation is zero we can add it to the action variation without changing the value,
+##{\delta S=\int_{t_1}^{t_2}dt\sum_{i=1}^{n}\left(\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}+\sum_{\alpha=1}^{m}\lambda_{\alpha}\frac{\partial f_\alpha}{\partial q_i}\delta q_i\right)\delta q_i=0}
+}
+\p{Since at this point #{\lambda_\alpha} is arbitrary we can choose them so that #{m} of the equations are satisfied for arbitrary #{\delta q_i}, and then choose the remaining #{n-m} equations independently. Which gives us,
+##{\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}+\sum_{\alpha=1}^{m}\lambda_\alpha\frac{\partial f_\alpha}{\partial q_i}=0\qquad i=1,\dots,m}
+}
