@@ -1,0 +1,9 @@
+\date{2026-04-17T21:27:11Z}
+\title{Linear Dependence Lemma}
+\taxon{Lemma}
+
+\p{Consider a [linearly dependent](001B) list of vectors #{v_1,\dots,v_m\in V}. There exists #{k\in\{1,\dots,m\}} such that,
+##{v_k\in \text{span}(v_1,\dots,v_{k-1})}
+and if the #{k}th term is removed from the list, the [span](0016) of the remaining list is unchanged.
+}
+\p{These statements are both easy to consider, since if the vectors are linearly dependent; there will be a #{v_k} that can be writen as a linear combination of the vectors before it. Clearly since #{v_k} can be described in terms of those other vectors the span will be unchanged it we remove it from the list.}

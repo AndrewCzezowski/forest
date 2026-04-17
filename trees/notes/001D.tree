@@ -1,0 +1,9 @@
+\date{2026-04-17T21:39:37Z}
+\title{Finite Dimensional Basis}
+\taxon{Definition}
+
+\p{A basis of #{V} is a list of vectors in #{V} that is [linearly independent](001A) and [spans](0016) #{V}. A list is a basis if and only if every vector in the space can be written as a unique linear combination of the vectors in that list.}
+\p{It is easy to see that any spanning list in a vector space can be reduced to a basis by removing dependent vectors until we are left with a list of independent ones.}
+\p{This means that any finite-dimensional vector space will have a basis.}
+\p{Similarly, we can create a basis from any list of independent vectors by adding independent vectors until we can span the whole space.}
+\p{If we can find a spanning list with length equal to the [dimension](0018) of the vector space, then we have found the basis of that space.}

@@ -1,0 +1,7 @@
+\date{2026-04-17T21:19:23Z}
+\title{Linearly Dependent Vectors}
+\taxon{Definition}
+
+\p{A list of vectors #{v_1,\dots,v_m\in V} is called \em{linearly dependent} if we can write #{0} as a linear combination of those vectors without taking all the coefficients to be zero.}
+\p{Equivalently, this means that we can describe some of the vectors in the list as linear combinations of the others.}
+\p{A list of vectors is linearly dependent if it is not [linearly independent](001A).}

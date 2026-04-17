@@ -1,0 +1,11 @@
+\date{2026-04-17T20:53:58Z}
+\title{Span and Spans}
+\taxon{Definition}
+
+\p{The \strong{span} of a list of vectors in #{V} is denoted and defined by,
+##{\text{span}(v_1,\dots,v_m)=\{a_1 v_1+\dots+a_m v_m;a_m \in \mathbb{F} a\}}
+We define the span of the empty list as #{\{0\}}.
+}
+\p{It is easy to see that the span of a list of vectors in #{V} is the smallest subspace cantaining all of the listed vectors.}
+
+\p{If the span of a list of vectors equals #{V}, we say that the list \em{spans} #{V}.}

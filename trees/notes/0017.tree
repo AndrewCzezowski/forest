@@ -1,0 +1,5 @@
+\date{2026-04-17T21:05:16Z}
+\title{Finite Dimensional Vector Space}
+\taxon{Definition}
+
+\p{A vector space #{V} is finite [dimensional](0018) if there exists a list of vectors that [spans](0016) #{V}. Note that by definition lists are finite.}

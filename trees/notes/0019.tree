@@ -1,0 +1,5 @@
+\date{2026-04-17T21:09:25Z}
+\title{Infinite Dimensional Vector Space}
+\taxon{Definition}
+
+\p{A vector space #{V} is infinite [dimensional](0018) it is not a finite dimensional vector space. In other words there does not exist a list of vectors that [spans](0016) #{V}.}

@@ -1,0 +1,5 @@
+\date{2026-04-17T21:08:29Z}
+\title{Dimension of a Finite Vector Space}
+\taxon{Definition}
+
+\p{The dimension of a [finite dimensional vector space](0017) is the length of any [basis](001D) of the vector space. Important to this definition is the fact that every basis of a given space has the same length.}

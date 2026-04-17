@@ -1,0 +1,7 @@
+\date{2026-04-17T21:13:27Z}
+\title{Linearly Independent Vectors}
+\taxon{Definition}
+
+\p{A list of vectors #{v_1,\dots,v_m\in V} is called \em{linearly independent} if the only way to write #{0} as a linear combination of those vectors is by taking all the coefficients to be zero. We also define the empty list to be linearly independent.}
+\p{An equivalent statement for a list of linearly independent vectors is that any vector in the [span](0016) of #{v_1,\dots,v_m\in V} has a unique representation as a linear combination of those vectors.}
+
