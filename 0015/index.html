@@ -1,6 +1,190 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/0015/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Lagrangian Mechanics</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Chapter"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Lagrangian Mechanics <a class="slug" href="/forest/0015/">[0015]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon">Definition 1. </span>Hamilton's Principle <a class="slug" href="/forest/0011/">[0011]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 16, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">The motion of a system from time \(t_1\) to \(t_2\) is such that the path integral (called the action),
+\[S=\int _{t_1}^{t_2}Ldt\]
+is stationary for the actual path of the motion. Where the lagrangian \(L=T-U\) is the difference between kinetic and potential energy.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">This principle applies for systems that are monogenic (all non-constraint forces are derivable from a scalar potential that can only depend on coordinates, velocities, and time).</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Concept"><details id="id3" open="open"><summary><header><h1>
+<span class="taxon">Concept 2. </span>Lagrange Equations <a class="slug" href="/forest/0012/">[0012]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 16, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">We know that the conditions for an integral of the form of <span xmlns="" class="link local"><a href="/forest/0011/" title="Hamilton's Principle [0011]">Hamilton's Principle</a></span> to be stationary are <span xmlns="" class="link local"><a href="/forest/000B/" title="Euler Lagrange Equations [000B]">the Euler-Lagrange equations</a></span>,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}=0\qquad  i=1, \dots , n\]
+Where \(q_i\) is the \(i\)th generalized coordinate and all generalized coordinates vary independently.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Because of how they behave we call, 
+\[\frac {\partial  L}{\partial  q_i}=(i\text {th component of generalized force})\]
+and
+\[\frac {\partial  L}{\partial \dot {q}_i}=(i\text {th component of generalized momentum})\]</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">This formulation works without modification for systems that are holonomic (constraints only of the form \(f_\alpha (q_1,\dots ,q_n;t)=0\)). This includes systems that are unconstrained. The condition that the system be holonomic is what allows us to write the \(n\) generalized coordinates of the system as independent.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">If the system is constrained holonomically, then we can write the dependent coordinates in terms of others using the constraint functions. This leave us with only independent generalized coordinates.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Concept"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Concept 3. </span>Method of Lagrange Multipliers <a class="slug" href="/forest/0013/">[0013]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">For a holonomically (also possible for semi-holonomic) constrained system, rather than choose independent generalized coordinates like in the standard <span xmlns="" class="link local"><a href="/forest/0012/" title="Lagrange Equations [0012]">Lagrange Equations</a></span>; we can choose to work with a larger number of coordinates and off-load the constraints to <em>Lagrange Multipliers</em>.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">For a system with \(n\) variables and \(m\) constraint equations \(f_\alpha (q_1,\dots ,q_n;t)=0\), the resulting equations are,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m\]
+Where \(\lambda _\alpha \) are the lagrange multipliers.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Additionally, we can identify,
+\[\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=Q_i\]
+Where \(Q_i\) is the magnitude of the \(i\)th generalized force required to produce the constraint.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">
+          <strong>Proof</strong>
+        </p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Start by considering the variation of the action the <span xmlns="" class="link local"><a href="/forest/000B/" title="Euler Lagrange Equations [000B]">standard way</a></span>; which can be written as,
+\[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}\right )\delta  q_i=0\]
+The difference in this case is that we cannot vary \(q_i\)'s independently, which is what allowed us to come to the Euler-Lagrange equations in the first place.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Consider the holonomic constraint functions,
+\[f_\alpha (q_1,\dots ,q_n;t)=0 \qquad  \alpha =1,\dots ,m\]
+Since each equation is equal to zero we can multiply it by an arbitrary function \(\lambda _{\alpha }(t)\)
+\[\lambda _\alpha (t)f_\alpha (q_1,\dots ,q_n;t)=0\]
+and consider the variation,
+\[\delta  f_\alpha =\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i=0\]
+Important to note is that this variation is of the coordinates and not time just like in the action integral.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Since this equation is zero we can add it to the action variation without changing the value,
+\[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i\right )\delta  q_i=0\]</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Since at this point \(\lambda _\alpha \) is arbitrary we can choose them so that \(m\) of the equations are satisfied for arbitrary \(\delta  q_i\), and then choose the remaining \(n-m\) equations independently. Which gives us,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m\]</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">It is possible to extend the ideas presented above to include semi-holonomic constraints \(f_\alpha (q_1,\dots ,q_n;\dot {q}_1,\dots ,\dot {q}_n;t)\). However, it is in general not possible to express non-holonomic contraints via a variational principle.
+</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon">Definition 4. </span>Ignorable Coordinates <a class="slug" href="/forest/0014/">[0014]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">In the <span xmlns="" class="link local"><a href="/forest/0012/" title="Lagrange Equations [0012]">Lagragian formulation</a></span> a generalized coordinate is called <em>ignorable</em> or <em>cyclic</em> if the lagragian is independent of that coordinate.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Consider the case that the lagrangian is independent of the coordinate \(q_k\),
+\[\frac {\partial  L}{\partial  q_k}=0\]
+and by the lagrange equations this leads to
+\[\frac {d}{dt}\frac {\partial  L}{\partial  \dot {q}_k}=0\]
+Implying that the generalized momentum corresponding to coordinate \(q_k\) is conserved.
+</p>
+      </details></section>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id6" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Overview"><details id="id7"><summary><header><h1>
+<span class="taxon">Overview. </span>Classical Mechanics <a class="slug" href="/forest/000Z/">[000Z]</a> </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+            <section lang="en" class="block hide-metadata" data-taxon="Chapter"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Calculus of Variations <a class="slug" href="/forest/0010/">[0010]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id9" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Euler Lagrange Equations <a class="slug" href="/forest/000B/">[000B]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The Euler-Lagrange equations,
+\[\frac {\partial \mathcal {L}}{\partial  q_i}=\frac {d}{dt}\frac {\partial \mathcal {L}}{\partial \dot {q}_i}\]
+are a condition that is satisfied for a path that gives a stationary value for an equation of the form,
+\[S=\int _{t_1}^{t_2}\mathcal {L}(q_1,\dot {q}_1,\dots ,q_n,\dot {q}_n,t)dt\]
+Where \(q_i\) is the \(i\)th generalized coordinate parametrized by an independent variable \(t\), and \(\dot {q}_i\) is the first derivative of \(q\) with respect to \(t\).
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">
+                      <strong>Proof</strong>
+                    </p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">For a full proof see Chapter 6 of Classical Mechanics by Taylor. In summary, one starts by considering variations from the correct path (the correct path gives a stationary point for S). After computing the variation \(\delta  S\), integrating by parts, applying boundary conditions, requiring \(\delta  S=0\), and that coordinates vary independently; we find the condition of the Euler-Lagrange equations.</p>
+                  </details></section>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Chapter"><details id="id10" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Lagrangian Mechanics <a class="slug" href="/forest/0015/">[0015]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id11" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Hamilton's Principle <a class="slug" href="/forest/0011/">[0011]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 16, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The motion of a system from time \(t_1\) to \(t_2\) is such that the path integral (called the action),
+\[S=\int _{t_1}^{t_2}Ldt\]
+is stationary for the actual path of the motion. Where the lagrangian \(L=T-U\) is the difference between kinetic and potential energy.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">This principle applies for systems that are monogenic (all non-constraint forces are derivable from a scalar potential that can only depend on coordinates, velocities, and time).</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Concept"><details id="id12" open="open"><summary><header><h1>
+<span class="taxon">Concept. </span>Lagrange Equations <a class="slug" href="/forest/0012/">[0012]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 16, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">We know that the conditions for an integral of the form of <span xmlns="" class="link local"><a href="/forest/0011/" title="Hamilton's Principle [0011]">Hamilton's Principle</a></span> to be stationary are <span xmlns="" class="link local"><a href="/forest/000B/" title="Euler Lagrange Equations [000B]">the Euler-Lagrange equations</a></span>,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}=0\qquad  i=1, \dots , n\]
+Where \(q_i\) is the \(i\)th generalized coordinate and all generalized coordinates vary independently.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Because of how they behave we call, 
+\[\frac {\partial  L}{\partial  q_i}=(i\text {th component of generalized force})\]
+and
+\[\frac {\partial  L}{\partial \dot {q}_i}=(i\text {th component of generalized momentum})\]</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">This formulation works without modification for systems that are holonomic (constraints only of the form \(f_\alpha (q_1,\dots ,q_n;t)=0\)). This includes systems that are unconstrained. The condition that the system be holonomic is what allows us to write the \(n\) generalized coordinates of the system as independent.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">If the system is constrained holonomically, then we can write the dependent coordinates in terms of others using the constraint functions. This leave us with only independent generalized coordinates.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Concept"><details id="id13" open="open"><summary><header><h1>
+<span class="taxon">Concept. </span>Method of Lagrange Multipliers <a class="slug" href="/forest/0013/">[0013]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">For a holonomically (also possible for semi-holonomic) constrained system, rather than choose independent generalized coordinates like in the standard <span xmlns="" class="link local"><a href="/forest/0012/" title="Lagrange Equations [0012]">Lagrange Equations</a></span>; we can choose to work with a larger number of coordinates and off-load the constraints to <em>Lagrange Multipliers</em>.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">For a system with \(n\) variables and \(m\) constraint equations \(f_\alpha (q_1,\dots ,q_n;t)=0\), the resulting equations are,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m\]
+Where \(\lambda _\alpha \) are the lagrange multipliers.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Additionally, we can identify,
+\[\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=Q_i\]
+Where \(Q_i\) is the magnitude of the \(i\)th generalized force required to produce the constraint.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">
+                      <strong>Proof</strong>
+                    </p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Start by considering the variation of the action the <span xmlns="" class="link local"><a href="/forest/000B/" title="Euler Lagrange Equations [000B]">standard way</a></span>; which can be written as,
+\[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}\right )\delta  q_i=0\]
+The difference in this case is that we cannot vary \(q_i\)'s independently, which is what allowed us to come to the Euler-Lagrange equations in the first place.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Consider the holonomic constraint functions,
+\[f_\alpha (q_1,\dots ,q_n;t)=0 \qquad  \alpha =1,\dots ,m\]
+Since each equation is equal to zero we can multiply it by an arbitrary function \(\lambda _{\alpha }(t)\)
+\[\lambda _\alpha (t)f_\alpha (q_1,\dots ,q_n;t)=0\]
+and consider the variation,
+\[\delta  f_\alpha =\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i=0\]
+Important to note is that this variation is of the coordinates and not time just like in the action integral.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Since this equation is zero we can add it to the action variation without changing the value,
+\[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i\right )\delta  q_i=0\]</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Since at this point \(\lambda _\alpha \) is arbitrary we can choose them so that \(m\) of the equations are satisfied for arbitrary \(\delta  q_i\), and then choose the remaining \(n-m\) equations independently. Which gives us,
+\[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m\]</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">It is possible to extend the ideas presented above to include semi-holonomic constraints \(f_\alpha (q_1,\dots ,q_n;\dot {q}_1,\dots ,\dot {q}_n;t)\). However, it is in general not possible to express non-holonomic contraints via a variational principle.
+</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id14" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Ignorable Coordinates <a class="slug" href="/forest/0014/">[0014]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">In the <span xmlns="" class="link local"><a href="/forest/0012/" title="Lagrange Equations [0012]">Lagragian formulation</a></span> a generalized coordinate is called <em>ignorable</em> or <em>cyclic</em> if the lagragian is independent of that coordinate.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Consider the case that the lagrangian is independent of the coordinate \(q_k\),
+\[\frac {\partial  L}{\partial  q_k}=0\]
+and by the lagrange equations this leads to
+\[\frac {d}{dt}\frac {\partial  L}{\partial  \dot {q}_k}=0\]
+Implying that the generalized momentum corresponding to coordinate \(q_k\) is conserved.
+</p>
+                  </details></section>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    
+    
+  </footer></article><nav id="toc"><div class="block"><h1>Table of Contents</h1><ul xmlns="" class="block">
+<li>
+<a class="bullet" href="/forest/0011/" title="Hamilton's Principle [0011]">■</a><span class="link local" data-target="#id2"><span class="taxon">Definition 1. </span>Hamilton's Principle</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0012/" title="Lagrange Equations [0012]">■</a><span class="link local" data-target="#id3"><span class="taxon">Concept 2. </span>Lagrange Equations</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0013/" title="Method of Lagrange Multipliers [0013]">■</a><span class="link local" data-target="#id4"><span class="taxon">Concept 3. </span>Method of Lagrange Multipliers</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0014/" title="Ignorable Coordinates [0014]">■</a><span class="link local" data-target="#id5"><span class="taxon">Definition 4. </span>Ignorable Coordinates</span><ul class="block"></ul>
+</li>
+</ul></div></nav></div></body></html>

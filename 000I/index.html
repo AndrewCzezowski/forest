@@ -1,6 +1,75 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/000I/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Axiom of Completeness</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Definition"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Axiom of Completeness <a class="slug" href="/forest/000I/">[000I]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">Every nonempty set of real numbers that is bounded above has a <span xmlns="" class="link local"><a href="/forest/000K/" title="Supremum and Infimum [000K]">least upper bound</a></span>.</p>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id3"><summary><header><h1>
+<span class="taxon">Definition. </span>Simple Definition for The Real Numbers <a class="slug" href="/forest/000J/">[000J]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">To provide an initial definition for \(\mathbb {R}\), we assume that \(\mathbb {R}\) is an ordered <span xmlns="" class="link local"><a href="/forest/000G/" title="Field [000G]">field</a></span> which contains \(\mathbb {Q}\) as a subfield. We also require that it contain no gaps between rational numbers. We accomplish this second requirement via the axiom of completeness.</p>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Axiom of Completeness <a class="slug" href="/forest/000I/">[000I]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">Every nonempty set of real numbers that is bounded above has a <span xmlns="" class="link local"><a href="/forest/000K/" title="Supremum and Infimum [000K]">least upper bound</a></span>.</p>
+              </details></section>
+          </details></section>
+      </details></section>
+    <section lang="en" class="block hide-metadata"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon"></span>Backlinks  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Theorem"><details id="id6"><summary><header><h1>
+<span class="taxon">Theorem. </span>Archimedean Property <a class="slug" href="/forest/000N/">[000N]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">
+              <ol><li>Given any number \(x\in \mathbb {R}\), there exists an \(n\in \mathbb {N}\) satisfying \(n&gt;x\).</li>
+  <li>Given any real number \(y&gt;0\), there exists an \(n\in \mathbb {N}\) satisfying \(1/n&lt;y\).</li></ol>
+            </p>
+            <p xmlns="http://www.w3.org/1999/xhtml">
+              <strong>Proof</strong>
+            </p>
+            <p xmlns="http://www.w3.org/1999/xhtml">The theorem boils down to the statement that \(\mathbb {N}\) is not bounded above. The proof is done by contradiction. Assume that \(\mathbb {N}\) is bounded above; then the <span xmlns="" class="link local"><a href="/forest/000I/" title="Axiom of Completeness [000I]">AoC</a></span> says there will be a least upper bound. 
+\[\alpha =\text {sup}\mathbb {N}\]
+Now consider \(\alpha -1\) which is not an upper bound, meaning that we can write, 
+\[\alpha -1&lt;n\qquad \rightarrow  \qquad  \alpha &lt;n+1\]
+However, since \(n+1\in \mathbb {N}\), we have a contradiction for \(\alpha \) being an upper bound. Therefore, we come to the conclusion that \(\mathbb {N}\) is unbound from above.
+</p>
+          </details></section>
+        <section lang="en" class="block" data-taxon="Theorem"><details id="id7"><summary><header><h1>
+<span class="taxon">Theorem. </span>Nested Interval Property <a class="slug" href="/forest/000M/">[000M]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">For each \(n\in \mathbb {N}\), assume we are given a closed interval \(I_n=[a_n,b_n]=\{x\in \mathbb {R}:a_n\leq  x\leq  b_n\}\). Assume that each interval \(I_n\) contains \(I_{n+1}\). Then, the resulting nested sequence of closed intervals 
+\[I_1\supseteq  I_2 \supseteq  I_3 \supseteq  \dots \]
+has a non empty intersection; \[\bigcap _{n=1}^{\infty } I_n\neq  \emptyset \]</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">
+              <strong>Proof</strong>
+            </p>
+            <p xmlns="http://www.w3.org/1999/xhtml">The idea in this proof is to consider a set, \(A=\{a_n:n\in \mathbb {N}\}\), where \(a_n\) are the lower bound of some closed intervals \([a_n, b_n]\). Since, \(b_n\) are upperbounds we know that the set it bounded from above and we can use the <span xmlns="" class="link local"><a href="/forest/000I/" title="Axiom of Completeness [000I]">axiom of completeness</a></span> to write 
+\[x=\text {sup}A\]
+Since \(x\) is a least upper bound we can write \(a_n\leq  x \leq  b_n\), meaning that \(x\in  I_n\) for any \(n\). This leads to the conclusion that the intersection of nested intervals is not empty.
+</p>
+          </details></section>
+      </details></section>
+    <section lang="en" class="block hide-metadata"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon"></span>Related  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id9"><summary><header><h1>
+<span class="taxon">Definition. </span>Supremum and Infimum <a class="slug" href="/forest/000K/">[000K]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">A supremum is the least upper bound of a set. Likewise, the infimum is the greatest lower bound of a set.</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">A real number \(s\) is the least upper bound of a set \(A\subseteq  \mathbb {R}\) if it meets the requirements:
+<ol><li>\(s\) is an upper bound for \(A\).</li>
+  <li>If \(b\) is any upper bound for \(A\), then \(s\leq  b\).</li></ol></p>
+            <p xmlns="http://www.w3.org/1999/xhtml">There is a matching definition for the least lower bound.</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">The first time I read about these I was confused due to my misunderstanding of an upper/lower bound.</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">A set \(A\subseteq  \mathbb {R}\) is bounded above if there exists a number \(b\in  \mathbb {R}\) such that \(a\leq  b\) for all \(a\in  A\). The number b is called an upper bound for \(A\).</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">The key point is that an upper bound does not need to be in a set; it is simply any number that is greater than or equal to any elements of the set. This notion becomes clear when considering open intervals where a maximum in the set does not exist, but the supremum does (it's the open upper bound). For a closed interval the maximum and supremum are the same.</p>
+          </details></section>
+      </details></section>
+    
+  </footer></article></div></body></html>

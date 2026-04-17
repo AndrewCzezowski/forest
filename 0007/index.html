@@ -1,6 +1,93 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/0007/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Covariant and Contravariant Vectors</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Definition"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Covariant and Contravariant Vectors <a class="slug" href="/forest/0007/">[0007]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">Consider how a <span xmlns="" class="link local"><a href="/forest/0006/" title="Basis Transformations on Vector Spaces [0006]">linear transformation</a></span> between basis vectors affects an arbitrary vector,</p>
+    \[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu \]
+    <p xmlns="http://www.w3.org/1999/xhtml">We can also consider the inverse transformation,</p>
+    \[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu \]
+    <p xmlns="http://www.w3.org/1999/xhtml">leading to</p>
+    \[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu \]
+    <p xmlns="http://www.w3.org/1999/xhtml">Since the basis vectors \(f_\nu \) transform <em>covariantly</em>, we call them <strong>covariant vectors</strong>. On the other hand, since the coefficients \(B^\nu \) transorm with the inverse matrix, we say they transform <em>contravariantly</em>.</p>
+    <p xmlns="http://www.w3.org/1999/xhtml">We can extent this same idea to the <span xmlns="" class="link local"><a href="/forest/0005/" title="Dual Spaces [0005]">dual space</a></span>. We want to transform from the basis \(e^\mu \) to \(f^\nu \). From the above we know that \(e^\mu \) will transform contravariantly, so we can write,</p>
+    \[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu \]
+    <p xmlns="http://www.w3.org/1999/xhtml">and for an arbitrary dual vector,</p>
+    \[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu \]
+    <p xmlns="http://www.w3.org/1999/xhtml">From this we note that \(f^\nu \) transforms <em>contravariantly</em>, so they are <strong>contravariant vectors</strong>. The coefficients \(D_\nu \) transform covariantly.</p>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id3"><summary><header><h1>
+<span class="taxon">Definition. </span>Basis Transformations on Vector Spaces <a class="slug" href="/forest/0006/">[0006]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">We start by considering an <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">elementary vector space</a></span>, with basis vectors \(e_\mu \). We can equivalently describe this vector space with some other basis vectors \(f_\nu \), so that a vector \(w\in \mathbb {V}\) can be written as,</p>
+            \[w=A^\mu  e_\mu =B^\nu  f_\nu \]
+            <p xmlns="http://www.w3.org/1999/xhtml">We want to know how to convert between the old and new basis. We define the linear transformation:</p>
+            \[f_\nu =\Lambda _\nu {}^\mu  e_\mu \]
+            <p xmlns="http://www.w3.org/1999/xhtml">This is the same as the notion of change of basis in standard linear algebra. Matrices can be defined as the linear transformation inside vector spaces. \(\Lambda _\nu {}^\mu \) here is a matrix.
+</p>
+            \[\begin {bmatrix}f_0 \\ f_1\\ f_2\\ f_3\end {bmatrix}=\begin {bmatrix} 
+\Lambda _{00} &amp; \Lambda _{01} &amp; \Lambda _{02}&amp;\Lambda _{03}\\\Lambda _{10}&amp;\Lambda _{11}&amp;\Lambda _{12}&amp;\Lambda _{13}\\\Lambda _{20}&amp;\Lambda _{21}&amp;\Lambda _{22}&amp;\Lambda _{23}\\\Lambda _{30}&amp;\Lambda _{31}&amp;\Lambda _{32}&amp;\Lambda _{33}
+\end {bmatrix}\begin {bmatrix}e_0 \\ e_1\\ e_2\\ e_3\end {bmatrix}\]
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Covariant and Contravariant Vectors <a class="slug" href="/forest/0007/">[0007]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">Consider how a <span xmlns="" class="link local"><a href="/forest/0006/" title="Basis Transformations on Vector Spaces [0006]">linear transformation</a></span> between basis vectors affects an arbitrary vector,</p>
+                \[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">We can also consider the inverse transformation,</p>
+                \[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">leading to</p>
+                \[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">Since the basis vectors \(f_\nu \) transform <em>covariantly</em>, we call them <strong>covariant vectors</strong>. On the other hand, since the coefficients \(B^\nu \) transorm with the inverse matrix, we say they transform <em>contravariantly</em>.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">We can extent this same idea to the <span xmlns="" class="link local"><a href="/forest/0005/" title="Dual Spaces [0005]">dual space</a></span>. We want to transform from the basis \(e^\mu \) to \(f^\nu \). From the above we know that \(e^\mu \) will transform contravariantly, so we can write,</p>
+                \[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">and for an arbitrary dual vector,</p>
+                \[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">From this we note that \(f^\nu \) transforms <em>contravariantly</em>, so they are <strong>contravariant vectors</strong>. The coefficients \(D_\nu \) transform covariantly.</p>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    <section lang="en" class="block hide-metadata"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon"></span>Related  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id6"><summary><header><h1>
+<span class="taxon">Definition. </span>Basis Transformations on Vector Spaces <a class="slug" href="/forest/0006/">[0006]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">We start by considering an <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">elementary vector space</a></span>, with basis vectors \(e_\mu \). We can equivalently describe this vector space with some other basis vectors \(f_\nu \), so that a vector \(w\in \mathbb {V}\) can be written as,</p>
+            \[w=A^\mu  e_\mu =B^\nu  f_\nu \]
+            <p xmlns="http://www.w3.org/1999/xhtml">We want to know how to convert between the old and new basis. We define the linear transformation:</p>
+            \[f_\nu =\Lambda _\nu {}^\mu  e_\mu \]
+            <p xmlns="http://www.w3.org/1999/xhtml">This is the same as the notion of change of basis in standard linear algebra. Matrices can be defined as the linear transformation inside vector spaces. \(\Lambda _\nu {}^\mu \) here is a matrix.
+</p>
+            \[\begin {bmatrix}f_0 \\ f_1\\ f_2\\ f_3\end {bmatrix}=\begin {bmatrix} 
+\Lambda _{00} &amp; \Lambda _{01} &amp; \Lambda _{02}&amp;\Lambda _{03}\\\Lambda _{10}&amp;\Lambda _{11}&amp;\Lambda _{12}&amp;\Lambda _{13}\\\Lambda _{20}&amp;\Lambda _{21}&amp;\Lambda _{22}&amp;\Lambda _{23}\\\Lambda _{30}&amp;\Lambda _{31}&amp;\Lambda _{32}&amp;\Lambda _{33}
+\end {bmatrix}\begin {bmatrix}e_0 \\ e_1\\ e_2\\ e_3\end {bmatrix}\]
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id7" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Covariant and Contravariant Vectors <a class="slug" href="/forest/0007/">[0007]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">Consider how a <span xmlns="" class="link local"><a href="/forest/0006/" title="Basis Transformations on Vector Spaces [0006]">linear transformation</a></span> between basis vectors affects an arbitrary vector,</p>
+                \[w=B^\nu  f_\nu =B^\nu \Lambda _\nu {}^\mu  e_\mu \implies  A^\mu =B^\nu \Lambda _\nu {}^\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">We can also consider the inverse transformation,</p>
+                \[e_\mu =(\Lambda ^{-1})_\mu {}^\nu  f_\nu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">leading to</p>
+                \[B^\mu =(\Lambda ^{-1})_\nu {}^\mu  A^\nu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">Since the basis vectors \(f_\nu \) transform <em>covariantly</em>, we call them <strong>covariant vectors</strong>. On the other hand, since the coefficients \(B^\nu \) transorm with the inverse matrix, we say they transform <em>contravariantly</em>.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">We can extent this same idea to the <span xmlns="" class="link local"><a href="/forest/0005/" title="Dual Spaces [0005]">dual space</a></span>. We want to transform from the basis \(e^\mu \) to \(f^\nu \). From the above we know that \(e^\mu \) will transform contravariantly, so we can write,</p>
+                \[f^\nu =(\Lambda ^{-1})_\mu {}^\nu  e^\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">and for an arbitrary dual vector,</p>
+                \[w=C_\nu  e^\nu =D_\nu  f^\nu \implies  D_\nu =\Lambda _\nu {}^\mu  C_\mu \]
+                <p xmlns="http://www.w3.org/1999/xhtml">From this we note that \(f^\nu \) transforms <em>contravariantly</em>, so they are <strong>contravariant vectors</strong>. The coefficients \(D_\nu \) transform covariantly.</p>
+              </details></section>
+          </details></section>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id8"><summary><header><h1>
+<span class="taxon">Definition. </span>Dual Spaces <a class="slug" href="/forest/0005/">[0005]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary><p xmlns="http://www.w3.org/1999/xhtml">Consider that we have defined a real <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">vector space</a></span> of dimension n (here we work in 4 dimensions) and we want a <span xmlns="" class="link local"><a href="/forest/0004/" title="How to Make a Map [0004]">map</a></span>, but we do not wish to create a second vector space.</p><p xmlns="http://www.w3.org/1999/xhtml">Since \(\mathbb {R}\) is included in our definition of a real vector space, we can consider mapping from \(\mathbb {V}\) to \(\mathbb {R}\), without creating anything new.</p><figure xmlns="http://www.w3.org/1999/xhtml"><img src="/forest/0093ba3e4646beaa2c484d6c74958e93.svg"></img></figure>
+<p xmlns="http://www.w3.org/1999/xhtml">We consider the set of all possible maps that take \(\mathbb {V}\rightarrow \mathbb {R}\). We call this set of the dual space and denote it by \(\mathbb {V}^*\).</p><p xmlns="http://www.w3.org/1999/xhtml">The dual space satisfies all of the properties of a vector space, so it is itself also a vector space. Since we did not add anything new to our original vector space, this means that by defining a vector space we automatically get an associated dual space.</p><figure xmlns="http://www.w3.org/1999/xhtml"><img src="/forest/762ab4c8c06fcefda6ceccb4ba9de9ad.svg"></img></figure>
+<p xmlns="http://www.w3.org/1999/xhtml">It is convenient (and arbitrary) to make the choice that the respective basis vectors map to one another as,</p>\[\braket {e^\mu ,e_\nu }=\delta ^\mu _\nu \]<p xmlns="http://www.w3.org/1999/xhtml">So that,</p>\[\braket {B_\mu  e^\mu , A^\nu  e_\nu }=B_\mu  A^\mu \]</details></section>
+      </details></section>
+    
+  </footer></article></div></body></html>

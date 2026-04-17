@@ -1,6 +1,112 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/000E/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Smallest Containing Subspace</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Lemma"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Lemma. </span>Smallest Containing Subspace <a class="slug" href="/forest/000E/">[000E]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">Consider <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space V. The smallest subspace of V that contains \(V_1,\dots ,V_n\) is the <span xmlns="" class="link local"><a href="/forest/000D/" title="Sum of Subspaces [000D]">sum of subspaces</a></span> \(V_1+\dots +V_n\).</p>
+    <p xmlns="http://www.w3.org/1999/xhtml">For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing \(V_1,\dots ,V_n\) also contains \(V_1+\dots +V_n\). So any other space containing these will be larger or the same.</p>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Chapter"><details id="id3"><summary><header><h1>
+<span class="taxon">Chapter. </span>Vector Spaces <a class="slug" href="/forest/000Y/">[000Y]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Field <a class="slug" href="/forest/000G/">[000G]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A field is any set where the following properties hold.</p>
+                <ol xmlns="http://www.w3.org/1999/xhtml"><li><p>Addition and multiplication of the elements is well defined.</p></li>
+  <li><p>Addition and multiplication is commutative, associative, and distributive.\[a(b+c)=ab+ac\]</p></li>
+   <li><p>The set must include an additive and a multiplicative identity.\[a+0=a\qquad \qquad  1a=a\]</p></li>
+  <li><p>Every element must have an additive and a multiplicative inverse.\[a-a=0\qquad \qquad  a\frac {1}{a}=1\]</p></li></ol>
+                <p xmlns="http://www.w3.org/1999/xhtml">As an example, the rational numbers qualify as a field; the integers do not.</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Elementary Vector Space <a class="slug" href="/forest/0003/">[0003]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with \(\mathbb {V}\).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">Not every set is a vector space so we need properties which define a set as a vector space.</p>
+                <ol xmlns="http://www.w3.org/1999/xhtml"><li><p><strong>Closure Under Addition</strong></p>
+  <p>The addition of two elements of a vector space will also belong to the vector space.</p>
+  \[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}\]
+  <p>Vector addition is commutative and associative.</p></li>
+<li><p><strong>Scalar Multiplication</strong></p>
+  <p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</p>
+  
+  \[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}\]
+  <p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</p></li>
+<li><p><strong>The Scalar <span xmlns="" class="link local"><a href="/forest/000G/" title="Field [000G]">Field</a></span></strong></p>
+  <p>The scalars that multiply the vectors are called the scalar field \(\mathbb {F}\) over which the vector space is defined.</p>
+  <p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</p></li>
+<li><p><strong>Linearity</strong></p>
+  \[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw\]</li>
+<li><p><strong>Identity Under Vector Addition and Scalar Multiplication</strong></p>
+    <p>\(0+v=v\) and \(1v=v\)</p></li>
+<li><p><strong>The Null Vector</strong></p>
+  <p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</p>
+  \[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0\]</li></ol>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Dimensionality</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of <strong>Dimensionality</strong>. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id6" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Subspaces <a class="slug" href="/forest/000C/">[000C]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A subset \(U\) of a <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">vector space</a></span> \(\mathbb {V}\), is a <em>subspace</em> if \(U\) is also a vector space with the same additive identity, addition, and scalar multiplication as on \(V\).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">In practice to check if a subset \(U\) of \(\mathbb {V}\) is a subspace one must check that \(U\) satisfies:</p>
+                <ol xmlns="http://www.w3.org/1999/xhtml"><li><p><strong>Additive Identity</strong> \[0\in  U\]</p></li>
+  <li><p><strong>Closure Under Addition</strong> \[u,w \in  U\rightarrow  u+w\in  U\]</p></li>
+  <li><p><strong>Closure Under Scalar Multiplication</strong> \[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U\]</p></li></ol>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id7" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Sum of Subspaces <a class="slug" href="/forest/000D/">[000D]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">The sum of <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space \(\mathbb {V}\) is the set of all possible sums of elements from \(V_1,\dots ,V_n\).
+\[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}\]</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Lemma"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon">Lemma. </span>Smallest Containing Subspace <a class="slug" href="/forest/000E/">[000E]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">Consider <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space V. The smallest subspace of V that contains \(V_1,\dots ,V_n\) is the <span xmlns="" class="link local"><a href="/forest/000D/" title="Sum of Subspaces [000D]">sum of subspaces</a></span> \(V_1+\dots +V_n\).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing \(V_1,\dots ,V_n\) also contains \(V_1+\dots +V_n\). So any other space containing these will be larger or the same.</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id9" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Direct Sum <a class="slug" href="/forest/000F/">[000F]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">The direct sum is a special case of the <span xmlns="" class="link local"><a href="/forest/000D/" title="Sum of Subspaces [000D]">sum of subspaces</a></span>. If each element from the sum \(V_1+\dots +V_n\) can only be written as a sum of \(v_1+\dots +v_n\), where each \(v_k\in  V_k\). We call it a direct sum and denote it by, \[V_1\oplus \dots \oplus  V_n\]</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Condition for a Direct Sum</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The sum of subspaces, \(V_1+\dots +V_n\), is a direct sum \(\iff \) the only way to write 0 as a sum \(v_1+\dots +v_n\) is by taking each element equal to zero.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Another way to check</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The sum of subspaces, \(V_1+V_2\), is a direct sum \(\iff \) \(V_1\cap  V_2=\{0\}\).</p>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    <section lang="en" class="block hide-metadata"><details id="id10" open="open"><summary><header><h1>
+<span class="taxon"></span>Related  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id11"><summary><header><h1>
+<span class="taxon">Definition. </span>Sum of Subspaces <a class="slug" href="/forest/000D/">[000D]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">The sum of <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space \(\mathbb {V}\) is the set of all possible sums of elements from \(V_1,\dots ,V_n\).
+\[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}\]</p>
+          </details></section>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id12"><summary><header><h1>
+<span class="taxon">Definition. </span>Subspaces <a class="slug" href="/forest/000C/">[000C]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">A subset \(U\) of a <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">vector space</a></span> \(\mathbb {V}\), is a <em>subspace</em> if \(U\) is also a vector space with the same additive identity, addition, and scalar multiplication as on \(V\).</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">In practice to check if a subset \(U\) of \(\mathbb {V}\) is a subspace one must check that \(U\) satisfies:</p>
+            <ol xmlns="http://www.w3.org/1999/xhtml"><li><p><strong>Additive Identity</strong> \[0\in  U\]</p></li>
+  <li><p><strong>Closure Under Addition</strong> \[u,w \in  U\rightarrow  u+w\in  U\]</p></li>
+  <li><p><strong>Closure Under Scalar Multiplication</strong> \[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U\]</p></li></ol>
+          </details></section>
+      </details></section>
+    
+  </footer></article></div></body></html>

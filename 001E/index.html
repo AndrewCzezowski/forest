@@ -1,6 +1,237 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/001E/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Finite Dimensional Vector Spaces</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Chapter"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Finite Dimensional Vector Spaces <a class="slug" href="/forest/001E/">[001E]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon">Definition 1. </span>Span and Spans <a class="slug" href="/forest/0016/">[0016]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">The <strong>span</strong> of a list of vectors in \(V\) is denoted and defined by,
+\[\text {span}(v_1,\dots ,v_m)=\{a_1 v_1+\dots +a_m v_m;a_m \in  \mathbb {F} a\}\]
+We define the span of the empty list as \(\{0\}\).
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">It is easy to see that the span of a list of vectors in \(V\) is the smallest subspace cantaining all of the listed vectors.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">If the span of a list of vectors equals \(V\), we say that the list <em>spans</em> \(V\).</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id3" open="open"><summary><header><h1>
+<span class="taxon">Definition 2. </span>Finite Dimensional Vector Space <a class="slug" href="/forest/0017/">[0017]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">A vector space \(V\) is finite <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimensional</a></span> if there exists a list of vectors that <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\). Note that by definition lists are finite.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Definition 3. </span>Infinite Dimensional Vector Space <a class="slug" href="/forest/0019/">[0019]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">A vector space \(V\) is infinite <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimensional</a></span> it is not a finite dimensional vector space. In other words there does not exist a list of vectors that <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\).</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon">Definition 4. </span>Linearly Independent Vectors <a class="slug" href="/forest/001A/">[001A]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors \(v_1,\dots ,v_m\in  V\) is called <em>linearly independent</em> if the only way to write \(0\) as a linear combination of those vectors is by taking all the coefficients to be zero. We also define the empty list to be linearly independent.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">An equivalent statement for a list of linearly independent vectors is that any vector in the <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">span</a></span> of \(v_1,\dots ,v_m\in  V\) has a unique representation as a linear combination of those vectors.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id6" open="open"><summary><header><h1>
+<span class="taxon">Definition 5. </span>Linearly Dependent Vectors <a class="slug" href="/forest/001B/">[001B]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors \(v_1,\dots ,v_m\in  V\) is called <em>linearly dependent</em> if we can write \(0\) as a linear combination of those vectors without taking all the coefficients to be zero.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Equivalently, this means that we can describe some of the vectors in the list as linear combinations of the others.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors is linearly dependent if it is not <span xmlns="" class="link local"><a href="/forest/001A/" title="Linearly Independent Vectors [001A]">linearly independent</a></span>.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Lemma"><details id="id7" open="open"><summary><header><h1>
+<span class="taxon">Lemma 6. </span>Linear Dependence Lemma <a class="slug" href="/forest/001C/">[001C]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">Consider a <span xmlns="" class="link local"><a href="/forest/001B/" title="Linearly Dependent Vectors [001B]">linearly dependent</a></span> list of vectors \(v_1,\dots ,v_m\in  V\). There exists \(k\in \{1,\dots ,m\}\) such that,
+\[v_k\in  \text {span}(v_1,\dots ,v_{k-1})\]
+and if the \(k\)th term is removed from the list, the <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">span</a></span> of the remaining list is unchanged.
+</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">These statements are both easy to consider, since if the vectors are linearly dependent; there will be a \(v_k\) that can be writen as a linear combination of the vectors before it. Clearly since \(v_k\) can be described in terms of those other vectors the span will be unchanged it we remove it from the list.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon">Definition 7. </span>Finite Dimensional Basis <a class="slug" href="/forest/001D/">[001D]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">A basis of \(V\) is a list of vectors in \(V\) that is <span xmlns="" class="link local"><a href="/forest/001A/" title="Linearly Independent Vectors [001A]">linearly independent</a></span> and <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\). A list is a basis if and only if every vector in the space can be written as a unique linear combination of the vectors in that list.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">It is easy to see that any spanning list in a vector space can be reduced to a basis by removing dependent vectors until we are left with a list of independent ones.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">This means that any finite-dimensional vector space will have a basis.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Similarly, we can create a basis from any list of independent vectors by adding independent vectors until we can span the whole space.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">If we can find a spanning list with length equal to the <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimension</a></span> of the vector space, then we have found the basis of that space.</p>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id9" open="open"><summary><header><h1>
+<span class="taxon">Definition 8. </span>Dimension of a Finite Vector Space <a class="slug" href="/forest/0018/">[0018]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+        <p xmlns="http://www.w3.org/1999/xhtml">The dimension of a <span xmlns="" class="link local"><a href="/forest/0017/" title="Finite Dimensional Vector Space [0017]">finite dimensional vector space</a></span> is the length of any <span xmlns="" class="link local"><a href="/forest/001D/" title="Finite Dimensional Basis [001D]">basis</a></span> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</p>
+      </details></section>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id10" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Overview"><details id="id11"><summary><header><h1>
+<span class="taxon">Overview. </span>Linear Algebra Done Right <a class="slug" href="/forest/000X/">[000X]</a> </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+            <section lang="en" class="block hide-metadata" data-taxon="Chapter"><details id="id12" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Vector Spaces <a class="slug" href="/forest/000Y/">[000Y]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id13" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Field <a class="slug" href="/forest/000G/">[000G]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A field is any set where the following properties hold.</p>
+                    <ol xmlns="http://www.w3.org/1999/xhtml"><li><p>Addition and multiplication of the elements is well defined.</p></li>
+  <li><p>Addition and multiplication is commutative, associative, and distributive.\[a(b+c)=ab+ac\]</p></li>
+   <li><p>The set must include an additive and a multiplicative identity.\[a+0=a\qquad \qquad  1a=a\]</p></li>
+  <li><p>Every element must have an additive and a multiplicative inverse.\[a-a=0\qquad \qquad  a\frac {1}{a}=1\]</p></li></ol>
+                    <p xmlns="http://www.w3.org/1999/xhtml">As an example, the rational numbers qualify as a field; the integers do not.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id14" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Elementary Vector Space <a class="slug" href="/forest/0003/">[0003]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with \(\mathbb {V}\).</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Not every set is a vector space so we need properties which define a set as a vector space.</p>
+                    <ol xmlns="http://www.w3.org/1999/xhtml"><li><p><strong>Closure Under Addition</strong></p>
+  <p>The addition of two elements of a vector space will also belong to the vector space.</p>
+  \[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}\]
+  <p>Vector addition is commutative and associative.</p></li>
+<li><p><strong>Scalar Multiplication</strong></p>
+  <p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</p>
+  
+  \[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}\]
+  <p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</p></li>
+<li><p><strong>The Scalar <span xmlns="" class="link local"><a href="/forest/000G/" title="Field [000G]">Field</a></span></strong></p>
+  <p>The scalars that multiply the vectors are called the scalar field \(\mathbb {F}\) over which the vector space is defined.</p>
+  <p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</p></li>
+<li><p><strong>Linearity</strong></p>
+  \[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw\]</li>
+<li><p><strong>Identity Under Vector Addition and Scalar Multiplication</strong></p>
+    <p>\(0+v=v\) and \(1v=v\)</p></li>
+<li><p><strong>The Null Vector</strong></p>
+  <p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</p>
+  \[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0\]</li></ol>
+                    <p xmlns="http://www.w3.org/1999/xhtml">
+                      <strong>Dimensionality</strong>
+                    </p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of <strong>Dimensionality</strong>. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id15" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Subspaces <a class="slug" href="/forest/000C/">[000C]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A subset \(U\) of a <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">vector space</a></span> \(\mathbb {V}\), is a <em>subspace</em> if \(U\) is also a vector space with the same additive identity, addition, and scalar multiplication as on \(V\).</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">In practice to check if a subset \(U\) of \(\mathbb {V}\) is a subspace one must check that \(U\) satisfies:</p>
+                    <ol xmlns="http://www.w3.org/1999/xhtml"><li><p><strong>Additive Identity</strong> \[0\in  U\]</p></li>
+  <li><p><strong>Closure Under Addition</strong> \[u,w \in  U\rightarrow  u+w\in  U\]</p></li>
+  <li><p><strong>Closure Under Scalar Multiplication</strong> \[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U\]</p></li></ol>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id16" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Sum of Subspaces <a class="slug" href="/forest/000D/">[000D]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The sum of <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space \(\mathbb {V}\) is the set of all possible sums of elements from \(V_1,\dots ,V_n\).
+\[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}\]</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Lemma"><details id="id17" open="open"><summary><header><h1>
+<span class="taxon">Lemma. </span>Smallest Containing Subspace <a class="slug" href="/forest/000E/">[000E]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Consider <span xmlns="" class="link local"><a href="/forest/000C/" title="Subspaces [000C]">subspaces</a></span> \(V_1,\dots ,V_n\) belonging to a vector space V. The smallest subspace of V that contains \(V_1,\dots ,V_n\) is the <span xmlns="" class="link local"><a href="/forest/000D/" title="Sum of Subspaces [000D]">sum of subspaces</a></span> \(V_1+\dots +V_n\).</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing \(V_1,\dots ,V_n\) also contains \(V_1+\dots +V_n\). So any other space containing these will be larger or the same.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id18" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Direct Sum <a class="slug" href="/forest/000F/">[000F]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 12, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The direct sum is a special case of the <span xmlns="" class="link local"><a href="/forest/000D/" title="Sum of Subspaces [000D]">sum of subspaces</a></span>. If each element from the sum \(V_1+\dots +V_n\) can only be written as a sum of \(v_1+\dots +v_n\), where each \(v_k\in  V_k\). We call it a direct sum and denote it by, \[V_1\oplus \dots \oplus  V_n\]</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">
+                      <strong>Condition for a Direct Sum</strong>
+                    </p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The sum of subspaces, \(V_1+\dots +V_n\), is a direct sum \(\iff \) the only way to write 0 as a sum \(v_1+\dots +v_n\) is by taking each element equal to zero.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">
+                      <strong>Another way to check</strong>
+                    </p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The sum of subspaces, \(V_1+V_2\), is a direct sum \(\iff \) \(V_1\cap  V_2=\{0\}\).</p>
+                  </details></section>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Chapter"><details id="id19" open="open"><summary><header><h1>
+<span class="taxon">Chapter. </span>Finite Dimensional Vector Spaces <a class="slug" href="/forest/001E/">[001E]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id20" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Span and Spans <a class="slug" href="/forest/0016/">[0016]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The <strong>span</strong> of a list of vectors in \(V\) is denoted and defined by,
+\[\text {span}(v_1,\dots ,v_m)=\{a_1 v_1+\dots +a_m v_m;a_m \in  \mathbb {F} a\}\]
+We define the span of the empty list as \(\{0\}\).
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">It is easy to see that the span of a list of vectors in \(V\) is the smallest subspace cantaining all of the listed vectors.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">If the span of a list of vectors equals \(V\), we say that the list <em>spans</em> \(V\).</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id21" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Finite Dimensional Vector Space <a class="slug" href="/forest/0017/">[0017]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A vector space \(V\) is finite <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimensional</a></span> if there exists a list of vectors that <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\). Note that by definition lists are finite.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id22" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Infinite Dimensional Vector Space <a class="slug" href="/forest/0019/">[0019]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A vector space \(V\) is infinite <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimensional</a></span> it is not a finite dimensional vector space. In other words there does not exist a list of vectors that <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\).</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id23" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Linearly Independent Vectors <a class="slug" href="/forest/001A/">[001A]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors \(v_1,\dots ,v_m\in  V\) is called <em>linearly independent</em> if the only way to write \(0\) as a linear combination of those vectors is by taking all the coefficients to be zero. We also define the empty list to be linearly independent.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">An equivalent statement for a list of linearly independent vectors is that any vector in the <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">span</a></span> of \(v_1,\dots ,v_m\in  V\) has a unique representation as a linear combination of those vectors.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id24" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Linearly Dependent Vectors <a class="slug" href="/forest/001B/">[001B]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors \(v_1,\dots ,v_m\in  V\) is called <em>linearly dependent</em> if we can write \(0\) as a linear combination of those vectors without taking all the coefficients to be zero.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Equivalently, this means that we can describe some of the vectors in the list as linear combinations of the others.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A list of vectors is linearly dependent if it is not <span xmlns="" class="link local"><a href="/forest/001A/" title="Linearly Independent Vectors [001A]">linearly independent</a></span>.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Lemma"><details id="id25" open="open"><summary><header><h1>
+<span class="taxon">Lemma. </span>Linear Dependence Lemma <a class="slug" href="/forest/001C/">[001C]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Consider a <span xmlns="" class="link local"><a href="/forest/001B/" title="Linearly Dependent Vectors [001B]">linearly dependent</a></span> list of vectors \(v_1,\dots ,v_m\in  V\). There exists \(k\in \{1,\dots ,m\}\) such that,
+\[v_k\in  \text {span}(v_1,\dots ,v_{k-1})\]
+and if the \(k\)th term is removed from the list, the <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">span</a></span> of the remaining list is unchanged.
+</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">These statements are both easy to consider, since if the vectors are linearly dependent; there will be a \(v_k\) that can be writen as a linear combination of the vectors before it. Clearly since \(v_k\) can be described in terms of those other vectors the span will be unchanged it we remove it from the list.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id26" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Finite Dimensional Basis <a class="slug" href="/forest/001D/">[001D]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A basis of \(V\) is a list of vectors in \(V\) that is <span xmlns="" class="link local"><a href="/forest/001A/" title="Linearly Independent Vectors [001A]">linearly independent</a></span> and <span xmlns="" class="link local"><a href="/forest/0016/" title="Span and Spans [0016]">spans</a></span> \(V\). A list is a basis if and only if every vector in the space can be written as a unique linear combination of the vectors in that list.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">It is easy to see that any spanning list in a vector space can be reduced to a basis by removing dependent vectors until we are left with a list of independent ones.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">This means that any finite-dimensional vector space will have a basis.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Similarly, we can create a basis from any list of independent vectors by adding independent vectors until we can span the whole space.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">If we can find a spanning list with length equal to the <span xmlns="" class="link local"><a href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">dimension</a></span> of the vector space, then we have found the basis of that space.</p>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id27" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Dimension of a Finite Vector Space <a class="slug" href="/forest/0018/">[0018]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 17, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The dimension of a <span xmlns="" class="link local"><a href="/forest/0017/" title="Finite Dimensional Vector Space [0017]">finite dimensional vector space</a></span> is the length of any <span xmlns="" class="link local"><a href="/forest/001D/" title="Finite Dimensional Basis [001D]">basis</a></span> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</p>
+                  </details></section>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    
+    
+  </footer></article><nav id="toc"><div class="block"><h1>Table of Contents</h1><ul xmlns="" class="block">
+<li>
+<a class="bullet" href="/forest/0016/" title="Span and Spans [0016]">■</a><span class="link local" data-target="#id2"><span class="taxon">Definition 1. </span>Span and Spans</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0017/" title="Finite Dimensional Vector Space [0017]">■</a><span class="link local" data-target="#id3"><span class="taxon">Definition 2. </span>Finite Dimensional Vector Space</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0019/" title="Infinite Dimensional Vector Space [0019]">■</a><span class="link local" data-target="#id4"><span class="taxon">Definition 3. </span>Infinite Dimensional Vector Space</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/001A/" title="Linearly Independent Vectors [001A]">■</a><span class="link local" data-target="#id5"><span class="taxon">Definition 4. </span>Linearly Independent Vectors</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/001B/" title="Linearly Dependent Vectors [001B]">■</a><span class="link local" data-target="#id6"><span class="taxon">Definition 5. </span>Linearly Dependent Vectors</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/001C/" title="Linear Dependence Lemma [001C]">■</a><span class="link local" data-target="#id7"><span class="taxon">Lemma 6. </span>Linear Dependence Lemma</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/001D/" title="Finite Dimensional Basis [001D]">■</a><span class="link local" data-target="#id8"><span class="taxon">Definition 7. </span>Finite Dimensional Basis</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="/forest/0018/" title="Dimension of a Finite Vector Space [0018]">■</a><span class="link local" data-target="#id9"><span class="taxon">Definition 8. </span>Dimension of a Finite Vector Space</span><ul class="block"></ul>
+</li>
+</ul></div></nav></div></body></html>

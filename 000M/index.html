@@ -1,6 +1,92 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/000M/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Nested Interval Property</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Theorem"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Nested Interval Property <a class="slug" href="/forest/000M/">[000M]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">For each \(n\in \mathbb {N}\), assume we are given a closed interval \(I_n=[a_n,b_n]=\{x\in \mathbb {R}:a_n\leq  x\leq  b_n\}\). Assume that each interval \(I_n\) contains \(I_{n+1}\). Then, the resulting nested sequence of closed intervals 
+\[I_1\supseteq  I_2 \supseteq  I_3 \supseteq  \dots \]
+has a non empty intersection; \[\bigcap _{n=1}^{\infty } I_n\neq  \emptyset \]</p>
+    <p xmlns="http://www.w3.org/1999/xhtml">
+      <strong>Proof</strong>
+    </p>
+    <p xmlns="http://www.w3.org/1999/xhtml">The idea in this proof is to consider a set, \(A=\{a_n:n\in \mathbb {N}\}\), where \(a_n\) are the lower bound of some closed intervals \([a_n, b_n]\). Since, \(b_n\) are upperbounds we know that the set it bounded from above and we can use the <span xmlns="" class="link local"><a href="/forest/000I/" title="Axiom of Completeness [000I]">axiom of completeness</a></span> to write 
+\[x=\text {sup}A\]
+Since \(x\) is a least upper bound we can write \(a_n\leq  x \leq  b_n\), meaning that \(x\in  I_n\) for any \(n\). This leads to the conclusion that the intersection of nested intervals is not empty.
+</p>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Theorems"><details id="id3"><summary><header><h1>
+<span class="taxon">Theorems. </span>Some Consequences of Completeness <a class="slug" href="/forest/000L/">[000L]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Nested Interval Property <a class="slug" href="/forest/000M/">[000M]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">For each \(n\in \mathbb {N}\), assume we are given a closed interval \(I_n=[a_n,b_n]=\{x\in \mathbb {R}:a_n\leq  x\leq  b_n\}\). Assume that each interval \(I_n\) contains \(I_{n+1}\). Then, the resulting nested sequence of closed intervals 
+\[I_1\supseteq  I_2 \supseteq  I_3 \supseteq  \dots \]
+has a non empty intersection; \[\bigcap _{n=1}^{\infty } I_n\neq  \emptyset \]</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Proof</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The idea in this proof is to consider a set, \(A=\{a_n:n\in \mathbb {N}\}\), where \(a_n\) are the lower bound of some closed intervals \([a_n, b_n]\). Since, \(b_n\) are upperbounds we know that the set it bounded from above and we can use the <span xmlns="" class="link local"><a href="/forest/000I/" title="Axiom of Completeness [000I]">axiom of completeness</a></span> to write 
+\[x=\text {sup}A\]
+Since \(x\) is a least upper bound we can write \(a_n\leq  x \leq  b_n\), meaning that \(x\in  I_n\) for any \(n\). This leads to the conclusion that the intersection of nested intervals is not empty.
+</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id5" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Archimedean Property <a class="slug" href="/forest/000N/">[000N]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <ol><li>Given any number \(x\in \mathbb {R}\), there exists an \(n\in \mathbb {N}\) satisfying \(n&gt;x\).</li>
+  <li>Given any real number \(y&gt;0\), there exists an \(n\in \mathbb {N}\) satisfying \(1/n&lt;y\).</li></ol>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Proof</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The theorem boils down to the statement that \(\mathbb {N}\) is not bounded above. The proof is done by contradiction. Assume that \(\mathbb {N}\) is bounded above; then the <span xmlns="" class="link local"><a href="/forest/000I/" title="Axiom of Completeness [000I]">AoC</a></span> says there will be a least upper bound. 
+\[\alpha =\text {sup}\mathbb {N}\]
+Now consider \(\alpha -1\) which is not an upper bound, meaning that we can write, 
+\[\alpha -1&lt;n\qquad \rightarrow  \qquad  \alpha &lt;n+1\]
+However, since \(n+1\in \mathbb {N}\), we have a contradiction for \(\alpha \) being an upper bound. Therefore, we come to the conclusion that \(\mathbb {N}\) is unbound from above.
+</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id6" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Density of Rational Numbers in The Reals <a class="slug" href="/forest/000O/">[000O]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">For any two real numbers \(a\) and \(b\) with \(a&lt;b\), there exists a rational number satisfying \[a&lt;\frac {m}{n}&lt;b\] 
+In other words, we say that \(\mathbb {Q}\) is dense in \(\mathbb {R}\).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">
+                  <strong>Proof</strong>
+                </p>
+                <p xmlns="http://www.w3.org/1999/xhtml">We are trying to find an \(m\in \mathbb {Z}\) and \(n\in \mathbb {N}\) so that, 
+\[a&lt;\frac {m}{n}&lt;b \qquad  \text {or} \qquad  na&lt;m&lt;nb\]
+Using the <span xmlns="" class="link local"><a href="/forest/000N/" title="Archimedean Property [000N]">Archimedean Property</a></span>, we can pick an \(n\) large enough that
+\[a&lt;b-\frac {1}{n}\]
+We now pick an integer \(m\) so that
+\[m-1\leq  na&lt; m\]
+Together with the previous inequality we can write use this to write,
+\[na&lt;m&lt;nb\]
+Proving the theorem.
+</p>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Corollary"><details id="id7" open="open"><summary><header><h1>
+<span class="taxon">Corollary. </span>Density of Irrational Numbers in the Reals <a class="slug" href="/forest/000P/">[000P]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">Given any two real numbers \(a&lt;b\), there exists an irrational number \(t\) satisfying \(a&lt;t&lt;b\).</p>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    <section lang="en" class="block hide-metadata"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon"></span>Related  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id9"><summary><header><h1>
+<span class="taxon">Definition. </span>Axiom of Completeness <a class="slug" href="/forest/000I/">[000I]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 15, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">Every nonempty set of real numbers that is bounded above has a <span xmlns="" class="link local"><a href="/forest/000K/" title="Supremum and Infimum [000K]">least upper bound</a></span>.</p>
+          </details></section>
+      </details></section>
+    
+  </footer></article></div></body></html>

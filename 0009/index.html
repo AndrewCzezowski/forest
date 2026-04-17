@@ -1,6 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=/forest/0009/index.xml" />
-  </head>
-</html>
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Rank of a Tensor Product Space</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block" data-taxon="Definition"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Rank of a Tensor Product Space <a class="slug" href="/forest/0009/">[0009]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">What we call tensors are objects where vectors are first and dual vectors are second. This does not mean that objects that do not follow this ordering are illogical, but we do not assign them a rank as a tensor.</p>
+    <p xmlns="http://www.w3.org/1999/xhtml">The idea of a rank:
+<ul><li>A vector: \(A^\mu  e_\mu \rightarrow \) rank (1,0)</li>
+  <li>A covector: \(A_\mu  e^\mu \rightarrow \)rank (0,1)</li>
+  <li>\(T^{\mu \nu \delta \lambda }e_\mu \otimes  e_\nu \otimes  e_\delta \otimes  e_\lambda \rightarrow \) rank (4,0)</li>
+  <li>\(T_{\mu \nu \delta \lambda }\;e^\mu \otimes  e^\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow \)rank (0,4)</li>
+  <li>\(T^{\mu \nu }{}_{\delta \lambda }\;e_\mu \otimes  e_\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow \)rank (2,2)</li>
+  <li>...</li></ul></p>
+    <p xmlns="http://www.w3.org/1999/xhtml">We use the notation,</p>
+    \[V\otimes  V^*\otimes  V^*\equiv \mathcal {T}^1{}_2=\set {All\; possible\; tensors\; of\; rank\; (1,2)}\]
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id3"><summary><header><h1>
+<span class="taxon">Definition. </span>Tensor Products <a class="slug" href="/forest/0008/">[0008]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">Suppose we want to consider a <span xmlns="" class="link local"><a href="/forest/0004/" title="How to Make a Map [0004]">map</a></span>, which takes the <span xmlns="" class="link local"><a href="/forest/0001/" title="Cartesian Product [0001]">cartesian product</a></span> of a <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">vector space</a></span> with itself to the real numbers. In other words a <span xmlns="" class="link local"><a href="/forest/0002/" title="Binary Operation [0002]">binary operation</a></span> on the vector space to the real numbers.</p>
+            \[\_\_:V\times  V\rightarrow \mathbb {R}\]
+            <p xmlns="http://www.w3.org/1999/xhtml">We do not want to create anything new for our map, so the obvious choice is to draw the map from the dual space.</p>
+            \[\set {v,w,...}\in  V\; and\; \set {\alpha ,\beta ,...}\in  V^*\]
+            <p xmlns="http://www.w3.org/1999/xhtml">We define the tensor product, \(\beta \otimes \alpha \), which linearly maps an ordered pair of numbers to \(\mathbb {R}\)</p>
+            \[\left [\beta \otimes \alpha \right ] (v,w)=\braket {\beta ,v}\braket {\alpha ,w}\]
+            <p xmlns="http://www.w3.org/1999/xhtml">and using its linearity,</p>
+            \[[a\beta \otimes \alpha +b\gamma \otimes \delta ] (v,w)=a[\beta \otimes \alpha ] (v,w)+b[\gamma \otimes \delta ] (v,w)\]
+            <p xmlns="http://www.w3.org/1999/xhtml">If we consider the set of all possible tensor products of covectors: we have a linear space, with the notion of addition, and scalar multiplication; which satisfies all of the <span xmlns="" class="link local"><a href="/forest/0003/" title="Elementary Vector Space [0003]">properties of a vector space</a></span>. So, all tensor product spaces are vector spaces; and since the elements of a vector space are vectors, all tensors are vectors. Such a space is also called a Tensor Product Space.</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">An arbitrary tensor can be written as \(\beta \otimes \gamma \equiv  T_{\mu \nu }e^\mu \otimes  e^\nu \)</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">This idea can be easily generalized to consider higher order and mixed tensors. For instance,</p>
+            \[V^*\otimes  V^*\otimes  V^*:V\times  V\times  V \rightarrow  \mathbb {R}\]
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Rank of a Tensor Product Space <a class="slug" href="/forest/0009/">[0009]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 9, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">What we call tensors are objects where vectors are first and dual vectors are second. This does not mean that objects that do not follow this ordering are illogical, but we do not assign them a rank as a tensor.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The idea of a rank:
+<ul><li>A vector: \(A^\mu  e_\mu \rightarrow \) rank (1,0)</li>
+  <li>A covector: \(A_\mu  e^\mu \rightarrow \)rank (0,1)</li>
+  <li>\(T^{\mu \nu \delta \lambda }e_\mu \otimes  e_\nu \otimes  e_\delta \otimes  e_\lambda \rightarrow \) rank (4,0)</li>
+  <li>\(T_{\mu \nu \delta \lambda }\;e^\mu \otimes  e^\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow \)rank (0,4)</li>
+  <li>\(T^{\mu \nu }{}_{\delta \lambda }\;e_\mu \otimes  e_\nu \otimes  e^\delta \otimes  e^\lambda \rightarrow \)rank (2,2)</li>
+  <li>...</li></ul></p>
+                <p xmlns="http://www.w3.org/1999/xhtml">We use the notation,</p>
+                \[V\otimes  V^*\otimes  V^*\equiv \mathcal {T}^1{}_2=\set {All\; possible\; tensors\; of\; rank\; (1,2)}\]
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    
+    
+  </footer></article></div></body></html>
