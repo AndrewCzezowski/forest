@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/0017/</fr:uri>
+    <fr:display-uri>0017</fr:display-uri>
+    <fr:route>/forest/0017/</fr:route>
+    <fr:title text="Finite Dimensional Vector Space">Finite Dimensional Vector Space</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is finite <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimensional</fr:link> if there exists a list of vectors that <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Note that by definition lists are finite.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/001E/</fr:uri>
+            <fr:display-uri>001E</fr:display-uri>
+            <fr:route>/forest/001E/</fr:route>
+            <fr:title text="Finite Dimensional Vector Spaces">Finite Dimensional Vector Spaces</fr:title>
+            <fr:taxon>Chapter</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0016/</fr:uri>
+                <fr:display-uri>0016</fr:display-uri>
+                <fr:route>/forest/0016/</fr:route>
+                <fr:title text="Span and Spans">Span and Spans</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The <html:strong>span</html:strong> of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is denoted and defined by,
+<fr:tex display="block"><![CDATA[\text {span}(v_1,\dots ,v_m)=\{a_1 v_1+\dots +a_m v_m;a_m \in  \mathbb {F} a\}]]></fr:tex>
+We define the span of the empty list as <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex>.
+</html:p>
+                <html:p>It is easy to see that the span of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is the smallest subspace cantaining all of the listed vectors.</html:p>
+                <html:p>If the span of a list of vectors equals <fr:tex display="inline"><![CDATA[V]]></fr:tex>, we say that the list <html:em>spans</html:em> <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0017/</fr:uri>
+                <fr:display-uri>0017</fr:display-uri>
+                <fr:route>/forest/0017/</fr:route>
+                <fr:title text="Finite Dimensional Vector Space">Finite Dimensional Vector Space</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is finite <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimensional</fr:link> if there exists a list of vectors that <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Note that by definition lists are finite.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0019/</fr:uri>
+                <fr:display-uri>0019</fr:display-uri>
+                <fr:route>/forest/0019/</fr:route>
+                <fr:title text="Infinite Dimensional Vector Space">Infinite Dimensional Vector Space</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is infinite <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimensional</fr:link> it is not a finite dimensional vector space. In other words there does not exist a list of vectors that <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001A/</fr:uri>
+                <fr:display-uri>001A</fr:display-uri>
+                <fr:route>/forest/001A/</fr:route>
+                <fr:title text="Linearly Independent Vectors">Linearly Independent Vectors</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> is called <html:em>linearly independent</html:em> if the only way to write <fr:tex display="inline"><![CDATA[0]]></fr:tex> as a linear combination of those vectors is by taking all the coefficients to be zero. We also define the empty list to be linearly independent.</html:p>
+                <html:p>An equivalent statement for a list of linearly independent vectors is that any vector in the <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">span</fr:link> of <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> has a unique representation as a linear combination of those vectors.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001B/</fr:uri>
+                <fr:display-uri>001B</fr:display-uri>
+                <fr:route>/forest/001B/</fr:route>
+                <fr:title text="Linearly Dependent Vectors">Linearly Dependent Vectors</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> is called <html:em>linearly dependent</html:em> if we can write <fr:tex display="inline"><![CDATA[0]]></fr:tex> as a linear combination of those vectors without taking all the coefficients to be zero.</html:p>
+                <html:p>Equivalently, this means that we can describe some of the vectors in the list as linear combinations of the others.</html:p>
+                <html:p>A list of vectors is linearly dependent if it is not <fr:link href="/forest/001A/" title="Linearly Independent Vectors" uri="https://andrewczezowski.github.io/forest/001A/" display-uri="001A" type="local">linearly independent</fr:link>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001C/</fr:uri>
+                <fr:display-uri>001C</fr:display-uri>
+                <fr:route>/forest/001C/</fr:route>
+                <fr:title text="Linear Dependence Lemma">Linear Dependence Lemma</fr:title>
+                <fr:taxon>Lemma</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Consider a <fr:link href="/forest/001B/" title="Linearly Dependent Vectors" uri="https://andrewczezowski.github.io/forest/001B/" display-uri="001B" type="local">linearly dependent</fr:link> list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex>. There exists <fr:tex display="inline"><![CDATA[k\in \{1,\dots ,m\}]]></fr:tex> such that,
+<fr:tex display="block"><![CDATA[v_k\in  \text {span}(v_1,\dots ,v_{k-1})]]></fr:tex>
+and if the <fr:tex display="inline"><![CDATA[k]]></fr:tex>th term is removed from the list, the <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">span</fr:link> of the remaining list is unchanged.
+</html:p>
+                <html:p>These statements are both easy to consider, since if the vectors are linearly dependent; there will be a <fr:tex display="inline"><![CDATA[v_k]]></fr:tex> that can be writen as a linear combination of the vectors before it. Clearly since <fr:tex display="inline"><![CDATA[v_k]]></fr:tex> can be described in terms of those other vectors the span will be unchanged it we remove it from the list.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001D/</fr:uri>
+                <fr:display-uri>001D</fr:display-uri>
+                <fr:route>/forest/001D/</fr:route>
+                <fr:title text="Finite Dimensional Basis">Finite Dimensional Basis</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> that is <fr:link href="/forest/001A/" title="Linearly Independent Vectors" uri="https://andrewczezowski.github.io/forest/001A/" display-uri="001A" type="local">linearly independent</fr:link> and <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>. A list is a basis if and only if every vector in the space can be written as a unique linear combination of the vectors in that list.</html:p>
+                <html:p>It is easy to see that any spanning list in a vector space can be reduced to a basis by removing dependent vectors until we are left with a list of independent ones.</html:p>
+                <html:p>This means that any finite-dimensional vector space will have a basis.</html:p>
+                <html:p>Similarly, we can create a basis from any list of independent vectors by adding independent vectors until we can span the whole space.</html:p>
+                <html:p>If we can find a spanning list with length equal to the <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimension</fr:link> of the vector space, then we have found the basis of that space.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0018/</fr:uri>
+                <fr:display-uri>0018</fr:display-uri>
+                <fr:route>/forest/0018/</fr:route>
+                <fr:title text="Dimension of a Finite Vector Space">Dimension of a Finite Vector Space</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The dimension of a <fr:link href="/forest/0017/" title="Finite Dimensional Vector Space" uri="https://andrewczezowski.github.io/forest/0017/" display-uri="0017" type="local">finite dimensional vector space</fr:link> is the length of any <fr:link href="/forest/001D/" title="Finite Dimensional Basis" uri="https://andrewczezowski.github.io/forest/001D/" display-uri="001D" type="local">basis</fr:link> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0018/</fr:uri>
+            <fr:display-uri>0018</fr:display-uri>
+            <fr:route>/forest/0018/</fr:route>
+            <fr:title text="Dimension of a Finite Vector Space">Dimension of a Finite Vector Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The dimension of a <fr:link href="/forest/0017/" title="Finite Dimensional Vector Space" uri="https://andrewczezowski.github.io/forest/0017/" display-uri="0017" type="local">finite dimensional vector space</fr:link> is the length of any <fr:link href="/forest/001D/" title="Finite Dimensional Basis" uri="https://andrewczezowski.github.io/forest/001D/" display-uri="001D" type="local">basis</fr:link> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0018/</fr:uri>
+            <fr:display-uri>0018</fr:display-uri>
+            <fr:route>/forest/0018/</fr:route>
+            <fr:title text="Dimension of a Finite Vector Space">Dimension of a Finite Vector Space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The dimension of a <fr:link href="/forest/0017/" title="Finite Dimensional Vector Space" uri="https://andrewczezowski.github.io/forest/0017/" display-uri="0017" type="local">finite dimensional vector space</fr:link> is the length of any <fr:link href="/forest/001D/" title="Finite Dimensional Basis" uri="https://andrewczezowski.github.io/forest/001D/" display-uri="001D" type="local">basis</fr:link> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/0016/</fr:uri>
+            <fr:display-uri>0016</fr:display-uri>
+            <fr:route>/forest/0016/</fr:route>
+            <fr:title text="Span and Spans">Span and Spans</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The <html:strong>span</html:strong> of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is denoted and defined by,
+<fr:tex display="block"><![CDATA[\text {span}(v_1,\dots ,v_m)=\{a_1 v_1+\dots +a_m v_m;a_m \in  \mathbb {F} a\}]]></fr:tex>
+We define the span of the empty list as <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex>.
+</html:p>
+            <html:p>It is easy to see that the span of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is the smallest subspace cantaining all of the listed vectors.</html:p>
+            <html:p>If the span of a list of vectors equals <fr:tex display="inline"><![CDATA[V]]></fr:tex>, we say that the list <html:em>spans</html:em> <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

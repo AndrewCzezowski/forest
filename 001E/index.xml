@@ -6,12 +6,12 @@
     <fr:date>
       <fr:year>2026</fr:year>
       <fr:month>4</fr:month>
-      <fr:day>15</fr:day>
+      <fr:day>17</fr:day>
     </fr:date>
-    <fr:uri>https://andrewczezowski.github.io/forest/000Y/</fr:uri>
-    <fr:display-uri>000Y</fr:display-uri>
-    <fr:route>/forest/000Y/</fr:route>
-    <fr:title text="Vector Spaces">Vector Spaces</fr:title>
+    <fr:uri>https://andrewczezowski.github.io/forest/001E/</fr:uri>
+    <fr:display-uri>001E</fr:display-uri>
+    <fr:route>/forest/001E/</fr:route>
+    <fr:title text="Finite Dimensional Vector Spaces">Finite Dimensional Vector Spaces</fr:title>
     <fr:taxon>Chapter</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter>
@@ -21,21 +21,21 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>15</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/000G/</fr:uri>
-        <fr:display-uri>000G</fr:display-uri>
-        <fr:route>/forest/000G/</fr:route>
-        <fr:title text="Field">Field</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/0016/</fr:uri>
+        <fr:display-uri>0016</fr:display-uri>
+        <fr:route>/forest/0016/</fr:route>
+        <fr:title text="Span and Spans">Span and Spans</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>A field is any set where the following properties hold.</html:p>
-        <html:ol><html:li><html:p>Addition and multiplication of the elements is well defined.</html:p></html:li>
-  <html:li><html:p>Addition and multiplication is commutative, associative, and distributive.<fr:tex display="block"><![CDATA[a(b+c)=ab+ac]]></fr:tex></html:p></html:li>
-   <html:li><html:p>The set must include an additive and a multiplicative identity.<fr:tex display="block"><![CDATA[a+0=a\qquad \qquad  1a=a]]></fr:tex></html:p></html:li>
-  <html:li><html:p>Every element must have an additive and a multiplicative inverse.<fr:tex display="block"><![CDATA[a-a=0\qquad \qquad  a\frac {1}{a}=1]]></fr:tex></html:p></html:li></html:ol>
-        <html:p>As an example, the rational numbers qualify as a field; the integers do not.</html:p>
+        <html:p>The <html:strong>span</html:strong> of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is denoted and defined by,
+<fr:tex display="block"><![CDATA[\text {span}(v_1,\dots ,v_m)=\{a_1 v_1+\dots +a_m v_m;a_m \in  \mathbb {F} a\}]]></fr:tex>
+We define the span of the empty list as <fr:tex display="inline"><![CDATA[\{0\}]]></fr:tex>.
+</html:p>
+        <html:p>It is easy to see that the span of a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> is the smallest subspace cantaining all of the listed vectors.</html:p>
+        <html:p>If the span of a list of vectors equals <fr:tex display="inline"><![CDATA[V]]></fr:tex>, we say that the list <html:em>spans</html:em> <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -44,40 +44,16 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>9</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/0003/</fr:uri>
-        <fr:display-uri>0003</fr:display-uri>
-        <fr:route>/forest/0003/</fr:route>
-        <fr:title text="Elementary Vector Space">Elementary Vector Space</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/0017/</fr:uri>
+        <fr:display-uri>0017</fr:display-uri>
+        <fr:route>/forest/0017/</fr:route>
+        <fr:title text="Finite Dimensional Vector Space">Finite Dimensional Vector Space</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>A vector space is a set where elements can be added and scaled in a way that preserves structure. A vector is an element of a set called a vector space. We denote this set with <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>.</html:p>
-        <html:p>Not every set is a vector space so we need properties which define a set as a vector space.</html:p>
-        <html:ol><html:li><html:p><html:strong>Closure Under Addition</html:strong></html:p>
-  <html:p>The addition of two elements of a vector space will also belong to the vector space.</html:p>
-  <fr:tex display="block"><![CDATA[\forall  v,w \in  \mathbb {V}, \exists \; v+w=s\in  \mathbb {V}]]></fr:tex>
-  <html:p>Vector addition is commutative and associative.</html:p></html:li>
-<html:li><html:p><html:strong>Scalar Multiplication</html:strong></html:p>
-  <html:p>The operation of multiplying an element of the vector space by a scalar will yield another vector in the space.</html:p>
-  
-  <fr:tex display="block"><![CDATA[\forall \ v\in  \mathbb {V} \land  a\in \mathbb {F}, \exists \; av\in  \mathbb {V}]]></fr:tex>
-  <html:p>Scalar multiplication is distributive and associative in both the scalars and the vectors.</html:p></html:li>
-<html:li><html:p><html:strong>The Scalar <fr:link href="/forest/000G/" title="Field" uri="https://andrewczezowski.github.io/forest/000G/" display-uri="000G" type="local">Field</fr:link></html:strong></html:p>
-  <html:p>The scalars that multiply the vectors are called the scalar field <fr:tex display="inline"><![CDATA[\mathbb {F}]]></fr:tex> over which the vector space is defined.</html:p>
-  <html:p>Real vector spaces are characterized by only having members with scalar multiplication my the set of real numbers. Similar for complex vector spaces.</html:p></html:li>
-<html:li><html:p><html:strong>Linearity</html:strong></html:p>
-  <fr:tex display="block"><![CDATA[\forall \ v, w\in  \mathbb {V} \land  a\in \mathbb {F}\rightarrow  a(v+w)=av+aw]]></fr:tex></html:li>
-<html:li><html:p><html:strong>Identity Under Vector Addition and Scalar Multiplication</html:strong></html:p>
-    <html:p><fr:tex display="inline"><![CDATA[0+v=v]]></fr:tex> and <fr:tex display="inline"><![CDATA[1v=v]]></fr:tex></html:p></html:li>
-<html:li><html:p><html:strong>The Null Vector</html:strong></html:p>
-  <html:p>Every vector space must contain the null vector. Additionally, every vector has its opposite.</html:p>
-  <fr:tex display="block"><![CDATA[\forall \;v\in  \mathbb {V}, \exists \;w\in  \mathbb {V}\;|\;w=-v\; \land  v-v=0]]></fr:tex></html:li></html:ol>
-        <html:p>
-          <html:strong>Dimensionality</html:strong>
-        </html:p>
-        <html:p>A consequence of closure under addition and scalar multiplication is that any vector in the space can be defined as a linear combination of other some other vectors, this leads us to the concept of <html:strong>Dimensionality</html:strong>. The minimum number of vectors that could possibly describe any vector in that space. In other words the number of basis vectors. Dimensionality can be infinite.</html:p>
+        <html:p>A vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is finite <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimensional</fr:link> if there exists a list of vectors that <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Note that by definition lists are finite.</html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -86,20 +62,16 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>12</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/000C/</fr:uri>
-        <fr:display-uri>000C</fr:display-uri>
-        <fr:route>/forest/000C/</fr:route>
-        <fr:title text="Subspaces">Subspaces</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/0019/</fr:uri>
+        <fr:display-uri>0019</fr:display-uri>
+        <fr:route>/forest/0019/</fr:route>
+        <fr:title text="Infinite Dimensional Vector Space">Infinite Dimensional Vector Space</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>A subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of a <fr:link href="/forest/0003/" title="Elementary Vector Space" uri="https://andrewczezowski.github.io/forest/0003/" display-uri="0003" type="local">vector space</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex>, is a <html:em>subspace</html:em> if <fr:tex display="inline"><![CDATA[U]]></fr:tex> is also a vector space with the same additive identity, addition, and scalar multiplication as on <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
-        <html:p>In practice to check if a subset <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is a subspace one must check that <fr:tex display="inline"><![CDATA[U]]></fr:tex> satisfies:</html:p>
-        <html:ol><html:li><html:p><html:strong>Additive Identity</html:strong> <fr:tex display="block"><![CDATA[0\in  U]]></fr:tex></html:p></html:li>
-  <html:li><html:p><html:strong>Closure Under Addition</html:strong> <fr:tex display="block"><![CDATA[u,w \in  U\rightarrow  u+w\in  U]]></fr:tex></html:p></html:li>
-  <html:li><html:p><html:strong>Closure Under Scalar Multiplication</html:strong> <fr:tex display="block"><![CDATA[a\in \mathbb {F} \land  u\in  U\rightarrow  au\in  U]]></fr:tex></html:p></html:li></html:ol>
+        <html:p>A vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex> is infinite <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimensional</fr:link> it is not a finite dimensional vector space. In other words there does not exist a list of vectors that <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -108,17 +80,17 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>12</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/000D/</fr:uri>
-        <fr:display-uri>000D</fr:display-uri>
-        <fr:route>/forest/000D/</fr:route>
-        <fr:title text="Sum of Subspaces">Sum of Subspaces</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/001A/</fr:uri>
+        <fr:display-uri>001A</fr:display-uri>
+        <fr:route>/forest/001A/</fr:route>
+        <fr:title text="Linearly Independent Vectors">Linearly Independent Vectors</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>The sum of <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space <fr:tex display="inline"><![CDATA[\mathbb {V}]]></fr:tex> is the set of all possible sums of elements from <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex>.
-<fr:tex display="block"><![CDATA[V_1+\dots +V_n=\{v_1+\dots +v_n:v_1\in  V_1,\dots  v_n\in  V_n\}]]></fr:tex></html:p>
+        <html:p>A list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> is called <html:em>linearly independent</html:em> if the only way to write <fr:tex display="inline"><![CDATA[0]]></fr:tex> as a linear combination of those vectors is by taking all the coefficients to be zero. We also define the empty list to be linearly independent.</html:p>
+        <html:p>An equivalent statement for a list of linearly independent vectors is that any vector in the <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">span</fr:link> of <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> has a unique representation as a linear combination of those vectors.</html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -127,17 +99,40 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>12</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/000E/</fr:uri>
-        <fr:display-uri>000E</fr:display-uri>
-        <fr:route>/forest/000E/</fr:route>
-        <fr:title text="Smallest Containing Subspace">Smallest Containing Subspace</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/001B/</fr:uri>
+        <fr:display-uri>001B</fr:display-uri>
+        <fr:route>/forest/001B/</fr:route>
+        <fr:title text="Linearly Dependent Vectors">Linearly Dependent Vectors</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex> is called <html:em>linearly dependent</html:em> if we can write <fr:tex display="inline"><![CDATA[0]]></fr:tex> as a linear combination of those vectors without taking all the coefficients to be zero.</html:p>
+        <html:p>Equivalently, this means that we can describe some of the vectors in the list as linear combinations of the others.</html:p>
+        <html:p>A list of vectors is linearly dependent if it is not <fr:link href="/forest/001A/" title="Linearly Independent Vectors" uri="https://andrewczezowski.github.io/forest/001A/" display-uri="001A" type="local">linearly independent</fr:link>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>17</fr:day>
+        </fr:date>
+        <fr:uri>https://andrewczezowski.github.io/forest/001C/</fr:uri>
+        <fr:display-uri>001C</fr:display-uri>
+        <fr:route>/forest/001C/</fr:route>
+        <fr:title text="Linear Dependence Lemma">Linear Dependence Lemma</fr:title>
         <fr:taxon>Lemma</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>Consider <fr:link href="/forest/000C/" title="Subspaces" uri="https://andrewczezowski.github.io/forest/000C/" display-uri="000C" type="local">subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> belonging to a vector space V. The smallest subspace of V that contains <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> is the <fr:link href="/forest/000D/" title="Sum of Subspaces" uri="https://andrewczezowski.github.io/forest/000D/" display-uri="000D" type="local">sum of subspaces</fr:link> <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>.</html:p>
-        <html:p>For proof it is easy to see that the sum contains each individual subspace and is itself a subspace of V. Now consider that due to closure under addition any other subspace containing <fr:tex display="inline"><![CDATA[V_1,\dots ,V_n]]></fr:tex> also contains <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>. So any other space containing these will be larger or the same.</html:p>
+        <html:p>Consider a <fr:link href="/forest/001B/" title="Linearly Dependent Vectors" uri="https://andrewczezowski.github.io/forest/001B/" display-uri="001B" type="local">linearly dependent</fr:link> list of vectors <fr:tex display="inline"><![CDATA[v_1,\dots ,v_m\in  V]]></fr:tex>. There exists <fr:tex display="inline"><![CDATA[k\in \{1,\dots ,m\}]]></fr:tex> such that,
+<fr:tex display="block"><![CDATA[v_k\in  \text {span}(v_1,\dots ,v_{k-1})]]></fr:tex>
+and if the <fr:tex display="inline"><![CDATA[k]]></fr:tex>th term is removed from the list, the <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">span</fr:link> of the remaining list is unchanged.
+</html:p>
+        <html:p>These statements are both easy to consider, since if the vectors are linearly dependent; there will be a <fr:tex display="inline"><![CDATA[v_k]]></fr:tex> that can be writen as a linear combination of the vectors before it. Clearly since <fr:tex display="inline"><![CDATA[v_k]]></fr:tex> can be described in terms of those other vectors the span will be unchanged it we remove it from the list.</html:p>
       </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false">
@@ -146,24 +141,38 @@
         <fr:date>
           <fr:year>2026</fr:year>
           <fr:month>4</fr:month>
-          <fr:day>12</fr:day>
+          <fr:day>17</fr:day>
         </fr:date>
-        <fr:uri>https://andrewczezowski.github.io/forest/000F/</fr:uri>
-        <fr:display-uri>000F</fr:display-uri>
-        <fr:route>/forest/000F/</fr:route>
-        <fr:title text="Direct Sum">Direct Sum</fr:title>
+        <fr:uri>https://andrewczezowski.github.io/forest/001D/</fr:uri>
+        <fr:display-uri>001D</fr:display-uri>
+        <fr:route>/forest/001D/</fr:route>
+        <fr:title text="Finite Dimensional Basis">Finite Dimensional Basis</fr:title>
         <fr:taxon>Definition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>The direct sum is a special case of the <fr:link href="/forest/000D/" title="Sum of Subspaces" uri="https://andrewczezowski.github.io/forest/000D/" display-uri="000D" type="local">sum of subspaces</fr:link>. If each element from the sum <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex> can only be written as a sum of <fr:tex display="inline"><![CDATA[v_1+\dots +v_n]]></fr:tex>, where each <fr:tex display="inline"><![CDATA[v_k\in  V_k]]></fr:tex>. We call it a direct sum and denote it by, <fr:tex display="block"><![CDATA[V_1\oplus \dots \oplus  V_n]]></fr:tex></html:p>
-        <html:p>
-          <html:strong>Condition for a Direct Sum</html:strong>
-        </html:p>
-        <html:p>The sum of subspaces, <fr:tex display="inline"><![CDATA[V_1+\dots +V_n]]></fr:tex>, is a direct sum <fr:tex display="inline"><![CDATA[\iff ]]></fr:tex> the only way to write 0 as a sum <fr:tex display="inline"><![CDATA[v_1+\dots +v_n]]></fr:tex> is by taking each element equal to zero.</html:p>
-        <html:p>
-          <html:strong>Another way to check</html:strong>
-        </html:p>
-        <html:p>The sum of subspaces, <fr:tex display="inline"><![CDATA[V_1+V_2]]></fr:tex>, is a direct sum <fr:tex display="inline"><![CDATA[\iff ]]></fr:tex> <fr:tex display="inline"><![CDATA[V_1\cap  V_2=\{0\}]]></fr:tex>.</html:p>
+        <html:p>A basis of <fr:tex display="inline"><![CDATA[V]]></fr:tex> is a list of vectors in <fr:tex display="inline"><![CDATA[V]]></fr:tex> that is <fr:link href="/forest/001A/" title="Linearly Independent Vectors" uri="https://andrewczezowski.github.io/forest/001A/" display-uri="001A" type="local">linearly independent</fr:link> and <fr:link href="/forest/0016/" title="Span and Spans" uri="https://andrewczezowski.github.io/forest/0016/" display-uri="0016" type="local">spans</fr:link> <fr:tex display="inline"><![CDATA[V]]></fr:tex>. A list is a basis if and only if every vector in the space can be written as a unique linear combination of the vectors in that list.</html:p>
+        <html:p>It is easy to see that any spanning list in a vector space can be reduced to a basis by removing dependent vectors until we are left with a list of independent ones.</html:p>
+        <html:p>This means that any finite-dimensional vector space will have a basis.</html:p>
+        <html:p>Similarly, we can create a basis from any list of independent vectors by adding independent vectors until we can span the whole space.</html:p>
+        <html:p>If we can find a spanning list with length equal to the <fr:link href="/forest/0018/" title="Dimension of a Finite Vector Space" uri="https://andrewczezowski.github.io/forest/0018/" display-uri="0018" type="local">dimension</fr:link> of the vector space, then we have found the basis of that space.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>17</fr:day>
+        </fr:date>
+        <fr:uri>https://andrewczezowski.github.io/forest/0018/</fr:uri>
+        <fr:display-uri>0018</fr:display-uri>
+        <fr:route>/forest/0018/</fr:route>
+        <fr:title text="Dimension of a Finite Vector Space">Dimension of a Finite Vector Space</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>The dimension of a <fr:link href="/forest/0017/" title="Finite Dimensional Vector Space" uri="https://andrewczezowski.github.io/forest/0017/" display-uri="0017" type="local">finite dimensional vector space</fr:link> is the length of any <fr:link href="/forest/001D/" title="Finite Dimensional Basis" uri="https://andrewczezowski.github.io/forest/001D/" display-uri="001D" type="local">basis</fr:link> of the vector space. Important to this definition is the fact that every basis of a given space has the same length.</html:p>
       </fr:mainmatter>
     </fr:tree>
   </fr:mainmatter>
