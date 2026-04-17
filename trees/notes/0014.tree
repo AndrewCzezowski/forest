@@ -1,0 +1,11 @@
+\date{2026-04-17T05:08:03Z}
+\title{Ignorable Coordinates}
+\taxon{Definition}
+
+\p{In the [Lagragian formulation](0012) a generalized coordinate is called \em{ignorable} or \em{cyclic} if the lagragian is independent of that coordinate.}
+\p{Consider the case that the lagrangian is independent of the coordinate #{q_k},
+##{\frac{\partial L}{\partial q_k}=0}
+and by the lagrange equations this leads to
+##{\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_k}=0}
+Implying that the generalized momentum corresponding to coordinate #{q_k} is conserved.
+}

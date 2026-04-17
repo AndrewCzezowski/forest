@@ -2,8 +2,8 @@
 \title{Method of Lagrange Multipliers}
 \taxon{Concept}
 
-\p{For a holonomically constrained system, rather than choose independent generalized coordinates like in the standard [Lagrange Equations](0012); we can choose to work with a larger number of coordinates and off-load the constraints to \em{Lagrange Multipliers}.} 
-\p{For a system with #{n} variables and #{m} constraint equations #{f_\alpha(q_1,\dots,q_n;t)}, the resulting equations are,
+\p{For a holonomically (also possible for semi-holonomic) constrained system, rather than choose independent generalized coordinates like in the standard [Lagrange Equations](0012); we can choose to work with a larger number of coordinates and off-load the constraints to \em{Lagrange Multipliers}.} 
+\p{For a system with #{n} variables and #{m} constraint equations #{f_\alpha(q_1,\dots,q_n;t)=0}, the resulting equations are,
 ##{\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}+\sum_{\alpha=1}^{m}\lambda_\alpha\frac{\partial f_\alpha}{\partial q_i}=0\qquad i=1,\dots,m}
 Where #{\lambda_\alpha} are the lagrange multipliers.
 }
@@ -30,4 +30,6 @@ Important to note is that this variation is of the coordinates and not time just
 }
 \p{Since at this point #{\lambda_\alpha} is arbitrary we can choose them so that #{m} of the equations are satisfied for arbitrary #{\delta q_i}, and then choose the remaining #{n-m} equations independently. Which gives us,
 ##{\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot{q}_i}+\sum_{\alpha=1}^{m}\lambda_\alpha\frac{\partial f_\alpha}{\partial q_i}=0\qquad i=1,\dots,m}
+}
+\p{It is possible to extend the ideas presented above to include semi-holonomic constraints #{f_\alpha(q_1,\dots,q_n;\dot{q}_1,\dots,\dot{q}_n;t)}. However, it is in general not possible to express non-holonomic contraints via a variational principle.
 }
