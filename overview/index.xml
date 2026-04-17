@@ -391,12 +391,149 @@
 <fr:tex display="block"><![CDATA[\frac {\partial \mathcal {L}}{\partial  q_i}=\frac {d}{dt}\frac {\partial \mathcal {L}}{\partial \dot {q}_i}]]></fr:tex>
 are a condition that is satisfied for a path that gives a stationary value for an equation of the form,
 <fr:tex display="block"><![CDATA[S=\int _{t_1}^{t_2}\mathcal {L}(q_1,\dot {q}_1,\dots ,q_n,\dot {q}_n,t)dt]]></fr:tex>
-Where <fr:tex display="inline"><![CDATA[q_i]]></fr:tex> is the <fr:tex display="inline"><![CDATA[i]]></fr:tex>th coordinate parametrized by an independent variable <fr:tex display="inline"><![CDATA[t]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\dot {q}_i]]></fr:tex> is the first derivative of <fr:tex display="inline"><![CDATA[q]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[t]]></fr:tex>.
+Where <fr:tex display="inline"><![CDATA[q_i]]></fr:tex> is the <fr:tex display="inline"><![CDATA[i]]></fr:tex>th generalized coordinate parametrized by an independent variable <fr:tex display="inline"><![CDATA[t]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\dot {q}_i]]></fr:tex> is the first derivative of <fr:tex display="inline"><![CDATA[q]]></fr:tex> with respect to <fr:tex display="inline"><![CDATA[t]]></fr:tex>.
 </html:p>
                     <html:p>
                       <html:strong>Proof</html:strong>
                     </html:p>
-                    <html:p>For a full proof see Chapter 6 of Classical Mechanics by Taylor. In summary, one starts by considering variations from the correct path (the correct path gives a stationary point for S). After computing the variation <fr:tex display="inline"><![CDATA[\partial  S]]></fr:tex>, integrating by parts, applying boundary conditions, and requiring <fr:tex display="inline"><![CDATA[\partial  S=0]]></fr:tex>, we find the condition of the Euler-Lagrange equations.</html:p>
+                    <html:p>For a full proof see Chapter 6 of Classical Mechanics by Taylor. In summary, one starts by considering variations from the correct path (the correct path gives a stationary point for S). After computing the variation <fr:tex display="inline"><![CDATA[\delta  S]]></fr:tex>, integrating by parts, applying boundary conditions, requiring <fr:tex display="inline"><![CDATA[\delta  S=0]]></fr:tex>, and that coordinates vary independently; we find the condition of the Euler-Lagrange equations.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/0015/</fr:uri>
+                <fr:display-uri>0015</fr:display-uri>
+                <fr:route>/forest/0015/</fr:route>
+                <fr:title text="Lagrangian Mechanics">Lagrangian Mechanics</fr:title>
+                <fr:taxon>Chapter</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>16</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/0011/</fr:uri>
+                    <fr:display-uri>0011</fr:display-uri>
+                    <fr:route>/forest/0011/</fr:route>
+                    <fr:title text="Hamilton's Principle">Hamilton's Principle</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>The motion of a system from time <fr:tex display="inline"><![CDATA[t_1]]></fr:tex> to <fr:tex display="inline"><![CDATA[t_2]]></fr:tex> is such that the path integral (called the action),
+<fr:tex display="block"><![CDATA[S=\int _{t_1}^{t_2}Ldt]]></fr:tex>
+is stationary for the actual path of the motion. Where the lagrangian <fr:tex display="inline"><![CDATA[L=T-U]]></fr:tex> is the difference between kinetic and potential energy.
+</html:p>
+                    <html:p>This principle applies for systems that are monogenic (all non-constraint forces are derivable from a scalar potential that can only depend on coordinates, velocities, and time).</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>16</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/0012/</fr:uri>
+                    <fr:display-uri>0012</fr:display-uri>
+                    <fr:route>/forest/0012/</fr:route>
+                    <fr:title text="Lagrange Equations">Lagrange Equations</fr:title>
+                    <fr:taxon>Concept</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>We know that the conditions for an integral of the form of <fr:link href="/forest/0011/" title="Hamilton's Principle" uri="https://andrewczezowski.github.io/forest/0011/" display-uri="0011" type="local">Hamilton's Principle</fr:link> to be stationary are <fr:link href="/forest/000B/" title="Euler Lagrange Equations" uri="https://andrewczezowski.github.io/forest/000B/" display-uri="000B" type="local">the Euler-Lagrange equations</fr:link>,
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}=0\qquad  i=1, \dots , n]]></fr:tex>
+Where <fr:tex display="inline"><![CDATA[q_i]]></fr:tex> is the <fr:tex display="inline"><![CDATA[i]]></fr:tex>th generalized coordinate and all generalized coordinates vary independently.
+</html:p>
+                    <html:p>Because of how they behave we call, 
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial  q_i}=(i\text {th component of generalized force})]]></fr:tex>
+and
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial \dot {q}_i}=(i\text {th component of generalized momentum})]]></fr:tex></html:p>
+                    <html:p>This formulation works without modification for systems that are holonomic (constraints only of the form <fr:tex display="inline"><![CDATA[f_\alpha (q_1,\dots ,q_n;t)=0]]></fr:tex>). This includes systems that are unconstrained. The condition that the system be holonomic is what allows us to write the <fr:tex display="inline"><![CDATA[n]]></fr:tex> generalized coordinates of the system as independent.</html:p>
+                    <html:p>If the system is constrained holonomically, then we can write the dependent coordinates in terms of others using the constraint functions. This leave us with only independent generalized coordinates.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/0013/</fr:uri>
+                    <fr:display-uri>0013</fr:display-uri>
+                    <fr:route>/forest/0013/</fr:route>
+                    <fr:title text="Method of Lagrange Multipliers">Method of Lagrange Multipliers</fr:title>
+                    <fr:taxon>Concept</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>For a holonomically (also possible for semi-holonomic) constrained system, rather than choose independent generalized coordinates like in the standard <fr:link href="/forest/0012/" title="Lagrange Equations" uri="https://andrewczezowski.github.io/forest/0012/" display-uri="0012" type="local">Lagrange Equations</fr:link>; we can choose to work with a larger number of coordinates and off-load the constraints to <html:em>Lagrange Multipliers</html:em>.</html:p>
+                    <html:p>For a system with <fr:tex display="inline"><![CDATA[n]]></fr:tex> variables and <fr:tex display="inline"><![CDATA[m]]></fr:tex> constraint equations <fr:tex display="inline"><![CDATA[f_\alpha (q_1,\dots ,q_n;t)=0]]></fr:tex>, the resulting equations are,
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m]]></fr:tex>
+Where <fr:tex display="inline"><![CDATA[\lambda _\alpha ]]></fr:tex> are the lagrange multipliers.
+</html:p>
+                    <html:p>Additionally, we can identify,
+<fr:tex display="block"><![CDATA[\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=Q_i]]></fr:tex>
+Where <fr:tex display="inline"><![CDATA[Q_i]]></fr:tex> is the magnitude of the <fr:tex display="inline"><![CDATA[i]]></fr:tex>th generalized force required to produce the constraint.
+</html:p>
+                    <html:p>
+                      <html:strong>Proof</html:strong>
+                    </html:p>
+                    <html:p>Start by considering the variation of the action the <fr:link href="/forest/000B/" title="Euler Lagrange Equations" uri="https://andrewczezowski.github.io/forest/000B/" display-uri="000B" type="local">standard way</fr:link>; which can be written as,
+<fr:tex display="block"><![CDATA[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}\right )\delta  q_i=0]]></fr:tex>
+The difference in this case is that we cannot vary <fr:tex display="inline"><![CDATA[q_i]]></fr:tex>'s independently, which is what allowed us to come to the Euler-Lagrange equations in the first place.
+</html:p>
+                    <html:p>Consider the holonomic constraint functions,
+<fr:tex display="block"><![CDATA[f_\alpha (q_1,\dots ,q_n;t)=0 \qquad  \alpha =1,\dots ,m]]></fr:tex>
+Since each equation is equal to zero we can multiply it by an arbitrary function <fr:tex display="inline"><![CDATA[\lambda _{\alpha }(t)]]></fr:tex>
+<fr:tex display="block"><![CDATA[\lambda _\alpha (t)f_\alpha (q_1,\dots ,q_n;t)=0]]></fr:tex>
+and consider the variation,
+<fr:tex display="block"><![CDATA[\delta  f_\alpha =\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i=0]]></fr:tex>
+Important to note is that this variation is of the coordinates and not time just like in the action integral.
+</html:p>
+                    <html:p>Since this equation is zero we can add it to the action variation without changing the value,
+<fr:tex display="block"><![CDATA[\delta  S=\int _{t_1}^{t_2}dt\sum _{i=1}^{n}\left (\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _{\alpha }\frac {\partial  f_\alpha }{\partial  q_i}\delta  q_i\right )\delta  q_i=0]]></fr:tex></html:p>
+                    <html:p>Since at this point <fr:tex display="inline"><![CDATA[\lambda _\alpha ]]></fr:tex> is arbitrary we can choose them so that <fr:tex display="inline"><![CDATA[m]]></fr:tex> of the equations are satisfied for arbitrary <fr:tex display="inline"><![CDATA[\delta  q_i]]></fr:tex>, and then choose the remaining <fr:tex display="inline"><![CDATA[n-m]]></fr:tex> equations independently. Which gives us,
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial  q_i}-\frac {d}{dt}\frac {\partial  L}{\partial \dot {q}_i}+\sum _{\alpha =1}^{m}\lambda _\alpha \frac {\partial  f_\alpha }{\partial  q_i}=0\qquad  i=1,\dots ,m]]></fr:tex></html:p>
+                    <html:p>It is possible to extend the ideas presented above to include semi-holonomic constraints <fr:tex display="inline"><![CDATA[f_\alpha (q_1,\dots ,q_n;\dot {q}_1,\dots ,\dot {q}_n;t)]]></fr:tex>. However, it is in general not possible to express non-holonomic contraints via a variational principle.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://andrewczezowski.github.io/forest/0014/</fr:uri>
+                    <fr:display-uri>0014</fr:display-uri>
+                    <fr:route>/forest/0014/</fr:route>
+                    <fr:title text="Ignorable Coordinates">Ignorable Coordinates</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In the <fr:link href="/forest/0012/" title="Lagrange Equations" uri="https://andrewczezowski.github.io/forest/0012/" display-uri="0012" type="local">Lagragian formulation</fr:link> a generalized coordinate is called <html:em>ignorable</html:em> or <html:em>cyclic</html:em> if the lagragian is independent of that coordinate.</html:p>
+                    <html:p>Consider the case that the lagrangian is independent of the coordinate <fr:tex display="inline"><![CDATA[q_k]]></fr:tex>,
+<fr:tex display="block"><![CDATA[\frac {\partial  L}{\partial  q_k}=0]]></fr:tex>
+and by the lagrange equations this leads to
+<fr:tex display="block"><![CDATA[\frac {d}{dt}\frac {\partial  L}{\partial  \dot {q}_k}=0]]></fr:tex>
+Implying that the generalized momentum corresponding to coordinate <fr:tex display="inline"><![CDATA[q_k]]></fr:tex> is conserved.
+</html:p>
                   </fr:mainmatter>
                 </fr:tree>
               </fr:mainmatter>
