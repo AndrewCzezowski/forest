@@ -2,6 +2,7 @@ git worktree remove output/forest --force
 git worktree add output/forest gh-pages --no-checkout
 cp output/forest/.git ~.git.tmp
 forester build forest.toml
+wait
 bash expand.sh
 mv ~.git.tmp output/forest/.git
 
