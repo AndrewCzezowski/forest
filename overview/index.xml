@@ -9,7 +9,7 @@
     <fr:title text="Overview of Notebooks">Overview of Notebooks</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>The following are my current and planned notebooks along with the primary source used for studdying the topic. Many of these are subjects I recently reviewed that were covered during my undergraduate degree, some are for learning new physics material. Others are for learning the more rigorous formulations of the math I use during my physics studies.</html:p>
+    <html:p>The following are my current and planned notebooks along with the primary source used for studying the topic. Many of these are subjects I recently reviewed that were covered during my undergraduate degree, some are for learning new physics material. Others are for learning the more rigorous formulations of the math I use during my physics studies.</html:p>
     <html:p><html:strong>Completed</html:strong>
     <html:ul><html:li>All are currently in progress as this is a recently undertaken project.</html:li></html:ul>
   <html:strong>In Progress</html:strong>
@@ -69,7 +69,7 @@
               </fr:mainmatter>
             </fr:tree>
             <html:p>This site is a collection of my scientific notes created using <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
-            <html:p>The general principle is that I split my notes into atomized concepts (up to the point that I deem is effective). I use links between notes to allow an emergent structure rather than imposing a hierchy on the ideas. I later transclude my notes into notebook overviews of the topic in order to conveniently see what I've covered.</html:p>
+            <html:p>The general principle is that I keep my notes as atomized concepts (up to the point that I deem is beneficial). I use links between notes to allow an emergent structure rather than imposing a hierchy on the ideas. I later transclude my notes into notebook overviews of the topic in order to conveniently see what I've covered.</html:p>
             <html:p>To navigate my forest press <html:code>Ctrl+K</html:code> and search, or use links between notes. Some notebooks I've made are available <fr:link href="/forest/overview/" title="Overview of Notebooks" uri="https://andrewczezowski.github.io/forest/overview/" display-uri="overview" type="local">here</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
