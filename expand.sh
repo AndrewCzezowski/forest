@@ -10,6 +10,7 @@ for xml in output/forest/*/index.xml; do
   echo "Generating $html ..."
   xsltproc "$XSL_FILE" "$xml" > "$html" &
 done
+wait
 
 cp output/forest/index/index.html output/forest/index.html
 
