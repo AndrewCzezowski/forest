@@ -1,0 +1,15 @@
+\date{2026-04-23T17:13:19Z}
+\title{Monotone Sequence}
+\taxon{Definition}
+
+\p{A sequence is increasing if for each #{n} we have #{a_n\leq a_{n+1}}. A sequence is decreasing if for each #{n} we have #{a_n\geq a_{n+1}}. A sequence is \strong{monotone} if it is either increasing or decreasing.}
+
+\subtree{
+  \title{Monotone Convergence Theorem}
+  \taxon{Theorem}
+
+  \p{If a sequence is monotone and bounded, then it [converges](001F).}
+  \p{For an increasing sequence, this statement follows from the fact that we have a supremum and we can use the monotone condition to show that
+  ##{|a_n-s|<\epsilon}
+  }
+}

@@ -1,0 +1,26 @@
+\date{2026-04-23T16:40:26Z}
+\title{Sequence Limit Theorems}
+\let\lim[a]{\text{lim}\left(a\right)}
+
+\p{For [convergent sequences](001F) our intuitive notions of algebra and order hold. \p{Let #{\lim{a_n}=a} and #{\lim{b_n}=b}.}}
+
+\subtree{
+  \title{Algebraic Limit Theorem}
+  \taxon{Theorem}
+  \ol{
+    \li{#{\lim{ca_n}=ca}, for all #{c\in\mathbb{R}}}
+    \li{#{\lim{a_n+b_n}=a+b}}
+    \li{#{\lim{a_n b_n}=ab}}
+    \li{#{\lim{a_n / b_n}=a/b}, provided #{b\neq 0}}
+  }
+}
+
+\subtree{
+  \title{Order Limit Theorem}
+  \taxon{Theorem}
+  \ol{
+    \li{If #{a_n\geq 0} for all #{n\in\mathbb{N}}, then #{a\geq 0}}
+    \li{If #{a_n\leq b_n} for all #{n\in\mathbb{N}}, then #{a\leq b}}
+    \li{For a #{c\in\mathbb{R}} where #{c\leq b_n} for all #{n\in \mathbb{N}}, then #{c\leq b}. A similar idea holds for when #{a_n \leq c}.}
+  }
+}

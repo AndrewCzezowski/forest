@@ -1,0 +1,20 @@
+\date{2026-04-23T17:22:53Z}
+\title{Convergent Series}
+\taxon{Definition}
+
+\p{We can write an infinite series as,
+##{\sum_{n=1}^{\infty}b_n = b_1+b_2+b_3+\dots}
+We define the sequence of partial sums #{(s_m)} by
+##{s_m=b_1+\dots+b_m}
+The infinite series coverges to #{B} if the sequence #{(s_m)} [converges](001F) to #{B}.
+}
+
+\subtree{
+\title{Cauchy Condensation Test}
+\taxon{Theorem}
+
+\p{If #{(b_n)} is a [decreasing sequence](001J) and satisfies #{b_n\geq 0} for all #{n\in\mathbb{N}}. The the series #{\sum_{n=1}^\infty b_n} [converges](001K) if and only if
+##{\sum_{n=0}^\infty 2^n b_{2^n}}
+Also converges.
+}
+}

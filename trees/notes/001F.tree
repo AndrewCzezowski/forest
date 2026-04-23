@@ -1,0 +1,27 @@
+\date{2026-04-23T15:57:46Z}
+\title{Convergent Sequence}
+\taxon{Definition}
+
+\p{A sequence is converges to a real number #{a} if, for any number #{\epsilon < 0}, there exists and #{N\in \mathbb{N}} such that for #{n\geq N} we have #{|a_n-a|<\epsilon}.}
+
+\p{We can also define the convergence of a sequence using topology. First, we define the #{\epsilon}-neighborhood of #{a},
+##{V_\epsilon(a)=\{x\in\mathbb{R}:|x-a|<\epsilon\}}
+}
+
+\p{The #{\epsilon}-neighborhood of #{a} is all points with a distance from #{a} less than #{\epsilon}.}
+
+\p{A sequence converges to #{a} if for any #{\epsilon}-neighborhood of #{a}, there exists a point in the sequence after which all terms are in the neighborhood.}
+
+\subtree{
+\title{Convergent Sequences are Bounded}
+\taxon{Theorem}
+
+\p{A bounded sequence is a sequence where there exists a number #{M>0} such that #{|x_n|\leq M} for all #{n\in \mathbb{N}}.}
+
+\p{Every [convergent sequence](001F) is bounded.}
+
+\p{The proof of this statement is outlined as follows. Firstly, since the sequence is convergent we know that we have a limit (#{l}). So, we can consider for instance an #{\epsilon = 1} and an #{N} such that for #{n\geq N} we have 
+##{|x_n|<|l|+1}
+Now we simply need to choose an #{M} which is the maximum of the set of the finite elements before #{N} and #{|x_n|<|l|+1}. From this we recover the statement for the definition of a bounded sequence.
+}
+}
