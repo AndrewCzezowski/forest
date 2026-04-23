@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://andrewczezowski.github.io/forest/001J/</fr:uri>
+    <fr:display-uri>001J</fr:display-uri>
+    <fr:route>/forest/001J/</fr:route>
+    <fr:title text="Monotone Sequence">Monotone Sequence</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A sequence is increasing if for each <fr:tex display="inline"><![CDATA[n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a_n\leq  a_{n+1}]]></fr:tex>. A sequence is decreasing if for each <fr:tex display="inline"><![CDATA[n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a_n\geq  a_{n+1}]]></fr:tex>. A sequence is <html:strong>monotone</html:strong> if it is either increasing or decreasing.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
+        <fr:taxon>Theorem</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>If a sequence is monotone and bounded, then it <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">converges</fr:link>.</html:p>
+        <html:p>For an increasing sequence, this statement follows from the fact that we have a supremum and we can use the monotone condition to show that
+  <fr:tex display="block"><![CDATA[|a_n-s|<\epsilon ]]></fr:tex></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/001I/</fr:uri>
+            <fr:display-uri>001I</fr:display-uri>
+            <fr:route>/forest/001I/</fr:route>
+            <fr:title text="Sequences and Series">Sequences and Series</fr:title>
+            <fr:taxon>Chapter</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001F/</fr:uri>
+                <fr:display-uri>001F</fr:display-uri>
+                <fr:route>/forest/001F/</fr:route>
+                <fr:title text="Convergent Sequence">Convergent Sequence</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A sequence is converges to a real number <fr:tex display="inline"><![CDATA[a]]></fr:tex> if, for any number <fr:tex display="inline"><![CDATA[\epsilon  < 0]]></fr:tex>, there exists and <fr:tex display="inline"><![CDATA[N\in  \mathbb {N}]]></fr:tex> such that for <fr:tex display="inline"><![CDATA[n\geq  N]]></fr:tex> we have <fr:tex display="inline"><![CDATA[|a_n-a|<\epsilon ]]></fr:tex>.</html:p>
+                <html:p>We can also define the convergence of a sequence using topology. First, we define the <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex>,
+<fr:tex display="block"><![CDATA[V_\epsilon (a)=\{x\in \mathbb {R}:|x-a|<\epsilon \}]]></fr:tex></html:p>
+                <html:p>The <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex> is all points with a distance from <fr:tex display="inline"><![CDATA[a]]></fr:tex> less than <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>.</html:p>
+                <html:p>A sequence converges to <fr:tex display="inline"><![CDATA[a]]></fr:tex> if for any <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex>, there exists a point in the sequence after which all terms are in the neighborhood.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:title text="Convergent Sequences are Bounded">Convergent Sequences are Bounded</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A bounded sequence is a sequence where there exists a number <fr:tex display="inline"><![CDATA[M>0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|x_n|\leq  M]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in  \mathbb {N}]]></fr:tex>.</html:p>
+                    <html:p>Every <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">convergent sequence</fr:link> is bounded.</html:p>
+                    <html:p>The proof of this statement is outlined as follows. Firstly, since the sequence is convergent we know that we have a limit (<fr:tex display="inline"><![CDATA[l]]></fr:tex>). So, we can consider for instance an <fr:tex display="inline"><![CDATA[\epsilon  = 1]]></fr:tex> and an <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that for <fr:tex display="inline"><![CDATA[n\geq  N]]></fr:tex> we have 
+<fr:tex display="block"><![CDATA[|x_n|<|l|+1]]></fr:tex>
+Now we simply need to choose an <fr:tex display="inline"><![CDATA[M]]></fr:tex> which is the maximum of the set of the finite elements before <fr:tex display="inline"><![CDATA[N]]></fr:tex> and <fr:tex display="inline"><![CDATA[|x_n|<|l|+1]]></fr:tex>. From this we recover the statement for the definition of a bounded sequence.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001H/</fr:uri>
+                <fr:display-uri>001H</fr:display-uri>
+                <fr:route>/forest/001H/</fr:route>
+                <fr:title text="Sequence Limit Theorems">Sequence Limit Theorems</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>For <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">convergent sequences</fr:link> our intuitive notions of algebra and order hold. <html:p>Let <fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=a]]></fr:tex> and <fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=b]]></fr:tex>.</html:p></html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:title text="Algebraic Limit Theorem">Algebraic Limit Theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ol><html:li><fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=ca]]></fr:tex>, for all <fr:tex display="inline"><![CDATA[c\in \mathbb {R}]]></fr:tex></html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=a+b]]></fr:tex></html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=ab]]></fr:tex></html:li>
+    <html:li><fr:tex display="inline"><![CDATA[\text {lim}\left (a\right )=a/b]]></fr:tex>, provided <fr:tex display="inline"><![CDATA[b\neq  0]]></fr:tex></html:li></html:ol>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:title text="Order Limit Theorem">Order Limit Theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:ol><html:li>If <fr:tex display="inline"><![CDATA[a_n\geq  0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a\geq  0]]></fr:tex></html:li>
+    <html:li>If <fr:tex display="inline"><![CDATA[a_n\leq  b_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[a\leq  b]]></fr:tex></html:li>
+    <html:li>For a <fr:tex display="inline"><![CDATA[c\in \mathbb {R}]]></fr:tex> where <fr:tex display="inline"><![CDATA[c\leq  b_n]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in  \mathbb {N}]]></fr:tex>, then <fr:tex display="inline"><![CDATA[c\leq  b]]></fr:tex>. A similar idea holds for when <fr:tex display="inline"><![CDATA[a_n \leq  c]]></fr:tex>.</html:li></html:ol>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001J/</fr:uri>
+                <fr:display-uri>001J</fr:display-uri>
+                <fr:route>/forest/001J/</fr:route>
+                <fr:title text="Monotone Sequence">Monotone Sequence</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A sequence is increasing if for each <fr:tex display="inline"><![CDATA[n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a_n\leq  a_{n+1}]]></fr:tex>. A sequence is decreasing if for each <fr:tex display="inline"><![CDATA[n]]></fr:tex> we have <fr:tex display="inline"><![CDATA[a_n\geq  a_{n+1}]]></fr:tex>. A sequence is <html:strong>monotone</html:strong> if it is either increasing or decreasing.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:title text="Monotone Convergence Theorem">Monotone Convergence Theorem</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>If a sequence is monotone and bounded, then it <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">converges</fr:link>.</html:p>
+                    <html:p>For an increasing sequence, this statement follows from the fact that we have a supremum and we can use the monotone condition to show that
+  <fr:tex display="block"><![CDATA[|a_n-s|<\epsilon ]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://andrewczezowski.github.io/forest/001K/</fr:uri>
+                <fr:display-uri>001K</fr:display-uri>
+                <fr:route>/forest/001K/</fr:route>
+                <fr:title text="Convergent Series">Convergent Series</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>We can write an infinite series as,
+<fr:tex display="block"><![CDATA[\sum _{n=1}^{\infty }b_n = b_1+b_2+b_3+\dots ]]></fr:tex>
+We define the sequence of partial sums <fr:tex display="inline"><![CDATA[(s_m)]]></fr:tex> by
+<fr:tex display="block"><![CDATA[s_m=b_1+\dots +b_m]]></fr:tex>
+The infinite series coverges to <fr:tex display="inline"><![CDATA[B]]></fr:tex> if the sequence <fr:tex display="inline"><![CDATA[(s_m)]]></fr:tex> <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">converges</fr:link> to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.
+</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:title text="Cauchy Condensation Test">Cauchy Condensation Test</fr:title>
+                    <fr:taxon>Theorem</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>If <fr:tex display="inline"><![CDATA[(b_n)]]></fr:tex> is a <fr:link href="/forest/001J/" title="Monotone Sequence" uri="https://andrewczezowski.github.io/forest/001J/" display-uri="001J" type="local">decreasing sequence</fr:link> and satisfies <fr:tex display="inline"><![CDATA[b_n\geq  0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. The the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^\infty  b_n]]></fr:tex> <fr:link href="/forest/001K/" title="Convergent Series" uri="https://andrewczezowski.github.io/forest/001K/" display-uri="001K" type="local">converges</fr:link> if and only if
+<fr:tex display="block"><![CDATA[\sum _{n=0}^\infty  2^n b_{2^n}]]></fr:tex>
+Also converges.
+</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/001K/</fr:uri>
+            <fr:display-uri>001K</fr:display-uri>
+            <fr:route>/forest/001K/</fr:route>
+            <fr:title text="Convergent Series">Convergent Series</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>We can write an infinite series as,
+<fr:tex display="block"><![CDATA[\sum _{n=1}^{\infty }b_n = b_1+b_2+b_3+\dots ]]></fr:tex>
+We define the sequence of partial sums <fr:tex display="inline"><![CDATA[(s_m)]]></fr:tex> by
+<fr:tex display="block"><![CDATA[s_m=b_1+\dots +b_m]]></fr:tex>
+The infinite series coverges to <fr:tex display="inline"><![CDATA[B]]></fr:tex> if the sequence <fr:tex display="inline"><![CDATA[(s_m)]]></fr:tex> <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">converges</fr:link> to <fr:tex display="inline"><![CDATA[B]]></fr:tex>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:title text="Cauchy Condensation Test">Cauchy Condensation Test</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>If <fr:tex display="inline"><![CDATA[(b_n)]]></fr:tex> is a <fr:link href="/forest/001J/" title="Monotone Sequence" uri="https://andrewczezowski.github.io/forest/001J/" display-uri="001J" type="local">decreasing sequence</fr:link> and satisfies <fr:tex display="inline"><![CDATA[b_n\geq  0]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in \mathbb {N}]]></fr:tex>. The the series <fr:tex display="inline"><![CDATA[\sum _{n=1}^\infty  b_n]]></fr:tex> <fr:link href="/forest/001K/" title="Convergent Series" uri="https://andrewczezowski.github.io/forest/001K/" display-uri="001K" type="local">converges</fr:link> if and only if
+<fr:tex display="block"><![CDATA[\sum _{n=0}^\infty  2^n b_{2^n}]]></fr:tex>
+Also converges.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://andrewczezowski.github.io/forest/001F/</fr:uri>
+            <fr:display-uri>001F</fr:display-uri>
+            <fr:route>/forest/001F/</fr:route>
+            <fr:title text="Convergent Sequence">Convergent Sequence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A sequence is converges to a real number <fr:tex display="inline"><![CDATA[a]]></fr:tex> if, for any number <fr:tex display="inline"><![CDATA[\epsilon  < 0]]></fr:tex>, there exists and <fr:tex display="inline"><![CDATA[N\in  \mathbb {N}]]></fr:tex> such that for <fr:tex display="inline"><![CDATA[n\geq  N]]></fr:tex> we have <fr:tex display="inline"><![CDATA[|a_n-a|<\epsilon ]]></fr:tex>.</html:p>
+            <html:p>We can also define the convergence of a sequence using topology. First, we define the <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex>,
+<fr:tex display="block"><![CDATA[V_\epsilon (a)=\{x\in \mathbb {R}:|x-a|<\epsilon \}]]></fr:tex></html:p>
+            <html:p>The <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex> is all points with a distance from <fr:tex display="inline"><![CDATA[a]]></fr:tex> less than <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>.</html:p>
+            <html:p>A sequence converges to <fr:tex display="inline"><![CDATA[a]]></fr:tex> if for any <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>-neighborhood of <fr:tex display="inline"><![CDATA[a]]></fr:tex>, there exists a point in the sequence after which all terms are in the neighborhood.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:title text="Convergent Sequences are Bounded">Convergent Sequences are Bounded</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A bounded sequence is a sequence where there exists a number <fr:tex display="inline"><![CDATA[M>0]]></fr:tex> such that <fr:tex display="inline"><![CDATA[|x_n|\leq  M]]></fr:tex> for all <fr:tex display="inline"><![CDATA[n\in  \mathbb {N}]]></fr:tex>.</html:p>
+                <html:p>Every <fr:link href="/forest/001F/" title="Convergent Sequence" uri="https://andrewczezowski.github.io/forest/001F/" display-uri="001F" type="local">convergent sequence</fr:link> is bounded.</html:p>
+                <html:p>The proof of this statement is outlined as follows. Firstly, since the sequence is convergent we know that we have a limit (<fr:tex display="inline"><![CDATA[l]]></fr:tex>). So, we can consider for instance an <fr:tex display="inline"><![CDATA[\epsilon  = 1]]></fr:tex> and an <fr:tex display="inline"><![CDATA[N]]></fr:tex> such that for <fr:tex display="inline"><![CDATA[n\geq  N]]></fr:tex> we have 
+<fr:tex display="block"><![CDATA[|x_n|<|l|+1]]></fr:tex>
+Now we simply need to choose an <fr:tex display="inline"><![CDATA[M]]></fr:tex> which is the maximum of the set of the finite elements before <fr:tex display="inline"><![CDATA[N]]></fr:tex> and <fr:tex display="inline"><![CDATA[|x_n|<|l|+1]]></fr:tex>. From this we recover the statement for the definition of a bounded sequence.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

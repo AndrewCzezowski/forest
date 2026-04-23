@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "" "">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.forester-notes.org" data-base-url="/forest/"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width"></meta><link rel="stylesheet" href="/forest/style.css"></link><link rel="stylesheet" href="/forest/katex.min.css"></link><script type="text/javascript"></script><script type="module" src="/forest/forester.js"></script><title>Sequence Limit Theorems</title></head><body><ninja-keys placeholder="Start typing a note title or ID"></ninja-keys><header class="header"><nav class="nav"><div class="logo"><a href="/forest/index.html" title="Home">« Home</a></div></nav></header><div id="grid-wrapper"><article><section xmlns="" lang="en" class="block"><details id="id1" open="open"><summary><header><h1>
+<span class="taxon"></span>Sequence Limit Theorems <a class="slug" href="/forest/001H/">[001H]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+    <p xmlns="http://www.w3.org/1999/xhtml">For <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">convergent sequences</a></span> our intuitive notions of algebra and order hold. <p>Let \(\text {lim}\left (a\right )=a\) and \(\text {lim}\left (a\right )=b\).</p></p>
+    <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id2" open="open"><summary><header><h1>
+<span class="taxon">Theorem 1. </span>Algebraic Limit Theorem  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+        <ol xmlns="http://www.w3.org/1999/xhtml"><li>\(\text {lim}\left (a\right )=ca\), for all \(c\in \mathbb {R}\)</li>
+    <li>\(\text {lim}\left (a\right )=a+b\)</li>
+    <li>\(\text {lim}\left (a\right )=ab\)</li>
+    <li>\(\text {lim}\left (a\right )=a/b\), provided \(b\neq  0\)</li></ol>
+      </details></section>
+    <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id3" open="open"><summary><header><h1>
+<span class="taxon">Theorem 2. </span>Order Limit Theorem  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+        <ol xmlns="http://www.w3.org/1999/xhtml"><li>If \(a_n\geq  0\) for all \(n\in \mathbb {N}\), then \(a\geq  0\)</li>
+    <li>If \(a_n\leq  b_n\) for all \(n\in \mathbb {N}\), then \(a\leq  b\)</li>
+    <li>For a \(c\in \mathbb {R}\) where \(c\leq  b_n\) for all \(n\in  \mathbb {N}\), then \(c\leq  b\). A similar idea holds for when \(a_n \leq  c\).</li></ol>
+      </details></section>
+  </details></section><footer xmlns="">
+    
+    <section lang="en" class="block hide-metadata"><details id="id4" open="open"><summary><header><h1>
+<span class="taxon"></span>Context  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Chapter"><details id="id5"><summary><header><h1>
+<span class="taxon">Chapter. </span>Sequences and Series <a class="slug" href="/forest/001I/">[001I]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id6" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Convergent Sequence <a class="slug" href="/forest/001F/">[001F]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A sequence is converges to a real number \(a\) if, for any number \(\epsilon  &lt; 0\), there exists and \(N\in  \mathbb {N}\) such that for \(n\geq  N\) we have \(|a_n-a|&lt;\epsilon \).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">We can also define the convergence of a sequence using topology. First, we define the \(\epsilon \)-neighborhood of \(a\),
+\[V_\epsilon (a)=\{x\in \mathbb {R}:|x-a|&lt;\epsilon \}\]</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The \(\epsilon \)-neighborhood of \(a\) is all points with a distance from \(a\) less than \(\epsilon \).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">A sequence converges to \(a\) if for any \(\epsilon \)-neighborhood of \(a\), there exists a point in the sequence after which all terms are in the neighborhood.</p>
+                <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id7" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Convergent Sequences are Bounded  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">A bounded sequence is a sequence where there exists a number \(M&gt;0\) such that \(|x_n|\leq  M\) for all \(n\in  \mathbb {N}\).</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">Every <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">convergent sequence</a></span> is bounded.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">The proof of this statement is outlined as follows. Firstly, since the sequence is convergent we know that we have a limit (\(l\)). So, we can consider for instance an \(\epsilon  = 1\) and an \(N\) such that for \(n\geq  N\) we have 
+\[|x_n|&lt;|l|+1\]
+Now we simply need to choose an \(M\) which is the maximum of the set of the finite elements before \(N\) and \(|x_n|&lt;|l|+1\). From this we recover the statement for the definition of a bounded sequence.
+</p>
+                  </details></section>
+              </details></section>
+            <section lang="en" class="block hide-metadata"><details id="id8" open="open"><summary><header><h1>
+<span class="taxon"></span>Sequence Limit Theorems <a class="slug" href="/forest/001H/">[001H]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">For <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">convergent sequences</a></span> our intuitive notions of algebra and order hold. <p>Let \(\text {lim}\left (a\right )=a\) and \(\text {lim}\left (a\right )=b\).</p></p>
+                <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id9" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Algebraic Limit Theorem  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                    <ol xmlns="http://www.w3.org/1999/xhtml"><li>\(\text {lim}\left (a\right )=ca\), for all \(c\in \mathbb {R}\)</li>
+    <li>\(\text {lim}\left (a\right )=a+b\)</li>
+    <li>\(\text {lim}\left (a\right )=ab\)</li>
+    <li>\(\text {lim}\left (a\right )=a/b\), provided \(b\neq  0\)</li></ol>
+                  </details></section>
+                <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id10" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Order Limit Theorem  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                    <ol xmlns="http://www.w3.org/1999/xhtml"><li>If \(a_n\geq  0\) for all \(n\in \mathbb {N}\), then \(a\geq  0\)</li>
+    <li>If \(a_n\leq  b_n\) for all \(n\in \mathbb {N}\), then \(a\leq  b\)</li>
+    <li>For a \(c\in \mathbb {R}\) where \(c\leq  b_n\) for all \(n\in  \mathbb {N}\), then \(c\leq  b\). A similar idea holds for when \(a_n \leq  c\).</li></ol>
+                  </details></section>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id11" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Monotone Sequence <a class="slug" href="/forest/001J/">[001J]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A sequence is increasing if for each \(n\) we have \(a_n\leq  a_{n+1}\). A sequence is decreasing if for each \(n\) we have \(a_n\geq  a_{n+1}\). A sequence is <strong>monotone</strong> if it is either increasing or decreasing.</p>
+                <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id12" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Monotone Convergence Theorem  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">If a sequence is monotone and bounded, then it <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">converges</a></span>.</p>
+                    <p xmlns="http://www.w3.org/1999/xhtml">For an increasing sequence, this statement follows from the fact that we have a supremum and we can use the monotone condition to show that
+  \[|a_n-s|&lt;\epsilon \]</p>
+                  </details></section>
+              </details></section>
+            <section lang="en" class="block hide-metadata" data-taxon="Definition"><details id="id13" open="open"><summary><header><h1>
+<span class="taxon">Definition. </span>Convergent Series <a class="slug" href="/forest/001K/">[001K]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">We can write an infinite series as,
+\[\sum _{n=1}^{\infty }b_n = b_1+b_2+b_3+\dots \]
+We define the sequence of partial sums \((s_m)\) by
+\[s_m=b_1+\dots +b_m\]
+The infinite series coverges to \(B\) if the sequence \((s_m)\) <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">converges</a></span> to \(B\).
+</p>
+                <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id14" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Cauchy Condensation Test  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                    <p xmlns="http://www.w3.org/1999/xhtml">If \((b_n)\) is a <span xmlns="" class="link local"><a href="/forest/001J/" title="Monotone Sequence [001J]">decreasing sequence</a></span> and satisfies \(b_n\geq  0\) for all \(n\in \mathbb {N}\). The the series \(\sum _{n=1}^\infty  b_n\) <span xmlns="" class="link local"><a href="/forest/001K/" title="Convergent Series [001K]">converges</a></span> if and only if
+\[\sum _{n=0}^\infty  2^n b_{2^n}\]
+Also converges.
+</p>
+                  </details></section>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+    <section lang="en" class="block hide-metadata"><details id="id15" open="open"><summary><header><h1>
+<span class="taxon"></span>Related  </h1>
+<div class="metadata"><ul></ul></div></header></summary>
+        <section lang="en" class="block" data-taxon="Definition"><details id="id16"><summary><header><h1>
+<span class="taxon">Definition. </span>Convergent Sequence <a class="slug" href="/forest/001F/">[001F]</a> </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+            <p xmlns="http://www.w3.org/1999/xhtml">A sequence is converges to a real number \(a\) if, for any number \(\epsilon  &lt; 0\), there exists and \(N\in  \mathbb {N}\) such that for \(n\geq  N\) we have \(|a_n-a|&lt;\epsilon \).</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">We can also define the convergence of a sequence using topology. First, we define the \(\epsilon \)-neighborhood of \(a\),
+\[V_\epsilon (a)=\{x\in \mathbb {R}:|x-a|&lt;\epsilon \}\]</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">The \(\epsilon \)-neighborhood of \(a\) is all points with a distance from \(a\) less than \(\epsilon \).</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">A sequence converges to \(a\) if for any \(\epsilon \)-neighborhood of \(a\), there exists a point in the sequence after which all terms are in the neighborhood.</p>
+            <section lang="en" class="block hide-metadata" data-taxon="Theorem"><details id="id17" open="open"><summary><header><h1>
+<span class="taxon">Theorem. </span>Convergent Sequences are Bounded  </h1>
+<div class="metadata"><ul><li class="meta-item">April 23, 2026</li></ul></div></header></summary>
+                <p xmlns="http://www.w3.org/1999/xhtml">A bounded sequence is a sequence where there exists a number \(M&gt;0\) such that \(|x_n|\leq  M\) for all \(n\in  \mathbb {N}\).</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">Every <span xmlns="" class="link local"><a href="/forest/001F/" title="Convergent Sequence [001F]">convergent sequence</a></span> is bounded.</p>
+                <p xmlns="http://www.w3.org/1999/xhtml">The proof of this statement is outlined as follows. Firstly, since the sequence is convergent we know that we have a limit (\(l\)). So, we can consider for instance an \(\epsilon  = 1\) and an \(N\) such that for \(n\geq  N\) we have 
+\[|x_n|&lt;|l|+1\]
+Now we simply need to choose an \(M\) which is the maximum of the set of the finite elements before \(N\) and \(|x_n|&lt;|l|+1\). From this we recover the statement for the definition of a bounded sequence.
+</p>
+              </details></section>
+          </details></section>
+      </details></section>
+    
+  </footer></article><nav id="toc"><div class="block"><h1>Table of Contents</h1><ul xmlns="" class="block">
+<li>
+<a class="bullet" href="#id2" title="Algebraic Limit Theorem">■</a><span class="link local" data-target="#id2"><span class="taxon">Theorem 1. </span>Algebraic Limit Theorem</span><ul class="block"></ul>
+</li>
+<li>
+<a class="bullet" href="#id3" title="Order Limit Theorem">■</a><span class="link local" data-target="#id3"><span class="taxon">Theorem 2. </span>Order Limit Theorem</span><ul class="block"></ul>
+</li>
+</ul></div></nav></div></body></html>
